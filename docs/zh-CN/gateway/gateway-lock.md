@@ -41,4 +41,4 @@ x-i18n:
 ## 相关内容
 
 - [多个 Gateway 网关](/zh-CN/gateway/multiple-gateways) — 使用唯一端口运行多个实例
-- [故障排除](/gateway/troubleshooting) — 诊断 `EADDRINUSE` 和端口冲突
+- [故障排除](/zh-CN/gateway/troubleshooting) — 诊断 `EADDRINUSE` 和端口冲突

@@ -275,7 +275,7 @@ BlueBubbles 聊天可以转为持久化的 ACP 工作区，而无需更改传输
 }
 ```
 
-共享的 ACP 绑定行为参见 [ACP Agents](/tools/acp-agents)。
+共享的 ACP 绑定行为参见 [ACP ???](/zh-CN/tools/acp-agents)。
 
 ## 输入状态 + 已读回执
 
@@ -349,7 +349,7 @@ OpenClaw 可能会暴露_短_消息 ID（例如 `1`、`2`）以节省 token。
 - 模板：`{{MessageSidFull}}`、`{{ReplyToIdFull}}`
 - 上下文：入站载荷中的 `MessageSidFull` / `ReplyToIdFull`
 
-模板变量参见 [配置](/gateway/configuration)。
+模板变量参见 [配置](/zh-CN/gateway/configuration)。
 
 ## 分块流式传输
 
@@ -373,7 +373,7 @@ OpenClaw 可能会暴露_短_消息 ID（例如 `1`、`2`）以节省 token。
 
 ## 配置参考
 
-完整配置参见：[配置](/gateway/configuration)
+完整配置参见：[配置](/zh-CN/gateway/configuration)
 
 提供商选项：
 
@@ -417,7 +417,7 @@ OpenClaw 可能会暴露_短_消息 ID（例如 `1`、`2`）以节省 token。
 
 - webhook 请求通过将查询参数或请求头中的 `guid`/`password` 与 `channels.bluebubbles.password` 进行比较来完成身份验证。
 - 妥善保管 API 密码和 webhook 端点（将它们视为凭证）。
-- BlueBubbles webhook 身份验证没有 localhost 绕过。如果你代理 webhook 流量，请在整个请求链路中保留 BlueBubbles 密码。这里的 `gateway.trustedProxies` 不能替代 `channels.bluebubbles.password`。参见 [Gateway 安全性](/gateway/security#reverse-proxy-configuration)。
+- BlueBubbles webhook 身份验证没有 localhost 绕过。如果你代理 webhook 流量，请在整个请求链路中保留 BlueBubbles 密码。这里的 `gateway.trustedProxies` 不能替代 `channels.bluebubbles.password`。参见 [??](/zh-CN/gateway/security#reverse-proxy-configuration)。
 - 如果要在局域网之外暴露 BlueBubbles 服务器，请启用 HTTPS + 防火墙规则。
 
 ## 故障排除
@@ -430,7 +430,7 @@ OpenClaw 可能会暴露_短_消息 ID（例如 `1`、`2`）以节省 token。
 - OpenClaw 会根据 BlueBubbles 服务器的 macOS 版本自动隐藏已知失效的操作。如果在 macOS 26（Tahoe）上仍看到 edit，请手动通过 `channels.bluebubbles.actions.edit=false` 禁用它。
 - 状态/健康信息可使用：`openclaw status --all` 或 `openclaw status --deep`。
 
-通用渠道工作流参考请参见 [渠道](/zh-CN/channels) 和 [插件](/tools/plugin) 指南。
+通用渠道工作流参考请参见 [渠道](/zh-CN/channels) 和 [插件](/zh-CN/tools/plugin) 指南。
 
 ## 相关内容
 
@@ -438,4 +438,4 @@ OpenClaw 可能会暴露_短_消息 ID（例如 `1`、`2`）以节省 token。
 - [配对](/zh-CN/channels/pairing) — 私信身份验证和配对流程
 - [群组](/zh-CN/channels/groups) — 群聊行为和提及门控
 - [渠道路由](/zh-CN/channels/channel-routing) — 消息的会话路由
-- [安全性](/gateway/security) — 访问模型与加固
+- [安全性](/zh-CN/gateway/security) — 访问模型与加固

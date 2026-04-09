@@ -77,6 +77,6 @@ WebChat 选项：
   共享密钥 WebSocket 认证。
 - `gateway.auth.allowTailscale`：启用时，浏览器 Control UI 聊天标签页可以使用 Tailscale
   Serve 身份头。
-- `gateway.auth.mode: "trusted-proxy"`：用于位于身份感知**非 loopback**代理源之后的浏览器客户端的反向代理认证（参见 [Trusted Proxy Auth](/zh-CN/gateway/trusted-proxy-auth)）。
+- `gateway.auth.mode: "trusted-proxy"`：用于位于身份感知**非 loopback**代理源之后的浏览器客户端的反向代理认证（参见 [??????](/zh-CN/gateway/trusted-proxy-auth)）。
 - `gateway.remote.url`、`gateway.remote.token`、`gateway.remote.password`：远程 gateway 目标。
 - `session.*`：会话存储和主键默认值。

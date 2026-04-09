@@ -96,6 +96,6 @@ Gemini 搜索支持 `query`。
 
 ## 相关内容
 
-- [Web Search overview](/zh-CN/tools/web) -- 所有提供商和自动检测
+- [Web ??](/zh-CN/tools/web) -- 所有提供商和自动检测
 - [Brave Search](/zh-CN/tools/brave-search) -- 带摘要的结构化结果
 - [Perplexity Search](/zh-CN/tools/perplexity-search) -- 结构化结果 + 内容提取

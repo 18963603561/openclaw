@@ -350,4 +350,4 @@ openclaw matrix verify status
 - [Matrix](/zh-CN/channels/matrix)
 - [Doctor](/zh-CN/gateway/doctor)
 - [迁移](/zh-CN/install/migrating)
-- [插件](/tools/plugin)
+- [插件](/zh-CN/tools/plugin)

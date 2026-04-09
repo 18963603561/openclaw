@@ -19,7 +19,7 @@ x-i18n:
 
 插件可为 OpenClaw 扩展新能力：渠道、模型提供商、语音、实时转录、实时语音、媒体理解、图像生成、视频生成、网页抓取、网页搜索、智能体工具，或这些能力的任意组合。
 
-你不需要将你的插件添加到 OpenClaw 仓库中。发布到 [ClawHub](/tools/clawhub) 或 npm，用户即可使用 `openclaw plugins install <package-name>` 进行安装。OpenClaw 会先尝试 ClawHub，再自动回退到 npm。
+你不需要将你的插件添加到 OpenClaw 仓库中。发布到 [ClawHub](/zh-CN/tools/clawhub) 或 npm，用户即可使用 `openclaw plugins install <package-name>` 进行安装。OpenClaw 会先尝试 ClawHub，再自动回退到 npm。
 
 ## 前置条件
 
@@ -83,7 +83,7 @@ x-i18n:
     </CodeGroup>
 
     每个插件都需要一个清单，即使没有配置也是如此。完整 schema 请参见
-    [Manifest](/zh-CN/plugins/manifest)。规范的 ClawHub
+    [插件清单](/zh-CN/plugins/manifest)。规范的 ClawHub
     发布片段位于 `docs/snippets/plugin-publish/`。
 
   </Step>
@@ -164,7 +164,7 @@ x-i18n:
 | HTTP 路由              | `api.registerHttpRoute(...)`                     | [内部机制](/zh-CN/plugins/architecture#gateway-http-routes)                           |
 | CLI 子命令             | `api.registerCli(...)`                           | [入口点](/zh-CN/plugins/sdk-entrypoints)                                              |
 
-完整注册 API 请参见 [SDK 概览](/zh-CN/plugins/sdk-overview#registration-api)。
+完整注册 API 请参见 [插件 SDK 概览](/zh-CN/plugins/sdk-overview#registration-api)。
 
 如果你的插件注册了自定义 Gateway 网关 RPC 方法，请为其使用插件专属前缀。核心管理命名空间（`config.*`、`exec.approvals.*`、`wizard.*`、`update.*`）始终保留，并且总是解析为 `operator.admin`，即使插件请求了更窄的 scope 也是如此。
 
@@ -182,7 +182,7 @@ x-i18n:
 
 如果自定义审批链路需要检测这个相同的有界回退场景，优先使用 `openclaw/plugin-sdk/error-runtime` 中的 `isApprovalNotFoundError`，而不要手动匹配审批过期字符串。
 
-详情请参见 [SDK 概览 hook 决策语义](/zh-CN/plugins/sdk-overview#hook-decision-semantics)。
+详情请参见 [插件 SDK 概览](/zh-CN/plugins/sdk-overview#hook-decision-semantics)。
 
 ## 注册智能体工具
 
@@ -239,7 +239,7 @@ import { createPluginRuntimeStore } from "openclaw/plugin-sdk/runtime-store";
 import { ... } from "openclaw/plugin-sdk";
 ```
 
-完整子路径参考请参见 [SDK 概览](/zh-CN/plugins/sdk-overview)。
+完整子路径参考请参见 [插件 SDK 概览](/zh-CN/plugins/sdk-overview)。
 
 在你的插件内部，请为内部导入使用本地 barrel 文件（`api.ts`、`runtime-api.ts`）—— 绝不要通过其 SDK 路径导入你自己的插件。
 
@@ -299,7 +299,7 @@ import { ... } from "openclaw/plugin-sdk";
 ## 相关内容
 
 - [插件架构](/zh-CN/plugins/architecture) —— 内部架构深入解析
-- [SDK 概览](/zh-CN/plugins/sdk-overview) —— 插件 SDK 参考
-- [Manifest](/zh-CN/plugins/manifest) —— 插件清单格式
+- [插件 SDK 概览](/zh-CN/plugins/sdk-overview) —— 插件 SDK 参考
+- [插件清单](/zh-CN/plugins/manifest) —— 插件清单格式
 - [渠道插件](/zh-CN/plugins/sdk-channel-plugins) —— 构建渠道插件
 - [提供商插件](/zh-CN/plugins/sdk-provider-plugins) —— 构建提供商插件

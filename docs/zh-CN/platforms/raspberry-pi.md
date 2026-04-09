@@ -888,7 +888,7 @@ echo 'wireless-power off' | sudo tee -a /etc/network/interfaces
 
 ## 另请参阅
 
-- [Linux 指南](/zh-CN/platforms/linux) —— 通用 Linux 设置】【。endphp to=functions.read კომენტary 彩神争霸邀请码json
+- [Linux 应用](/zh-CN/platforms/linux) —— 通用 Linux 设置】【。endphp to=functions.read კომენტary 彩神争霸邀请码json
 {"path":"F:/ai-code/openclaw/AGENTS.md","offset":1,"limit":1}analysis to=functions.read code ᓚjson
 {"path":"F:/ai-code/openclaw/AGENTS.md","offset":1,"limit":1} to=functions.read კომენტary no toolsjson
 {"path":"F:/ai-code/openclaw/AGENTS.md","offset":1,"limit":1} to=functions.read კომენტary translate fragmentjson

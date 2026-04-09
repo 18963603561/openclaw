@@ -46,7 +46,7 @@ openclaw sandbox explain --json
 - `"non-main"`：只有非主会话会进入沙箱（这是群组/渠道场景中常见的“意外”来源）。
 - `"all"`：所有内容都在沙箱中运行。
 
-完整矩阵（作用域、工作区挂载、镜像）请参见[沙箱隔离](/gateway/sandboxing)。
+完整矩阵（作用域、工作区挂载、镜像）请参见[沙箱隔离](/zh-CN/gateway/sandboxing)。
 
 ### 绑定挂载（安全快速检查）
 
@@ -124,7 +124,7 @@ Elevated **不会**授予额外工具；它只影响 `exec`。
 - 启用开关：`tools.elevated.enabled`（以及可选的 `agents.list[].tools.elevated.enabled`）
 - 发送者允许列表：`tools.elevated.allowFrom.<provider>`（以及可选的 `agents.list[].tools.elevated.allowFrom.<provider>`）
 
-参见[Elevated 模式](/tools/elevated)。
+参见[提权模式](/zh-CN/tools/elevated)。
 
 ## 常见“沙箱牢笼”修复方式
 
@@ -143,6 +143,6 @@ Elevated **不会**授予额外工具；它只影响 `exec`。
 
 ## 另请参见
 
-- [沙箱隔离](/gateway/sandboxing) -- 完整沙箱参考（模式、作用域、后端、镜像）
-- [多智能体沙箱隔离与工具](/tools/multi-agent-sandbox-tools) -- 按智能体覆盖与优先级
-- [Elevated 模式](/tools/elevated)
+- [沙箱隔离](/zh-CN/gateway/sandboxing) -- 完整沙箱参考（模式、作用域、后端、镜像）
+- [多智能体沙箱隔离与工具](/zh-CN/tools/multi-agent-sandbox-tools) -- 按智能体覆盖与优先级
+- [提权模式](/zh-CN/tools/elevated)

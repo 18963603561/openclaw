@@ -18,8 +18,8 @@ x-i18n:
 本页介绍每个智能体的配置、优先级规则和示例。
 
 - **沙箱后端和模式**：参见 [沙箱隔离](/zh-CN/gateway/sandboxing)。
-- **调试被阻止的工具**：参见 [Sandbox vs Tool Policy vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated) 和 `openclaw sandbox explain`。
-- **Elevated exec**：参见 [Elevated Mode](/zh-CN/tools/elevated)。
+- **调试被阻止的工具**：参见 [沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated) 和 `openclaw sandbox explain`。
+- **Elevated exec**：参见 [提权模式](/zh-CN/tools/elevated)。
 
 认证按智能体隔离：每个智能体都从自己的 `agentDir` 认证存储中读取，
 路径为 `~/.openclaw/agents/<agentId>/agent/auth-profiles.json`。
@@ -215,7 +215,7 @@ agents.list[].sandbox.prune.* > agents.defaults.sandbox.prune.*
 
 工具策略支持 `group:*` 简写，可展开为多个工具。完整列表参见 [工具分组](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated#tool-groups-shorthands)。
 
-每个智能体的 Elevated 覆盖项（`agents.list[].tools.elevated`）还可以进一步限制特定智能体的 elevated exec。详情参见 [Elevated Mode](/zh-CN/tools/elevated)。
+每个智能体的 Elevated 覆盖项（`agents.list[].tools.elevated`）还可以进一步限制特定智能体的 elevated exec。详情参见 [提权模式](/zh-CN/tools/elevated)。
 
 ---
 
@@ -368,8 +368,8 @@ agents.list[].sandbox.prune.* > agents.defaults.sandbox.prune.*
 ## 另请参见
 
 - [沙箱隔离](/zh-CN/gateway/sandboxing) -- 完整沙箱参考（模式、作用域、后端、镜像）
-- [Sandbox vs Tool Policy vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated) -- 调试“为什么这被阻止了？”
-- [Elevated Mode](/zh-CN/tools/elevated)
+- [沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated) -- 调试“为什么这被阻止了？”
+- [提权模式](/zh-CN/tools/elevated)
 - [多智能体路由](/zh-CN/concepts/multi-agent)
-- [沙箱配置](/gateway/configuration-reference#agentsdefaultssandbox)
+- [沙箱配置](/zh-CN/gateway/configuration-reference#agentsdefaultssandbox)
 - [会话](/zh-CN/concepts/session)

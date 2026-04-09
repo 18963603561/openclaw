@@ -19,7 +19,7 @@ x-i18n:
 
 相关内容：
 
-- 安全指南：[安全](/gateway/security)
+- 安全指南：[安全](/zh-CN/gateway/security)
 
 ## 审计
 
@@ -47,7 +47,7 @@ openclaw security audit --json
 当渠道 allowlists 依赖可变的名称 / 邮箱 / 标签，而不是稳定 ID 时，它也会发出警告（适用于 Discord、Slack、Google Chat、Microsoft Teams、Mattermost、IRC 及适用范围）。
 当 `gateway.auth.mode="none"` 使 Gateway 网关 HTTP API 在没有共享 secret 的情况下可达时，它也会发出警告（包括 `/tools/invoke` 以及任何已启用的 `/v1/*` 端点）。
 以 `dangerous` / `dangerously` 为前缀的设置属于显式的紧急兜底操作员覆盖；仅仅启用其中某一个，并不自动构成安全漏洞报告。
-完整的危险参数清单，请参阅[安全](/gateway/security)中的 “Insecure or dangerous flags summary” 部分。
+完整的危险参数清单，请参阅[安全](/zh-CN/gateway/security)中的 “Insecure or dangerous flags summary” 部分。
 
 SecretRef 行为：
 

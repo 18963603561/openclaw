@@ -40,7 +40,7 @@ OpenClaw 有三个协同工作的层级：
     更有效地使用工具。Skills 存放在你的工作区、共享文件夹中，
     或随插件一起提供。
 
-    [Skills reference](/zh-CN/tools/skills) | [创建 Skills](/zh-CN/tools/creating-skills)
+    [Skills](/zh-CN/tools/skills) | [创建 Skills](/zh-CN/tools/creating-skills)
 
   </Step>
 
@@ -63,22 +63,22 @@ OpenClaw 有三个协同工作的层级：
 
 | 工具 | 作用 | 页面 |
 | ------------------------------------------ | --------------------------------------------------------------------- | ------------------------------------------- |
-| `exec` / `process` | 运行 shell 命令，管理后台进程 | [Exec](/zh-CN/tools/exec) |
+| `exec` / `process` | 运行 shell 命令，管理后台进程 | [Exec ??](/zh-CN/tools/exec) |
 | `code_execution` | 运行带沙箱隔离的远程 Python 分析 | [Code Execution](/zh-CN/tools/code-execution) |
-| `browser` | 控制 Chromium 浏览器（导航、点击、截图） | [Browser](/zh-CN/tools/browser) |
-| `web_search` / `x_search` / `web_fetch` | 搜索网页、搜索 X 帖子、抓取页面内容 | [Web](/zh-CN/tools/web) |
+| `browser` | 控制 Chromium 浏览器（导航、点击、截图） | [?????](/zh-CN/tools/browser) |
+| `web_search` / `x_search` / `web_fetch` | 搜索网页、搜索 X 帖子、抓取页面内容 | [Web ??](/zh-CN/tools/web) |
 | `read` / `write` / `edit` | 工作区中的文件 I/O |  |
-| `apply_patch` | 多段文件补丁 | [Apply Patch](/zh-CN/tools/apply-patch) |
-| `message` | 跨所有渠道发送消息 | [Agent Send](/zh-CN/tools/agent-send) |
+| `apply_patch` | 多段文件补丁 | [apply_patch 工具](/zh-CN/tools/apply-patch) |
+| `message` | 跨所有渠道发送消息 | [?????](/zh-CN/tools/agent-send) |
 | `canvas` | 驱动节点 Canvas（present、eval、snapshot） |  |
 | `nodes` | 发现并指定已配对设备 |  |
 | `cron` / `gateway` | 管理定时任务；检查、修补、重启或更新 Gateway 网关 |  |
-| `image` / `image_generate` | 分析或生成图像 | [Image Generation](/zh-CN/tools/image-generation) |
-| `music_generate` | 生成音乐轨道 | [Music Generation](/zh-CN/tools/music-generation) |
-| `video_generate` | 生成视频 | [Video Generation](/zh-CN/tools/video-generation) |
+| `image` / `image_generate` | 分析或生成图像 | [图像生成](/zh-CN/tools/image-generation) |
+| `music_generate` | 生成音乐轨道 | [音乐生成](/zh-CN/tools/music-generation) |
+| `video_generate` | 生成视频 | [视频生成](/zh-CN/tools/video-generation) |
 | `tts` | 一次性文本转语音转换 | [TTS](/zh-CN/tools/tts) |
-| `sessions_*` / `subagents` / `agents_list` | 会话管理、状态和子智能体编排 | [Sub-agents](/zh-CN/tools/subagents) |
-| `session_status` | 轻量级 `/status` 风格回读和会话模型覆盖 | [Session Tools](/zh-CN/concepts/session-tool) |
+| `sessions_*` / `subagents` / `agents_list` | 会话管理、状态和子智能体编排 | [????](/zh-CN/tools/subagents) |
+| `session_status` | 轻量级 `/status` 风格回读和会话模型覆盖 | [会话工具](/zh-CN/concepts/session-tool) |
 
 对于图像工作，使用 `image` 进行分析，使用 `image_generate` 进行生成或编辑。如果你要使用 `openai/*`、`google/*`、`fal/*` 或其他非默认图像提供商，请先配置该提供商的认证/API 密钥。
 
@@ -112,8 +112,8 @@ ComfyUI 这样的插件注册了 `music_generate` 时，请使用 `music_generat
 插件可以注册额外工具。示例包括：
 
 - [Lobster](/zh-CN/tools/lobster) —— 带可恢复审批的类型化工作流运行时
-- [LLM Task](/zh-CN/tools/llm-task) —— 仅输出 JSON 的 LLM 步骤，用于结构化输出
-- [Music Generation](/zh-CN/tools/music-generation) —— 带工作流后端提供商的共享 `music_generate` 工具
+- [LLM 任务](/zh-CN/tools/llm-task) —— 仅输出 JSON 的 LLM 步骤，用于结构化输出
+- [音乐生成](/zh-CN/tools/music-generation) —— 带工作流后端提供商的共享 `music_generate` 工具
 - [Diffs](/zh-CN/tools/diffs) —— diff 查看器和渲染器
 - [OpenProse](/zh-CN/prose) —— 以 Markdown 为先的工作流编排
 

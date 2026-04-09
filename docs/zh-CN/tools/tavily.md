@@ -126,6 +126,6 @@ JavaScript 渲染页面，并支持基于查询的分块，以进行更有针对
 
 ## 相关内容
 
-- [Web Search overview](/zh-CN/tools/web) -- 所有提供商和自动检测
+- [Web ??](/zh-CN/tools/web) -- 所有提供商和自动检测
 - [Firecrawl](/zh-CN/tools/firecrawl) -- 带内容提取的搜索 + 抓取
 - [Exa Search](/zh-CN/tools/exa-search) -- 带内容提取的神经搜索

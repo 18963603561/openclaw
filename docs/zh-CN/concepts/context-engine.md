@@ -276,11 +276,11 @@ legacy 引擎的压缩路径。
 - 开发时，使用 `openclaw plugins install -l ./my-engine` 来链接
   本地插件目录，而无需复制。
 
-另请参见： [Compaction](/zh-CN/concepts/compaction)、[Context](/zh-CN/concepts/context)、
-[Plugins](/tools/plugin)、[Plugin manifest](/plugins/manifest)。
+另请参见： [??](/zh-CN/concepts/compaction)、[???](/zh-CN/concepts/context)、
+[??](/zh-CN/tools/plugin)、[插件清单](/zh-CN/plugins/manifest)。
 
 ## 相关内容
 
 - [上下文](/zh-CN/concepts/context) — 智能体轮次如何构建上下文
-- [插件架构](/plugins/architecture) — 注册上下文引擎插件
-- [Compaction](/zh-CN/concepts/compaction) — 总结长对话
+- [插件架构](/zh-CN/plugins/architecture) — 注册上下文引擎插件
+- [??](/zh-CN/concepts/compaction) — 总结长对话

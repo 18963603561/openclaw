@@ -266,7 +266,7 @@ OpenClaw 还支持将 **Ollama Web 搜索** 作为一个内置 `web_search`
 }
 ```
 
-完整的设置和行为细节请参见 [Ollama Web 搜索](/tools/ollama-search)。
+完整的设置和行为细节请参见 [Ollama Web 搜索](/zh-CN/tools/ollama-search)。
 
 ## 高级内容
 

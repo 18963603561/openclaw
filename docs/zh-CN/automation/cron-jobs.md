@@ -382,4 +382,4 @@ openclaw doctor
 - [自动化与任务](/zh-CN/automation) — 一览所有自动化机制
 - [后台任务](/zh-CN/automation/tasks) — cron 执行的任务台账
 - [Heartbeat](/zh-CN/gateway/heartbeat) — 周期性的主会话轮次
-- [时区](/concepts/timezone) — 时区配置
+- [时区](/zh-CN/concepts/timezone) — 时区配置

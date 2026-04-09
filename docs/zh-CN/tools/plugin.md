@@ -93,9 +93,9 @@ OpenClaw 可识别两种插件格式：
 | Matrix | `@openclaw/matrix` | [Matrix](/zh-CN/channels/matrix) |
 | Microsoft Teams | `@openclaw/msteams` | [Microsoft Teams](/zh-CN/channels/msteams) |
 | Nostr | `@openclaw/nostr` | [Nostr](/zh-CN/channels/nostr) |
-| Voice Call | `@openclaw/voice-call` | [Voice Call](/zh-CN/plugins/voice-call) |
+| Voice Call | `@openclaw/voice-call` | [Voice Call 插件](/zh-CN/plugins/voice-call) |
 | Zalo | `@openclaw/zalo` | [Zalo](/zh-CN/channels/zalo) |
-| Zalo Personal | `@openclaw/zalouser` | [Zalo Personal](/zh-CN/plugins/zalouser) |
+| Zalo Personal | `@openclaw/zalouser` | [Zalo Personal 插件](/zh-CN/plugins/zalouser) |
 
 ### 核心（随 OpenClaw 一起提供）
 
@@ -279,7 +279,7 @@ Claude `settings.json` 默认值、Claude `.lsp.json` 和清单声明的
 GitHub 仓库 URL，或 git URL。对于远程市场，插件条目必须保持在
 克隆下来的市场仓库内部，并且只能使用相对路径来源。
 
-完整详情请参见 [`openclaw plugins` CLI 参考](/cli/plugins)。
+完整详情请参见 [`openclaw plugins` CLI 参考](/zh-CN/cli/plugins)。
 
 ## 插件 API 概览
 
@@ -340,7 +340,7 @@ OpenClaw 会加载该入口对象，并在插件激活期间调用 `register(api
 - `message_sending`：`{ cancel: true }` 为终止性结果；优先级更低的处理器会被跳过。
 - `message_sending`：`{ cancel: false }` 为无操作，不会清除更早的取消结果。
 
-有关完整的类型化 hook 行为，请参见 [SDK 概览](/zh-CN/plugins/sdk-overview#hook-decision-semantics)。
+有关完整的类型化 hook 行为，请参见 [插件 SDK 概览](/zh-CN/plugins/sdk-overview#hook-decision-semantics)。
 
 ## 相关内容
 

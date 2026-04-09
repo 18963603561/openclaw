@@ -635,4 +635,4 @@ x-i18n:
 - 如果你设置了 `dmPolicy: "open"`，对应的 `allowFrom` 列表必须包含 `"*"`。
 - 提供商 ID 各不相同（电话号码、用户 ID、渠道 ID）。请查阅提供商文档以确认具体格式。
 - 可后续添加的可选部分包括：`web`、`browser`、`ui`、`discovery`、`canvasHost`、`talk`、`signal`、`imessage`。
-- 更深入的设置说明请参阅 [Providers](/providers) 和 [故障排除](/gateway/troubleshooting)。
+- 更深入的设置说明请参阅 [提供商目录](/zh-CN/providers) 和 [故障排除](/zh-CN/gateway/troubleshooting)。

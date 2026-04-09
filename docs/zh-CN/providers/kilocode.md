@@ -88,5 +88,5 @@ kilocode/google/gemini-3-pro-preview
 - Kilo 的共享流包装器会添加 provider app header，并为受支持的具体模型引用标准化
   代理推理载荷。`kilocode/kilo/auto`
   以及其他不支持代理推理的提示会跳过该推理注入。
-- 更多模型/提供商选项，见 [/concepts/model-providers](/zh-CN/concepts/model-providers)。
+- 更多模型/提供商选项，见 [?????](/zh-CN/concepts/model-providers)。
 - Kilo Gateway 在底层使用你的 API key 作为 Bearer token。

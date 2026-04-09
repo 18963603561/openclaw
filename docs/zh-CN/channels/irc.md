@@ -192,7 +192,7 @@ allowlist 条目应使用稳定的发送者身份（`nick!user@host`）。
 - 旧版无前缀键仍然受支持，但只会按 `id:` 匹配。
 - 第一个匹配到的发送者策略生效；`"*"` 是通配回退项。
 
-关于群组访问与提及门控（以及它们如何交互）的更多信息，请参见：[/channels/groups](/zh-CN/channels/groups)。
+关于群组访问与提及门控（以及它们如何交互）的更多信息，请参见：[??](/zh-CN/channels/groups)。
 
 ## NickServ
 
@@ -253,7 +253,7 @@ allowlist 条目应使用稳定的发送者身份（`nick!user@host`）。
 ## 相关内容
 
 - [渠道概览](/zh-CN/channels) — 所有支持的渠道
-- [Pairing](/zh-CN/channels/pairing) — 私信认证和 pairing 流程
+- [??](/zh-CN/channels/pairing) — 私信认证和 pairing 流程
 - [群组](/zh-CN/channels/groups) — 群聊行为和提及门控
 - [渠道路由](/zh-CN/channels/channel-routing) — 消息的会话路由
-- [安全](/gateway/security) — 访问模型与加固
+- [安全](/zh-CN/gateway/security) — 访问模型与加固

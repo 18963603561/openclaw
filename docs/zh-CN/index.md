@@ -37,13 +37,13 @@ x-i18n:
 </p>
 
 <Columns>
-  <Card title="入门指南" href="/start/getting-started" icon="rocket">
+  <Card title="入门指南" href="/zh-CN/start/getting-started" icon="rocket">
     安装 OpenClaw，并在几分钟内启动 Gateway 网关。
   </Card>
-  <Card title="运行新手引导" href="/start/wizard" icon="sparkles">
+  <Card title="运行新手引导" href="/zh-CN/start/wizard" icon="sparkles">
     使用 `openclaw onboard` 和配对流程进行引导式设置。
   </Card>
-  <Card title="打开控制 UI" href="/web/control-ui" icon="layout-dashboard">
+  <Card title="打开控制 UI" href="/zh-CN/web/control-ui" icon="layout-dashboard">
     启动浏览器仪表板，用于聊天、配置和会话管理。
   </Card>
 </Columns>
@@ -120,19 +120,19 @@ Gateway 网关是会话、路由和渠道连接的唯一真实来源。
     openclaw dashboard
     ```
 
-    或连接一个渠道（[Telegram](/channels/telegram) 最快），然后用你的手机开始聊天。
+    或连接一个渠道（[Telegram](/zh-CN/channels/telegram) 最快），然后用你的手机开始聊天。
 
   </Step>
 </Steps>
 
-需要完整的安装和开发设置？请参阅 [入门指南](/start/getting-started)。
+需要完整的安装和开发设置？请参阅 [入门指南](/zh-CN/start/getting-started)。
 
 ## 仪表板
 
 Gateway 网关启动后，打开浏览器控制 UI。
 
 - 本地默认地址：[http://127.0.0.1:18789/](http://127.0.0.1:18789/)
-- 远程访问：[Web 界面](/web) 和 [Tailscale](/gateway/tailscale)
+- 远程访问：[Web ??](/zh-CN/web) 和 [Tailscale](/zh-CN/gateway/tailscale)
 
 <p align="center">
   <img src="/whatsapp-openclaw.jpg" alt="OpenClaw" width="420" />
@@ -162,22 +162,22 @@ Gateway 网关启动后，打开浏览器控制 UI。
 ## 从这里开始
 
 <Columns>
-  <Card title="文档中心" href="/start/hubs" icon="book-open">
+  <Card title="文档中心" href="/zh-CN/start/hubs" icon="book-open">
     按使用场景组织的所有文档和指南。
   </Card>
-  <Card title="配置" href="/gateway/configuration" icon="settings">
+  <Card title="配置" href="/zh-CN/gateway/configuration" icon="settings">
     Gateway 网关核心设置、令牌和提供商配置。
   </Card>
-  <Card title="远程访问" href="/gateway/remote" icon="globe">
+  <Card title="远程访问" href="/zh-CN/gateway/remote" icon="globe">
     SSH 和 tailnet 访问模式。
   </Card>
-  <Card title="渠道" href="/channels/telegram" icon="message-square">
+  <Card title="渠道" href="/zh-CN/channels/telegram" icon="message-square">
     Feishu、Microsoft Teams、WhatsApp、Telegram、Discord 等渠道的专属设置。
   </Card>
-  <Card title="节点" href="/nodes" icon="smartphone">
+  <Card title="节点" href="/zh-CN/nodes" icon="smartphone">
     iOS 和 Android 节点，支持配对、Canvas、相机和设备操作。
   </Card>
-  <Card title="帮助" href="/help" icon="life-buoy">
+  <Card title="帮助" href="/zh-CN/help" icon="life-buoy">
     常见修复方法和故障排除入口。
   </Card>
 </Columns>
@@ -185,19 +185,19 @@ Gateway 网关启动后，打开浏览器控制 UI。
 ## 了解更多
 
 <Columns>
-  <Card title="完整功能列表" href="/concepts/features" icon="list">
+  <Card title="完整功能列表" href="/zh-CN/concepts/features" icon="list">
     完整的渠道、路由和媒体能力说明。
   </Card>
-  <Card title="多智能体路由" href="/concepts/multi-agent" icon="route">
+  <Card title="多智能体路由" href="/zh-CN/concepts/multi-agent" icon="route">
     工作区隔离和按智能体划分的会话。
   </Card>
-  <Card title="安全性" href="/gateway/security" icon="shield">
+  <Card title="安全性" href="/zh-CN/gateway/security" icon="shield">
     令牌、允许列表和安全控制。
   </Card>
-  <Card title="故障排除" href="/gateway/troubleshooting" icon="wrench">
+  <Card title="故障排除" href="/zh-CN/gateway/troubleshooting" icon="wrench">
     Gateway 网关诊断和常见错误。
   </Card>
-  <Card title="关于与致谢" href="/reference/credits" icon="info">
+  <Card title="关于与致谢" href="/zh-CN/reference/credits" icon="info">
     项目起源、贡献者和许可证信息。
   </Card>
 </Columns>

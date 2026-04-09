@@ -20,7 +20,7 @@ x-i18n:
   <Card title="配对" icon="link" href="/zh-CN/channels/pairing">
     Discord 私信默认使用配对模式。
   </Card>
-  <Card title="Slash commands" icon="terminal" href="/tools/slash-commands">
+  <Card title="Slash commands" icon="terminal" href="/zh-CN/tools/slash-commands">
     原生命令行为和命令目录。
   </Card>
   <Card title="渠道故障排除" icon="wrench" href="/zh-CN/channels/troubleshooting">
@@ -146,7 +146,7 @@ openclaw gateway
 DISCORD_BOT_TOKEN=...
 ```
 
-        支持明文 `token` 值。`channels.discord.token` 也支持跨 env/file/exec provider 的 SecretRef 值。参见 [Secrets Management](/gateway/secrets)。
+        支持明文 `token` 值。`channels.discord.token` 也支持跨 env/file/exec provider 的 SecretRef 值。参见 [Secrets 管理](/zh-CN/gateway/secrets)。
 
       </Tab>
     </Tabs>
@@ -558,7 +558,7 @@ OpenClaw 支持为智能体消息使用 Discord components v2 容器。使用带
 - 原生命令认证使用与普通消息处理相同的 Discord allowlist/策略。
 - 对未授权用户而言，命令仍可能在 Discord UI 中可见；但执行时仍会强制执行 OpenClaw 认证，并返回“未授权”。
 
-命令目录和行为请参见 [Slash commands](/tools/slash-commands)。
+命令目录和行为请参见 [????](/zh-CN/tools/slash-commands)。
 
 默认 slash command 设置：
 
@@ -700,7 +700,7 @@ OpenClaw 支持为智能体消息使用 Discord components v2 容器。使用带
     - 若要为 ACP 自动创建/绑定线程（`/acp spawn ... --thread ...` 或 `sessions_spawn({ runtime: "acp", thread: true })`），必须将 `spawnAcpSessions` 设为 true。
     - 如果某个账户禁用了线程绑定，则 `/focus` 和相关线程绑定操作不可用。
 
-    参见 [Sub-agents](/tools/subagents)、[ACP Agents](/tools/acp-agents) 和 [Configuration Reference](/gateway/configuration-reference)。
+    参见 [????](/zh-CN/tools/subagents)、[ACP ???](/zh-CN/tools/acp-agents) 和 [????](/zh-CN/gateway/configuration-reference)。
 
   </Accordion>
 
@@ -769,7 +769,7 @@ OpenClaw 支持为智能体消息使用 Discord components v2 容器。使用带
     - 临时线程绑定仍然有效，并且在其生效期间可以覆盖目标解析。
     - 只有当 OpenClaw 需要通过 `--thread auto|here` 创建/绑定子线程时，才需要 `spawnAcpSessions`。在当前渠道中执行 `/acp spawn ... --bind here` 时不需要。
 
-    有关绑定行为详情，参见 [ACP Agents](/tools/acp-agents)。
+    有关绑定行为详情，参见 [ACP ???](/zh-CN/tools/acp-agents)。
 
   </Accordion>
 
@@ -985,7 +985,7 @@ OpenClaw 支持为智能体消息使用 Discord components v2 容器。使用带
 
     默认情况下，Exec 审批在 30 分钟后过期。如果审批因未知审批 ID 而失败，请检查 approver 解析、功能启用状态，以及已投递的 approval id 类型是否与待处理请求匹配。
 
-    相关文档：[Exec approvals](/tools/exec-approvals)
+    相关文档：[Exec ??](/zh-CN/tools/exec-approvals)
 
   </Accordion>
 </AccordionGroup>
@@ -1221,7 +1221,7 @@ openclaw logs --follow
 
 主要参考：
 
-- [Configuration reference - Discord](/gateway/configuration-reference#discord)
+- [????](/zh-CN/gateway/configuration-reference#discord)
 
 高信号的 Discord 字段：
 
@@ -1251,7 +1251,7 @@ openclaw logs --follow
 - [配对](/zh-CN/channels/pairing)
 - [群组](/zh-CN/channels/groups)
 - [渠道路由](/zh-CN/channels/channel-routing)
-- [安全](/gateway/security)
-- [多智能体路由](/concepts/multi-agent)
+- [安全](/zh-CN/gateway/security)
+- [多智能体路由](/zh-CN/concepts/multi-agent)
 - [故障排除](/zh-CN/channels/troubleshooting)
-- [Slash commands](/tools/slash-commands)
+- [????](/zh-CN/tools/slash-commands)

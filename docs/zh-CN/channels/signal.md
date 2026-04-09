@@ -106,7 +106,7 @@ x-i18n:
 }
 ```
 
-多账户支持：使用 `channels.signal.accounts` 配合按账户配置和可选 `name`。共享模式请参见 [`gateway/configuration`](/gateway/configuration-reference#multi-account-all-channels)。
+多账户支持：使用 `channels.signal.accounts` 配合按账户配置和可选 `name`。共享模式请参见 [`gateway/configuration`](/zh-CN/gateway/configuration-reference#multi-account-all-channels)。
 
 ## 设置路径 B：注册专用 bot 号码（短信，Linux）
 
@@ -302,7 +302,7 @@ grep -i "signal" "/tmp/openclaw/openclaw-$(date +%Y-%m-%d).log" | tail -20
 
 ## 配置参考（Signal）
 
-完整配置参见：[Configuration](/gateway/configuration)
+完整配置参见：[??](/zh-CN/gateway/configuration)
 
 提供商选项：
 
@@ -341,4 +341,4 @@ grep -i "signal" "/tmp/openclaw/openclaw-$(date +%Y-%m-%d).log" | tail -20
 - [配对](/zh-CN/channels/pairing) — 私信认证和配对流程
 - [群组](/zh-CN/channels/groups) — 群聊行为和 mention 门控
 - [渠道路由](/zh-CN/channels/channel-routing) — 消息的会话路由
-- [安全](/gateway/security) — 访问模型和加固
+- [安全](/zh-CN/gateway/security) — 访问模型和加固

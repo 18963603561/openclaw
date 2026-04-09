@@ -23,7 +23,7 @@ x-i18n:
 如果你用自然语言向 OpenClaw 提出“在 Codex 中运行这个”或“在线程中启动 Claude Code”之类的请求，OpenClaw 应将该请求路由到 ACP 运行时（而不是原生子智能体运行时）。每次 ACP 会话启动都会作为一个[后台任务](/zh-CN/automation/tasks)进行跟踪。
 
 如果你希望 Codex 或 Claude Code 作为外部 MCP 客户端直接连接
-到现有的 OpenClaw 渠道会话，请使用 [`openclaw mcp serve`](/cli/mcp)
+到现有的 OpenClaw 渠道会话，请使用 [`openclaw mcp serve`](/zh-CN/cli/mcp)
 而不是 ACP。
 
 ## 我应该看哪个页面？
@@ -33,8 +33,8 @@ x-i18n:
 | 你想要…… | 使用这个 | 说明 |
 | ---------------------------------------------------------------------------------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
 | 通过 OpenClaw 运行 Codex、Claude Code、Gemini CLI 或其他外部 harness | 本页：ACP 智能体 | 与聊天绑定的会话、`/acp spawn`、`sessions_spawn({ runtime: "acp" })`、后台任务、运行时控制 |
-| 将一个 OpenClaw Gateway 网关会话作为 ACP 服务器暴露给编辑器或客户端 | [`openclaw acp`](/cli/acp) | 桥接模式。IDE/客户端通过 stdio/WebSocket 使用 ACP 与 OpenClaw 通信 |
-| 将本地 AI CLI 复用为纯文本回退模型 | [CLI Backends](/zh-CN/gateway/cli-backends) | 不是 ACP。没有 OpenClaw 工具、没有 ACP 控制，也没有 harness 运行时 |
+| 将一个 OpenClaw Gateway 网关会话作为 ACP 服务器暴露给编辑器或客户端 | [`openclaw acp`](/zh-CN/cli/acp) | 桥接模式。IDE/客户端通过 stdio/WebSocket 使用 ACP 与 OpenClaw 通信 |
+| 将本地 AI CLI 复用为纯文本回退模型 | [CLI 后端](/zh-CN/gateway/cli-backends) | 不是 ACP。没有 OpenClaw 工具、没有 ACP 控制，也没有 harness 运行时 |
 
 ## 开箱即用吗？
 
@@ -105,7 +105,7 @@ OpenClaw 应该执行的操作：
 | 主要命令 | `/acp ...` | `/subagents ...` |
 | 启动工具 | `sessions_spawn`，并使用 `runtime:"acp"` | `sessions_spawn`（默认运行时） |
 
-另见 [Sub-agents](/zh-CN/tools/subagents)。
+另见 [????](/zh-CN/tools/subagents)。
 
 ## ACP 如何运行 Claude Code
 
@@ -119,7 +119,7 @@ OpenClaw 应该执行的操作：
 重要区别：
 
 - ACP Claude 是一个 harness 会话，具备 ACP 控制、会话恢复、后台任务跟踪，以及可选的会话/线程绑定能力。
-- CLI 后端则是单独的纯文本本地回退运行时。参见 [CLI Backends](/zh-CN/gateway/cli-backends)。
+- CLI 后端则是单独的纯文本本地回退运行时。参见 [CLI 后端](/zh-CN/gateway/cli-backends)。
 
 对于操作者，实用规则是：
 
@@ -463,7 +463,7 @@ ACP 会话当前运行在宿主机运行时上，而不是 OpenClaw 沙箱内部
 - `--cwd <absolute-path>`
 - `--label <name>`
 
-参见 [Slash Commands](/zh-CN/tools/slash-commands)。
+参见 [????](/zh-CN/tools/slash-commands)。
 
 ## 会话目标解析
 
@@ -668,7 +668,7 @@ ACP 会话当前运行在宿主机运行时上，而不是 OpenClaw 沙箱内部
 
 当前会话绑定不需要创建子线程。它们需要一个活跃的会话上下文以及一个暴露 ACP 会话绑定能力的渠道适配器。
 
-参见 [Configuration Reference](/gateway/configuration-reference)。
+参见 [????](/zh-CN/gateway/configuration-reference)。
 
 ## acpx 后端的插件设置
 
@@ -738,7 +738,7 @@ openclaw plugins install ./path/to/local/acpx-plugin
 - 当 `command` 指向自定义二进制/路径时，会禁用插件本地自动安装。
 - 在后端健康检查运行期间，OpenClaw 启动仍然是非阻塞的。
 
-参见 [Plugins](/zh-CN/tools/plugin)。
+参见 [??](/zh-CN/tools/plugin)。
 
 ### 自动依赖安装
 

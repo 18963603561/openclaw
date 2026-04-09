@@ -86,7 +86,7 @@ openclaw logs --follow
 }
 ```
 
-参考：[插件架构](/plugins/architecture)
+参考：[插件架构](/zh-CN/plugins/architecture)
 
 ## 决策树
 
@@ -137,7 +137,7 @@ flowchart TD
 
     - [/gateway/troubleshooting#no-replies](/zh-CN/gateway/troubleshooting#no-replies)
     - [/channels/troubleshooting](/zh-CN/channels/troubleshooting)
-    - [/channels/pairing](/zh-CN/channels/pairing)
+    - [??](/zh-CN/channels/pairing)
 
   </Accordion>
 
@@ -175,7 +175,7 @@ flowchart TD
     详细页面：
 
     - [/gateway/troubleshooting#dashboard-control-ui-connectivity](/zh-CN/gateway/troubleshooting#dashboard-control-ui-connectivity)
-    - [/web/control-ui](/web/control-ui)
+    - [?? UI](/zh-CN/web/control-ui)
     - [/gateway/authentication](/zh-CN/gateway/authentication)
 
   </Accordion>
@@ -205,7 +205,7 @@ flowchart TD
 
     - [/gateway/troubleshooting#gateway-service-not-running](/zh-CN/gateway/troubleshooting#gateway-service-not-running)
     - [/gateway/background-process](/zh-CN/gateway/background-process)
-    - [/gateway/configuration](/zh-CN/gateway/configuration)
+    - [??](/zh-CN/gateway/configuration)
 
   </Accordion>
 
@@ -265,8 +265,8 @@ flowchart TD
       详细页面：
 
       - [/gateway/troubleshooting#cron-and-heartbeat-delivery](/zh-CN/gateway/troubleshooting#cron-and-heartbeat-delivery)
-      - [/automation/cron-jobs#troubleshooting](/zh-CN/automation/cron-jobs#troubleshooting)
-      - [/gateway/heartbeat](/zh-CN/gateway/heartbeat)
+      - [????](/zh-CN/automation/cron-jobs#troubleshooting)
+      - [Heartbeat](/zh-CN/gateway/heartbeat)
 
     </Accordion>
 
@@ -296,7 +296,7 @@ flowchart TD
 
       - [/gateway/troubleshooting#node-paired-tool-fails](/zh-CN/gateway/troubleshooting#node-paired-tool-fails)
       - [/nodes/troubleshooting](/zh-CN/nodes/troubleshooting)
-      - [/tools/exec-approvals](/tools/exec-approvals)
+      - [Exec ??](/zh-CN/tools/exec-approvals)
 
     </Accordion>
 
@@ -340,9 +340,9 @@ flowchart TD
 
       详细页面：
 
-      - [/tools/exec](/tools/exec)
-      - [/tools/exec-approvals](/tools/exec-approvals)
-      - [/gateway/security#runtime-expectation-drift](/zh-CN/gateway/security#runtime-expectation-drift)
+      - [Exec ??](/zh-CN/tools/exec)
+      - [Exec ??](/zh-CN/tools/exec-approvals)
+      - [??](/zh-CN/gateway/security#runtime-expectation-drift)
 
     </Accordion>
 
@@ -375,9 +375,9 @@ flowchart TD
       详细页面：
 
       - [/gateway/troubleshooting#browser-tool-fails](/zh-CN/gateway/troubleshooting#browser-tool-fails)
-      - [/tools/browser#missing-browser-command-or-tool](/tools/browser#missing-browser-command-or-tool)
-      - [/tools/browser-linux-troubleshooting](/tools/browser-linux-troubleshooting)
-      - [/tools/browser-wsl2-windows-remote-cdp-troubleshooting](/tools/browser-wsl2-windows-remote-cdp-troubleshooting)
+      - [?????](/zh-CN/tools/browser#missing-browser-command-or-tool)
+      - [/tools/browser-linux-troubleshooting](/zh-CN/tools/browser-linux-troubleshooting)
+      - [/tools/browser-wsl2-windows-remote-cdp-troubleshooting](/zh-CN/tools/browser-wsl2-windows-remote-cdp-troubleshooting)
 
     </Accordion>
   </AccordionGroup>
@@ -385,7 +385,7 @@ flowchart TD
 ## 相关内容
 
 - [常见问题](/zh-CN/help/faq) — 常见问题解答
-- [Gateway 网关故障排除](/zh-CN/gateway/troubleshooting) — Gateway 网关专属问题
+- [故障排除](/zh-CN/gateway/troubleshooting) — Gateway 网关专属问题
 - [Doctor](/zh-CN/gateway/doctor) — 自动化健康检查与修复
 - [渠道故障排除](/zh-CN/channels/troubleshooting) — 渠道连接问题
 - [自动化故障排除](/zh-CN/automation/cron-jobs#troubleshooting) — cron 和 heartbeat 问题

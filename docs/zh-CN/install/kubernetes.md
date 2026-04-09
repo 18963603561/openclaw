@@ -112,7 +112,7 @@ Namespace: openclaw（可通过 OPENCLAW_NAMESPACE 配置）
 
 ### Gateway 网关配置
 
-编辑 `scripts/k8s/manifests/configmap.yaml` 中的 `openclaw.json`。完整参考请参见 [Gateway 网关配置](/zh-CN/gateway/configuration)。
+编辑 `scripts/k8s/manifests/configmap.yaml` 中的 `openclaw.json`。完整参考请参见 [??](/zh-CN/gateway/configuration)。
 
 ### 添加提供商
 

@@ -19,7 +19,7 @@ x-i18n:
 
 这与 `~/.openclaw/` 分开，后者用于存储配置、凭证和会话。
 
-**重要：** 工作区是**默认 cwd**，而不是硬性沙箱。工具会相对于工作区解析相对路径，但绝对路径仍然可以访问宿主机上的其他位置，除非启用了沙箱隔离。如果你需要隔离，请使用 [`agents.defaults.sandbox`](/gateway/sandboxing)（和/或按智能体配置的沙箱设置）。启用沙箱隔离且 `workspaceAccess` 不为 `"rw"` 时，工具会在 `~/.openclaw/sandboxes` 下的沙箱工作区内运行，而不是在你的宿主机工作区中运行。
+**重要：** 工作区是**默认 cwd**，而不是硬性沙箱。工具会相对于工作区解析相对路径，但绝对路径仍然可以访问宿主机上的其他位置，除非启用了沙箱隔离。如果你需要隔离，请使用 [`agents.defaults.sandbox`](/zh-CN/gateway/sandboxing)（和/或按智能体配置的沙箱设置）。启用沙箱隔离且 `workspaceAccess` 不为 `"rw"` 时，工具会在 `~/.openclaw/sandboxes` 下的沙箱工作区内运行，而不是在你的宿主机工作区中运行。
 
 ## 默认位置
 
@@ -68,7 +68,7 @@ x-i18n:
 - `SOUL.md`
   - 人格、语气和边界。
   - 每次会话都会加载。
-  - 指南：[SOUL.md 人格指南](/concepts/soul)
+  - 指南：[SOUL.md ????](/zh-CN/concepts/soul)
 
 - `USER.md`
   - 用户是谁，以及应如何称呼他们。
@@ -103,7 +103,7 @@ x-i18n:
   - 整理过的长期记忆。
   - 仅在主私有会话中加载（不在共享/群组上下文中加载）。
 
-有关工作流和自动记忆刷新，请参见 [记忆](/concepts/memory)。
+有关工作流和自动记忆刷新，请参见 [记忆](/zh-CN/concepts/memory)。
 
 - `skills/`（可选）
   - 工作区专用 Skills。
@@ -227,7 +227,7 @@ git push
 
 ## 相关内容
 
-- [Standing Orders](/zh-CN/automation/standing-orders) — 工作区文件中的持久化指令
-- [Heartbeat](/gateway/heartbeat) — `HEARTBEAT.md` 工作区文件
-- [会话](/concepts/session) — 会话存储路径
-- [沙箱隔离](/gateway/sandboxing) — 沙箱环境中的工作区访问
+- [????](/zh-CN/automation/standing-orders) — 工作区文件中的持久化指令
+- [Heartbeat](/zh-CN/gateway/heartbeat) — `HEARTBEAT.md` 工作区文件
+- [会话](/zh-CN/concepts/session) — 会话存储路径
+- [沙箱隔离](/zh-CN/gateway/sandboxing) — 沙箱环境中的工作区访问

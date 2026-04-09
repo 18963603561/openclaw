@@ -72,6 +72,6 @@ openclaw onboard --auth-choice qwen-standard-api-key
 
 ## 相关内容
 
-- [视频生成](/tools/video-generation)
+- [视频生成](/zh-CN/tools/video-generation)
 - [Qwen](/zh-CN/providers/qwen)
-- [配置参考](/gateway/configuration-reference#agent-defaults)
+- [配置参考](/zh-CN/gateway/configuration-reference#agent-defaults)

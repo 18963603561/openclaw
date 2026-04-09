@@ -26,7 +26,7 @@ x-i18n:
 ## 为什么这很重要
 
 长会话会不断累积工具输出，从而撑大上下文窗口。
-这会增加成本，并可能迫使系统比预期更早触发 [compaction](/zh-CN/concepts/compaction)。
+这会增加成本，并可能迫使系统比预期更早触发 [??](/zh-CN/concepts/compaction)。
 
 对于 **Anthropic prompt caching**，修剪尤其有价值。缓存 TTL 过期后，下一次请求会重新缓存完整 prompt。修剪可以减少缓存写入大小，从而直接降低成本。
 
@@ -85,6 +85,6 @@ OpenClaw 会为 Anthropic 配置自动启用修剪：
 
 ## 延伸阅读
 
-- [Compaction](/zh-CN/concepts/compaction) —— 基于摘要的上下文压缩
-- [Gateway Configuration](/gateway/configuration) —— 所有修剪配置项
+- [??](/zh-CN/concepts/compaction) —— 基于摘要的上下文压缩
+- [??](/zh-CN/gateway/configuration) —— 所有修剪配置项
   （`contextPruning.*`）

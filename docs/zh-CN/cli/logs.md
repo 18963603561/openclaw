@@ -19,8 +19,8 @@ x-i18n:
 
 相关内容：
 
-- 日志概览：[Logging](/logging)
-- Gateway 网关 CLI：[gateway](/cli/gateway)
+- 日志概览：[??](/zh-CN/logging)
+- Gateway 网关 CLI：[gateway](/zh-CN/cli/gateway)
 
 ## 选项
 

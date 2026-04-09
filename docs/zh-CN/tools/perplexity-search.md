@@ -98,7 +98,7 @@ OpenClaw 支持将 Perplexity Search API 用作 `web_search` 提供商。
 
 **通过环境：** 在 Gateway 网关进程环境中设置 `PERPLEXITY_API_KEY` 或 `OPENROUTER_API_KEY`。
 对于 Gateway 网关安装，请将其放入
-`~/.openclaw/.env`（或你的服务环境）中。参见 [Env vars](/zh-CN/help/faq#env-vars-and-env-loading)。
+`~/.openclaw/.env`（或你的服务环境）中。参见 [常见问题](/zh-CN/help/faq#env-vars-and-env-loading)。
 
 如果已配置 `provider: "perplexity"`，且 Perplexity 密钥 SecretRef 无法解析，同时也没有环境变量回退，则启动 / 重载会快速失败。
 
@@ -185,7 +185,7 @@ await web_search({
 
 ## 相关内容
 
-- [Web Search overview](/zh-CN/tools/web) -- 所有提供商和自动检测
+- [Web ??](/zh-CN/tools/web) -- 所有提供商和自动检测
 - [Perplexity Search API docs](https://docs.perplexity.ai/docs/search/quickstart) -- Perplexity 官方文档
 - [Brave Search](/zh-CN/tools/brave-search) -- 带国家 / 语言过滤器的结构化结果
 - [Exa Search](/zh-CN/tools/exa-search) -- 带内容提取的神经搜索

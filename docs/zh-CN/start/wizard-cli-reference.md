@@ -308,4 +308,4 @@ Signal 设置行为：
 
 - 新手引导入口： [新手引导（CLI）](/zh-CN/start/wizard)
 - 自动化与脚本： [CLI 自动化](/zh-CN/start/wizard-cli-automation)
-- 命令参考： [`openclaw onboard`](/cli/onboard)
+- 命令参考： [`openclaw onboard`](/zh-CN/cli/onboard)

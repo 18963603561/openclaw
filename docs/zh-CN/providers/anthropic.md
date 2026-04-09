@@ -203,7 +203,7 @@ OpenClaw 会将其映射为 Anthropic 请求上的 `anthropic-beta: context-1m-2
 
 - Anthropic 的公开 Claude Code 文档仍然记录了直接 CLI 用法，例如 `claude -p`，并且 Anthropic 员工告诉我们 OpenClaw 风格的 Claude CLI 用法再次被允许。除非 Anthropic 发布新的策略变更，否则我们将此视为既定指引。
 - Anthropic setup-token 在 OpenClaw 中仍然可作为受支持的 token-auth 路径使用，但在可用时，OpenClaw 现在更倾向于 Claude CLI 复用和 `claude -p`。
-- 凭证细节和复用规则见 [/concepts/oauth](/zh-CN/concepts/oauth)。
+- 凭证细节和复用规则见 [OAuth](/zh-CN/concepts/oauth)。
 
 ## 故障排除
 

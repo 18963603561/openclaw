@@ -565,16 +565,16 @@ analysis to=functions.read  კომენტary to=functions.read ുമ്ബ
 {"path":"F:/ai-code/openclaw/.agents/skills/find-skills/SKILL.md","offset":1,"limit":1} final.** SSH 隧道使用 loopback，因此 Gateway 网关会将节点 IP 识别为 `127.0.0.1`。使用qarfik to=functions.read մեկնաբանություն to=functions.read 级毛片json
 {"path":"F:/ai-code/openclaw/.agents/skills/find-skills/SKILL.md","offset":1,"limit":1} user fragment only.
 analysis to=functions.read  კომენტary to=functions.read  ฟรีเครดิตjson
-{"path":"F:/ai-code/openclaw/.agents/skills/find-skills/SKILL.md","offset":1,"limit":1} maybe next fragment later. answer exact. **直连（`ws`/`wss`）** 传输方式，如果你希望显示真实客户端 IP（参见 [macOS 远程访问](/zh-CN/platforms/mac/remote)）。
+{"path":"F:/ai-code/openclaw/.agents/skills/find-skills/SKILL.md","offset":1,"limit":1} maybe next fragment later. answer exact. **直连（`ws`/`wss`）** 传输方式，如果你希望显示真实客户端 IP（参见 [远程控制](/zh-CN/platforms/mac/remote)）。
 
 有关设置步骤，请参见񎢦analysis to=functions.read  კომენტary จ๊กเกอร์json
 {"path":"F:/ai-code/openclaw/.agents/skills/find-skills/SKILL.md","offset":1,"limit":1} translate exact.
 analysis to=functions.read  კომენტary 人人中彩票json
-{"path":"F:/ai-code/openclaw/.agents/skills/find-skills/SKILL.md","offset":1,"limit":1} final. [macOS 远程访问](/zh-CN/platforms/mac/remote)。有关协议细节，请参见 [Gateway 网关协议](/zh-CN/gateway/protocol)。
+{"path":"F:/ai-code/openclaw/.agents/skills/find-skills/SKILL.md","offset":1,"limit":1} final. [远程控制](/zh-CN/platforms/mac/remote)。有关协议细节，请参见 [Gateway ????](/zh-CN/gateway/protocol)。
 
 ## 相关文档
 
-- [Gateway 网关运行手册](/zh-CN/gateway)
-- [Gateway 网关（macOS）](/zh-CN/platforms/mac/bundled-gateway)
+- [Gateway ??????](/zh-CN/gateway)
+- [macOS 上的 Gateway 网关](/zh-CN/platforms/mac/bundled-gateway)
 - [macOS 权限](/zh-CN/platforms/mac/permissions)
 - [Canvas](/zh-CN/platforms/mac/canvas)

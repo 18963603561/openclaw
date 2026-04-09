@@ -23,7 +23,7 @@ x-i18n:
   <Card title="渠道故障排除" icon="wrench" href="/zh-CN/channels/troubleshooting">
     跨渠道诊断和修复手册。
   </Card>
-  <Card title="Gateway 网关配置" icon="settings" href="/gateway/configuration">
+  <Card title="Gateway 网关配置" icon="settings" href="/zh-CN/gateway/configuration">
     完整的渠道配置模式和示例。
   </Card>
 </CardGroup>
@@ -462,7 +462,7 @@ curl "https://api.telegram.org/bot<bot_token>/getUpdates"
     注意：`edit` 和 `topic-create` 当前默认启用，并且没有单独的 `channels.telegram.actions.*` 开关。
     运行时发送使用活动 config/secrets 快照（启动/重载时），因此动作路径不会在每次发送时临时重新解析 SecretRef。
 
-    反应移除语义：[/tools/reactions](/tools/reactions)
+    反应移除语义：[??](/zh-CN/tools/reactions)
 
   </Accordion>
 
@@ -853,7 +853,7 @@ openclaw message poll --channel telegram --target -1001234567890:topic:42 \
 
     内联审批按钮还依赖 `channels.telegram.capabilities.inlineButtons` 允许目标界面（`dm`、`group` 或 `all`）。
 
-    相关文档： [Exec approvals](/tools/exec-approvals)
+    相关文档： [Exec ??](/zh-CN/tools/exec-approvals)
 
   </Accordion>
 </AccordionGroup>
@@ -1003,7 +1003,7 @@ dig +short api.telegram.org AAAA
   - `channels.telegram.groups.<id>.topics.<threadId>.agentId`：将此话题路由到特定智能体（覆盖群组级和 binding 路由）。
 - `channels.telegram.groups.<id>.topics.<threadId>.groupPolicy`：按话题覆盖 `groupPolicy`（`open | allowlist | disabled`）。
 - `channels.telegram.groups.<id>.topics.<threadId>.requireMention`：按话题覆盖提及门控。
-- 顶层 `bindings[]` 配合 `type: "acp"`，并在 `match.peer.id` 中使用规范话题 ID `chatId:topic:topicId`：持久化 ACP 话题绑定字段（参见 [ACP Agents](/tools/acp-agents#channel-specific-settings)）。
+- 顶层 `bindings[]` 配合 `type: "acp"`，并在 `match.peer.id` 中使用规范话题 ID `chatId:topic:topicId`：持久化 ACP 话题绑定字段（参见 [ACP ???](/zh-CN/tools/acp-agents#channel-specific-settings)）。
 - `channels.telegram.direct.<id>.topics.<threadId>.agentId`：将私信话题路由到特定智能体（行为与 Forum 话题相同）。
 - `channels.telegram.execApprovals.enabled`：为此账户启用 Telegram 作为基于聊天的 exec 审批客户端。
 - `channels.telegram.execApprovals.approvers`：允许批准或拒绝 exec 请求的 Telegram 用户 ID。当 `channels.telegram.allowFrom` 或直接的 `channels.telegram.defaultTo` 已能标识 owner 时，此项可选。
@@ -1039,7 +1039,7 @@ dig +short api.telegram.org AAAA
 - `channels.telegram.errorPolicy`：`reply | silent` —— 控制错误回复行为（默认：`reply`）。支持按账户/群组/话题覆盖。
 - `channels.telegram.errorCooldownMs`：向同一聊天发送错误回复的最小毫秒间隔（默认：`60000`）。防止故障期间错误刷屏。
 
-- [Configuration reference - Telegram](/gateway/configuration-reference#telegram)
+- [????](/zh-CN/gateway/configuration-reference#telegram)
 
 Telegram 特有的高信号字段：
 
@@ -1061,7 +1061,7 @@ Telegram 特有的高信号字段：
 
 - [配对](/zh-CN/channels/pairing)
 - [群组](/zh-CN/channels/groups)
-- [安全](/gateway/security)
+- [安全](/zh-CN/gateway/security)
 - [渠道路由](/zh-CN/channels/channel-routing)
-- [多智能体路由](/concepts/multi-agent)
+- [多智能体路由](/zh-CN/concepts/multi-agent)
 - [故障排除](/zh-CN/channels/troubleshooting)

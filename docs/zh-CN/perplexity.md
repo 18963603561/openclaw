@@ -183,5 +183,5 @@ await web_search({
 - Sonar/OpenRouter 兼容路径返回的是一个带引用的综合答案，而不是结构化结果行
 - 结果默认缓存 15 分钟（可通过 `cacheTtlMinutes` 配置）
 
-完整的 `web_search` 配置请参见 [Web 工具](/tools/web)。
+完整的 `web_search` 配置请参见 [Web ??](/zh-CN/tools/web)。
 更多细节请参见 [Perplexity Search API 文档](https://docs.perplexity.ai/docs/search/quickstart)。

@@ -66,5 +66,5 @@ openclaw config set agents.defaults.videoGenerationModel.primary "runway/gen4.5"
 
 ## 相关内容
 
-- [视频生成](/tools/video-generation) -- 共享工具参数、提供商选择和异步行为
-- [配置参考](/gateway/configuration-reference#agent-defaults)
+- [视频生成](/zh-CN/tools/video-generation) -- 共享工具参数、提供商选择和异步行为
+- [配置参考](/zh-CN/gateway/configuration-reference#agent-defaults)

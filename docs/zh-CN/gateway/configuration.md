@@ -155,8 +155,8 @@ Schema 工具说明：
     - `agents.defaults.models` 定义模型目录，并作为 `/model` 的允许列表。
     - 模型引用使用 `provider/model` 格式（例如 `anthropic/claude-opus-4-6`）。
     - `agents.defaults.imageMaxDimensionPx` 控制转录/工具图像的缩放上限（默认 `1200`）；较低的值通常会在以截图为主的运行中减少视觉 token 使用量。
-    - 查看[模型 CLI](/zh-CN/concepts/models)了解如何在聊天中切换模型，查看[模型故障转移](/zh-CN/concepts/model-failover)了解凭证轮换和回退行为。
-    - 对于自定义/自托管提供商，请参见参考中的[自定义提供商](/gateway/configuration-reference#custom-providers-and-base-urls)。
+    - 查看[?? CLI](/zh-CN/concepts/models)了解如何在聊天中切换模型，查看[模型故障转移](/zh-CN/concepts/model-failover)了解凭证轮换和回退行为。
+    - 对于自定义/自托管提供商，请参见参考中的[自定义提供商](/zh-CN/gateway/configuration-reference#custom-providers-and-base-urls)。
 
   </Accordion>
 
@@ -170,7 +170,7 @@ Schema 工具说明：
 
     对于群组，请使用 `groupPolicy` + `groupAllowFrom` 或渠道特定的允许列表。
 
-    请查看[完整参考](/gateway/configuration-reference#dm-and-group-access)了解各渠道的详细信息。
+    请查看[完整参考](/zh-CN/gateway/configuration-reference#dm-and-group-access)了解各渠道的详细信息。
 
   </Accordion>
 
@@ -199,7 +199,7 @@ Schema 工具说明：
 
     - **元数据提及**：原生 @ 提及（WhatsApp 点击提及、Telegram @bot 等）
     - **文本模式**：`mentionPatterns` 中的安全正则表达式模式
-    - 请查看[完整参考](/gateway/configuration-reference#group-chat-mention-gating)了解各渠道覆盖项和自聊模式。
+    - 请查看[完整参考](/zh-CN/gateway/configuration-reference#group-chat-mention-gating)了解各渠道覆盖项和自聊模式。
 
   </Accordion>
 
@@ -225,8 +225,8 @@ Schema 工具说明：
     - 省略 `agents.defaults.skills` 表示默认情况下 Skills 不受限制。
     - 省略 `agents.list[].skills` 表示继承默认值。
     - 设置 `agents.list[].skills: []` 表示不启用任何 Skills。
-    - 请查看 [Skills](/tools/skills)、[Skills 配置](/tools/skills-config) 和
-      [配置参考](/gateway/configuration-reference#agentsdefaultsskills)。
+    - 请查看 [Skills](/zh-CN/tools/skills)、[Skills ??](/zh-CN/tools/skills-config) 和
+      [配置参考](/zh-CN/gateway/configuration-reference#agentsdefaultsskills)。
 
   </Accordion>
 
@@ -256,7 +256,7 @@ Schema 工具说明：
     - 设置 `gateway.channelHealthCheckMinutes: 0` 可全局禁用健康监控重启。
     - `channelStaleEventThresholdMinutes` 应大于或等于检查间隔。
     - 使用 `channels.<provider>.healthMonitor.enabled` 或 `channels.<provider>.accounts.<id>.healthMonitor.enabled`，可仅为单个渠道或账户禁用自动重启，而不关闭全局监控。
-    - 查看[健康检查](/zh-CN/gateway/health)了解运维调试内容，并查看[完整参考](/gateway/configuration-reference#gateway)了解所有字段。
+    - 查看[健康检查](/zh-CN/gateway/health)了解运维调试内容，并查看[完整参考](/zh-CN/gateway/configuration-reference#gateway)了解所有字段。
 
   </Accordion>
 
@@ -284,7 +284,7 @@ Schema 工具说明：
     - `dmScope`：`main`（共享）| `per-peer` | `per-channel-peer` | `per-account-channel-peer`
     - `threadBindings`：线程绑定会话路由的全局默认值（Discord 支持 `/focus`、`/unfocus`、`/agents`、`/session idle` 和 `/session max-age`）。
     - 查看[会话管理](/zh-CN/concepts/session)了解作用域、身份链接和发送策略。
-    - 查看[完整参考](/gateway/configuration-reference#session)了解所有字段。
+    - 查看[完整参考](/zh-CN/gateway/configuration-reference#session)了解所有字段。
 
   </Accordion>
 
@@ -306,7 +306,7 @@ Schema 工具说明：
 
     请先构建镜像：`scripts/sandbox-setup.sh`
 
-    查看[沙箱隔离](/gateway/sandboxing)获取完整指南，查看[完整参考](/gateway/configuration-reference#agentsdefaultssandbox)了解所有选项。
+    查看[沙箱隔离](/zh-CN/gateway/sandboxing)获取完整指南，查看[完整参考](/zh-CN/gateway/configuration-reference#agentsdefaultssandbox)了解所有选项。
 
   </Accordion>
 
@@ -363,7 +363,7 @@ Schema 工具说明：
     - `OPENCLAW_APNS_RELAY_BASE_URL` 和 `OPENCLAW_APNS_RELAY_TIMEOUT_MS` 仍可作为临时环境变量覆盖项使用。
     - `OPENCLAW_APNS_RELAY_ALLOW_HTTP=true` 仍然只是一个仅限 loopback 的开发逃生开关；不要在配置中持久保存 HTTP relay URL。
 
-    查看[iOS App](/platforms/ios#relay-backed-push-for-official-builds)了解端到端流程，查看[凭证和信任流](/platforms/ios#authentication-and-trust-flow)了解 relay 安全模型。
+    查看[iOS 应用](/zh-CN/platforms/ios#relay-backed-push-for-official-builds)了解端到端流程，查看[凭证和信任流](/zh-CN/platforms/ios#authentication-and-trust-flow)了解 relay 安全模型。
 
   </Accordion>
 
@@ -405,7 +405,7 @@ Schema 工具说明：
 
     - `sessionRetention`：从 `sessions.json` 中清理已完成的隔离运行会话（默认 `24h`；设置为 `false` 可禁用）。
     - `runLog`：按大小和保留行数清理 `cron/runs/<jobId>.jsonl`。
-    - 查看[Cron 作业](/zh-CN/automation/cron-jobs)了解功能概览和 CLI 示例。
+    - 查看[????](/zh-CN/automation/cron-jobs)了解功能概览和 CLI 示例。
 
   </Accordion>
 
@@ -442,7 +442,7 @@ Schema 工具说明：
     - 如果启用 `hooks.allowRequestSessionKey`，也应设置 `hooks.allowedSessionKeyPrefixes` 以限制调用方可选的会话键。
     - 对于由 hook 驱动的智能体，优先使用强大的现代模型层级和严格的工具策略（例如尽量只允许消息类工具并启用沙箱隔离）。
 
-    查看[完整参考](/gateway/configuration-reference#hooks)了解所有映射选项和 Gmail 集成。
+    查看[完整参考](/zh-CN/gateway/configuration-reference#hooks)了解所有映射选项和 Gmail 集成。
 
   </Accordion>
 
@@ -464,7 +464,7 @@ Schema 工具说明：
     }
     ```
 
-    查看[多智能体](/zh-CN/concepts/multi-agent)和[完整参考](/gateway/configuration-reference#multi-agent-routing)了解绑定规则和每个智能体的访问配置文件。
+    查看[多智能体](/zh-CN/concepts/multi-agent)和[完整参考](/zh-CN/gateway/configuration-reference#multi-agent-routing)了解绑定规则和每个智能体的访问配置文件。
 
   </Accordion>
 
@@ -689,11 +689,11 @@ OpenClaw 会从父进程读取环境变量，另外还包括：
 }
 ```
 
-SecretRef 详细信息（包括 `env`/`file`/`exec` 的 `secrets.providers`）请参见[Secrets Management](/gateway/secrets)。
-支持的凭证路径列于[SecretRef Credential Surface](/reference/secretref-credential-surface)。
+SecretRef 详细信息（包括 `env`/`file`/`exec` 的 `secrets.providers`）请参见[Secrets 管理](/zh-CN/gateway/secrets)。
+支持的凭证路径列于[SecretRef ?????](/zh-CN/reference/secretref-credential-surface)。
 </Accordion>
 
-查看[环境](/help/environment)了解完整的优先级和来源。
+查看[环境](/zh-CN/help/environment)了解完整的优先级和来源。
 
 ## 完整参考
 

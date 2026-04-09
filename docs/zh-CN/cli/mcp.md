@@ -26,7 +26,7 @@ x-i18n:
 - `serve` 表示 OpenClaw 充当 MCP 服务器
 - `list` / `show` / `set` / `unset` 表示 OpenClaw 充当其他 MCP 服务器的客户端侧注册表，供其运行时后续使用
 
-当 OpenClaw 应自己托管一个编码 harness 会话，并通过 ACP 路由该运行时时，请使用 [`openclaw acp`](/cli/acp)。
+当 OpenClaw 应自己托管一个编码 harness 会话，并通过 ACP 路由该运行时时，请使用 [`openclaw acp`](/zh-CN/cli/acp)。
 
 ## OpenClaw 作为 MCP 服务器
 
@@ -40,7 +40,7 @@ x-i18n:
 - 你已经有一个本地或远程的 OpenClaw Gateway 网关，并具有已路由会话
 - 你希望使用一个 MCP 服务器跨 OpenClaw 的各个渠道后端工作，而不是分别运行每个渠道的桥接器
 
-当 OpenClaw 应自己托管编码运行时，并将智能体会话保持在 OpenClaw 内部时，请改用 [`openclaw acp`](/cli/acp)。
+当 OpenClaw 应自己托管编码运行时，并将智能体会话保持在 OpenClaw 内部时，请改用 [`openclaw acp`](/zh-CN/cli/acp)。
 
 ## 它如何工作
 
@@ -287,7 +287,7 @@ pnpm test:docker:mcp-channels
 
 这是在不接入真实 Telegram、Discord 或 iMessage 账户的情况下，证明桥接器可用的最快方式。
 
-关于更广泛的测试背景，参见 [测试](/help/testing)。
+关于更广泛的测试背景，参见 [测试](/zh-CN/help/testing)。
 
 ## 故障排除
 

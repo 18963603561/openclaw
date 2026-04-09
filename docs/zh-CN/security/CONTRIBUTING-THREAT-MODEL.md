@@ -92,7 +92,7 @@ x-i18n:
 - [ATLAS 网站](https://atlas.mitre.org/)
 - [ATLAS 技术项](https://atlas.mitre.org/techniques/)
 - [ATLAS 案例研究](https://atlas.mitre.org/studies/)
-- [OpenClaw 威胁模型](/zh-CN/security/THREAT-MODEL-ATLAS)
+- [威胁模型（MITRE ATLAS）](/zh-CN/security/THREAT-MODEL-ATLAS)
 
 ## 联系方式
 

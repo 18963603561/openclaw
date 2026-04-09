@@ -498,7 +498,7 @@ x-i18n:
         `before_prompt_build`。
 
       如需详细说明和真实示例，请参阅
-      [内部机制：提供商运行时 hook](/zh-CN/plugins/architecture#provider-runtime-hooks)。
+      [插件内部机制](/zh-CN/plugins/architecture#provider-runtime-hooks)。
     </Accordion>
 
   </Step>
@@ -702,6 +702,6 @@ provider 的合并时机：
 ## 后续步骤
 
 - [渠道插件](/zh-CN/plugins/sdk-channel-plugins) —— 如果你的插件还提供一个渠道
-- [SDK Runtime](/zh-CN/plugins/sdk-runtime) —— `api.runtime` helper（TTS、搜索、子智能体）
-- [SDK 概览](/zh-CN/plugins/sdk-overview) —— 完整子路径导入参考
+- [插件运行时辅助工具](/zh-CN/plugins/sdk-runtime) —— `api.runtime` helper（TTS、搜索、子智能体）
+- [插件 SDK 概览](/zh-CN/plugins/sdk-overview) —— 完整子路径导入参考
 - [插件内部机制](/zh-CN/plugins/architecture#provider-runtime-hooks) —— hook 细节和内置示例

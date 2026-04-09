@@ -17,7 +17,7 @@ x-i18n:
 
 本页仅适用于**原生 OpenClaw 插件清单**。
 
-有关兼容的 bundle 布局，请参见 [Plugin bundles](/zh-CN/plugins/bundles)。
+有关兼容的 bundle 布局，请参见 [插件 Bundles](/zh-CN/plugins/bundles)。
 
 兼容的 bundle 格式使用不同的清单文件：
 
@@ -32,7 +32,7 @@ OpenClaw 也会自动检测这些 bundle 布局，但不会按照这里描述的
 
 每个原生 OpenClaw 插件**都必须**在**插件根目录**提供一个 `openclaw.plugin.json` 文件。OpenClaw 使用这个清单在**不执行插件代码**的情况下校验配置。缺失或无效的清单会被视为插件错误，并阻止配置校验。
 
-请参见完整的插件系统指南：[Plugins](/tools/plugin)。
+请参见完整的插件系统指南：[??](/zh-CN/tools/plugin)。
 有关原生能力模型和当前的外部兼容性指引，请参见：
 [能力模型](/zh-CN/plugins/architecture#public-capability-model)。
 
@@ -416,7 +416,7 @@ OpenClaw 按以下优先级处理：
 - `providerAuthChoices` 是用于认证选项选择器、
   `--auth-choice` 解析、首选提供商映射和简单新手引导
   CLI flag 注册的轻量元数据路径，且发生在提供商运行时加载前。对于需要提供商代码的运行时向导元数据，请参见
-  [提供商运行时 hooks](/zh-CN/plugins/architecture#provider-runtime-hooks)。
+  [插件内部机制](/zh-CN/plugins/architecture#provider-runtime-hooks)。
 - 排他性插件类型通过 `plugins.slots.*` 选择。
   - `kind: "memory"` 由 `plugins.slots.memory` 选择。
   - `kind: "context-engine"` 由 `plugins.slots.contextEngine`
@@ -429,6 +429,6 @@ OpenClaw 按以下优先级处理：
 
 ## 相关内容
 
-- [Building Plugins](/zh-CN/plugins/building-plugins) —— 插件入门指南
+- [构建插件](/zh-CN/plugins/building-plugins) —— 插件入门指南
 - [插件架构](/zh-CN/plugins/architecture) —— 内部架构
-- [SDK 概览](/zh-CN/plugins/sdk-overview) —— 插件 SDK 参考
+- [插件 SDK 概览](/zh-CN/plugins/sdk-overview) —— 插件 SDK 参考

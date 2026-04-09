@@ -476,7 +476,7 @@ const setupSurface = createOptionalChannelSetupSurface({
 
 ## 发布与安装
 
-**外部插件：**发布到 [ClawHub](/tools/clawhub) 或 npm，然后安装：
+**外部插件：**发布到 [ClawHub](/zh-CN/tools/clawhub) 或 npm，然后安装：
 
 ```bash
 openclaw plugins install @myorg/openclaw-my-plugin
@@ -511,4 +511,4 @@ openclaw plugins install <package-name>
 
 - [插件入口点](/zh-CN/plugins/sdk-entrypoints) -- `definePluginEntry` 和 `defineChannelPluginEntry`
 - [插件清单](/zh-CN/plugins/manifest) -- 完整清单 schema 参考
-- [Building Plugins](/zh-CN/plugins/building-plugins) -- 分步入门指南
+- [构建插件](/zh-CN/plugins/building-plugins) -- 分步入门指南

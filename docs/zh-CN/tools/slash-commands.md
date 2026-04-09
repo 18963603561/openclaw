@@ -126,11 +126,11 @@ x-i18n:
 - `/model <name>`（别名：`/models`；或使用 `agents.defaults.models.*.alias` 中的 `/<alias>`）
 - `/queue <mode>`（加上 `debounce:2s cap:25 drop:summarize` 这类选项；发送 `/queue` 查看当前设置）
 - `/bash <command>`（仅限主机；`! <command>` 的别名；需要 `commands.bash: true` + `tools.elevated` 允许列表）
-- `/dreaming [on|off|status|help]`（切换全局 dreaming 或显示状态；参见 [Dreaming](/zh-CN/concepts/dreaming)）
+- `/dreaming [on|off|status|help]`（切换全局 dreaming 或显示状态；参见 [Dreaming（实验性）](/zh-CN/concepts/dreaming)）
 
 仅文本：
 
-- `/compact [instructions]`（参见 [/concepts/compaction](/zh-CN/concepts/compaction)）
+- `/compact [instructions]`（参见 [??](/zh-CN/concepts/compaction)）
 - `! <command>`（仅限主机；一次一个；长时间任务请使用 `!poll` + `!stop`）
 - `!poll`（检查输出 / 状态；接受可选 `sessionId`；`/bash poll` 也可用）
 - `!stop`（停止正在运行的 bash 任务；接受可选 `sessionId`；`/bash stop` 也可用）
@@ -146,7 +146,7 @@ x-i18n:
 - `/restart` 默认启用；设置 `commands.restart: false` 可禁用它。
 - 仅 Discord 的原生命令：`/vc join|leave|status` 用于控制语音频道（需要 `channels.discord.voice` 和原生命令；不提供文本形式）。
 - Discord 线程绑定命令（`/focus`、`/unfocus`、`/agents`、`/session idle`、`/session max-age`）要求实际启用了线程绑定（`session.threadBindings.enabled` 和 / 或 `channels.discord.threadBindings.enabled`）。
-- ACP 命令参考和运行时行为：参见 [ACP Agents](/zh-CN/tools/acp-agents)。
+- ACP 命令参考和运行时行为：参见 [ACP ???](/zh-CN/tools/acp-agents)。
 - `/verbose` 主要用于调试和额外可见性；正常使用时请保持**关闭**。
 - `/fast on|off` 会持久化一个会话覆盖值。使用 Sessions UI 的 `inherit` 选项可清除它，并回退到配置默认值。
 - `/fast` 具有提供商特定行为：OpenAI / OpenAI Codex 会将其映射到原生 Responses 端点上的 `service_tier=priority`，而直连公共 Anthropic 请求，包括发往 `api.anthropic.com` 的 OAuth 认证流量，会将其映射到 `service_tier=auto` 或 `standard_only`。参见 [OpenAI](/zh-CN/providers/openai) 和 [Anthropic](/zh-CN/providers/anthropic)。

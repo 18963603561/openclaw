@@ -104,7 +104,7 @@ openclaw config set tools.web.search.provider grok
 }
 ```
 
-关于共享工具参数、提供商选择和故障切换行为，请参阅 [视频生成](/tools/video-generation)。
+关于共享工具参数、提供商选择和故障切换行为，请参阅 [视频生成](/zh-CN/tools/video-generation)。
 
 ## 已知限制
 
@@ -120,5 +120,5 @@ openclaw config set tools.web.search.provider grok
 - 内置的 xAI wrapper 会在发送原生 xAI 请求之前，去除不受支持的 strict 工具 schema 标志和 reasoning 载荷键。
 - `web_search`、`x_search` 和 `code_execution` 以 OpenClaw 工具形式暴露。OpenClaw 会在每次工具请求中启用它所需的特定 xAI 内置能力，而不是把所有原生工具附加到每一轮聊天中。
 - `x_search` 和 `code_execution` 由内置 xAI 插件拥有，而不是硬编码在 core 模型运行时中。
-- `code_execution` 是远程 xAI 沙箱执行，不是本地 [`exec`](/tools/exec)。
+- `code_execution` 是远程 xAI 沙箱执行，不是本地 [`exec`](/zh-CN/tools/exec)。
 - 更广泛的提供商概览请参阅 [模型提供商](/zh-CN/providers/index)。

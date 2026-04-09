@@ -33,17 +33,17 @@ x-i18n:
 
 关键参考：
 
-- [Gateway 架构](/zh-CN/concepts/architecture)
-- [Gateway 协议](/zh-CN/gateway/protocol)
-- [Gateway 操作手册](/zh-CN/gateway)
-- [Web 暴露面 + 绑定模式](/web)
+- [Gateway ????](/zh-CN/concepts/architecture)
+- [Gateway ????](/zh-CN/gateway/protocol)
+- [Gateway ??????](/zh-CN/gateway)
+- [Web ??](/zh-CN/web)
 
 ## 配对 + 身份
 
-- [配对概览（私信 + nodes）](/zh-CN/channels/pairing)
-- [由 Gateway 网关管理的节点配对](/zh-CN/gateway/pairing)
-- [Devices CLI（配对 + token 轮换）](/cli/devices)
-- [Pairing CLI（私信审批）](/cli/pairing)
+- [??](/zh-CN/channels/pairing)
+- [Gateway 网关持有的配对](/zh-CN/gateway/pairing)
+- [Devices CLI（配对 + token 轮换）](/zh-CN/cli/devices)
+- [Pairing CLI（私信审批）](/zh-CN/cli/pairing)
 
 本地信任：
 
@@ -57,20 +57,20 @@ x-i18n:
 ## 设备发现 + 传输协议
 
 - [设备发现 + 传输协议](/zh-CN/gateway/discovery)
-- [Bonjour / mDNS](/zh-CN/gateway/bonjour)
-- [远程访问（SSH）](/zh-CN/gateway/remote)
+- [Bonjour ????](/zh-CN/gateway/bonjour)
+- [????](/zh-CN/gateway/remote)
 - [Tailscale](/zh-CN/gateway/tailscale)
 
 ## 节点 + 传输协议
 
-- [Nodes 概览](/zh-CN/nodes)
+- [??](/zh-CN/nodes)
 - [Bridge protocol（旧版节点，历史参考）](/zh-CN/gateway/bridge-protocol)
-- [节点操作手册：iOS](/zh-CN/platforms/ios)
-- [节点操作手册：Android](/zh-CN/platforms/android)
+- [iOS 应用](/zh-CN/platforms/ios)
+- [Android 应用](/zh-CN/platforms/android)
 
 ## 安全
 
 - [安全概览](/zh-CN/gateway/security)
-- [Gateway 配置参考](/zh-CN/gateway/configuration)
+- [??](/zh-CN/gateway/configuration)
 - [故障排除](/zh-CN/gateway/troubleshooting)
 - [Doctor](/zh-CN/gateway/doctor)

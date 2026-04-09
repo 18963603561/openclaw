@@ -29,7 +29,7 @@ x-i18n:
 ## 前置条件（从源码运行）
 
 - 推荐 Node 24（仍支持 Node 22 LTS，当前为 `22.14+`）
-- 优先使用 `pnpm`（或者如果你有意使用 [Bun 工作流](/zh-CN/install/bun)，也可以用 Bun）
+- 优先使用 `pnpm`（或者如果你有意使用 [Bun（实验性）](/zh-CN/install/bun)，也可以用 Bun）
 - Docker（可选；仅用于容器化设置/端到端场景 —— 见 [Docker](/zh-CN/install/docker)）
 
 ## 个性化策略（这样更新就不会伤到你）
@@ -168,12 +168,12 @@ sudo loginctl enable-linger $USER
 ```
 
 对于常驻运行或多用户服务器，请考虑使用**系统**服务，而不是
-用户服务（这样就不需要 lingering）。关于 systemd 的说明，请参见 [Gateway 运行手册](/zh-CN/gateway)。
+用户服务（这样就不需要 lingering）。关于 systemd 的说明，请参见 [Gateway ??????](/zh-CN/gateway)。
 
 ## 相关文档
 
-- [Gateway 运行手册](/zh-CN/gateway)（标志、监管、端口）
-- [Gateway 网关配置](/zh-CN/gateway/configuration)（配置 schema + 示例）
+- [Gateway ??????](/zh-CN/gateway)（标志、监管、端口）
+- [??](/zh-CN/gateway/configuration)（配置 schema + 示例）
 - [Discord](/zh-CN/channels/discord) 和 [Telegram](/zh-CN/channels/telegram)（reply 标签 + replyToMode 设置）
-- [OpenClaw 助手设置](/zh-CN/start/openclaw)
-- [macOS 应用](/zh-CN/platforms/macos)（gateway 生命周期）
+- [OpenClaw ????](/zh-CN/start/openclaw)
+- [macOS 应用程序](/zh-CN/platforms/macos)（gateway 生命周期）

@@ -279,7 +279,7 @@ x-i18n:
     openclaw gateway status
     ```
 
-    大多数 Azure 企业团队通常都已拥有 GitHub Copilot 许可证。如果你的情况也是如此，我们建议你在 OpenClaw 新手引导向导中选择 GitHub Copilot provider。参见 [GitHub Copilot provider](/providers/github-copilot)。
+    大多数 Azure 企业团队通常都已拥有 GitHub Copilot 许可证。如果你的情况也是如此，我们建议你在 OpenClaw 新手引导向导中选择 GitHub Copilot provider。参见 [GitHub Copilot provider](/zh-CN/providers/github-copilot)。
 
   </Step>
 </Steps>
@@ -314,5 +314,5 @@ az group delete -n "${RG}" --yes --no-wait
 
 - 设置消息渠道：[渠道](/zh-CN/channels)
 - 将本地设备配对为节点：[节点](/zh-CN/nodes)
-- 配置 Gateway 网关：[Gateway 网关配置](/zh-CN/gateway/configuration)
+- 配置 Gateway 网关：[??](/zh-CN/gateway/configuration)
 - 有关使用 GitHub Copilot 模型 provider 在 Azure 上部署 OpenClaw 的更多细节，请参阅：[OpenClaw on Azure with GitHub Copilot](https://github.com/johnsonshi/openclaw-azure-github-copilot)

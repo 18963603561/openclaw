@@ -103,6 +103,6 @@ Grok 搜索支持 `query`。
 
 ## 相关内容
 
-- [Web Search overview](/zh-CN/tools/web) -- 所有提供商和自动检测
-- [x_search in Web Search](/zh-CN/tools/web#x_search) -- 通过 xAI 提供的一等公民 X 搜索
+- [Web ??](/zh-CN/tools/web) -- 所有提供商和自动检测
+- [Web ??](/zh-CN/tools/web#x_search) -- 通过 xAI 提供的一等公民 X 搜索
 - [Gemini Search](/zh-CN/tools/gemini-search) -- 通过 Google grounding 提供的 AI 综合答案

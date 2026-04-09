@@ -15,7 +15,7 @@ x-i18n:
 
 # 日志
 
-如需面向用户的概览（CLI + 控制 UI + 配置），请参阅 [/logging](/logging)。
+如需面向用户的概览（CLI + 控制 UI + 配置），请参阅 [??](/zh-CN/logging)。
 
 OpenClaw 有两个日志“输出面”：
 

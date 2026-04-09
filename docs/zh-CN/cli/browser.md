@@ -20,7 +20,7 @@ x-i18n:
 
 相关内容：
 
-- 浏览器工具 + API：[浏览器工具](/tools/browser)
+- 浏览器工具 + API：[浏览器工具](/zh-CN/tools/browser)
 
 ## 常用标志
 
@@ -71,7 +71,7 @@ openclaw browser --browser-profile openclaw reset-profile
 
 当插件允许列表排除了 `browser` 时，`browser.enabled=true` 不会恢复该 CLI 子命令。
 
-相关内容：[浏览器工具](/tools/browser#missing-browser-command-or-tool)
+相关内容：[浏览器工具](/zh-CN/tools/browser#missing-browser-command-or-tool)
 
 ## 配置文件
 
@@ -232,4 +232,4 @@ openclaw browser --browser-profile chrome-live tabs
 
 使用 `gateway.nodes.browser.mode` 控制自动路由，并在连接了多个节点时，使用 `gateway.nodes.browser.node` 固定到特定节点。
 
-安全性 + 远程设置：[浏览器工具](/tools/browser)、[远程访问](/gateway/remote)、[Tailscale](/gateway/tailscale)、[安全性](/gateway/security)
+安全性 + 远程设置：[浏览器工具](/zh-CN/tools/browser)、[远程访问](/zh-CN/gateway/remote)、[Tailscale](/zh-CN/gateway/tailscale)、[安全性](/zh-CN/gateway/security)

@@ -22,8 +22,8 @@ x-i18n:
 
 相关内容：
 
-- Exec 审批：[Exec approvals](/tools/exec-approvals)
-- 节点：[Nodes](/nodes)
+- Exec 审批：[Exec ??](/zh-CN/tools/exec-approvals)
+- 节点：[??](/zh-CN/nodes)
 
 ## 常用命令
 

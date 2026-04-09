@@ -184,7 +184,7 @@ Coding Plan 或标准版 Qwen hosts，视频生成仍会保持使用正确的区
   文件路径会被直接拒绝，因为 DashScope 视频端点不接受为这些参考上传本地缓冲区。
 
 有关共享工具参数、提供商选择和故障转移行为，请参见
-[视频生成](/tools/video-generation)。
+[视频生成](/zh-CN/tools/video-generation)。
 
 ## 环境说明
 

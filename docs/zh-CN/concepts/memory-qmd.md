@@ -159,4 +159,4 @@ QMD 当前的遍历行为遵循底层 QMD 扫描器的行为，而不是 OpenCla
 ## 配置
 
 如需查看完整的配置范围（`memory.qmd.*`）、搜索模式、更新间隔、范围规则以及所有其他可调项，请参阅
-[记忆配置参考](/reference/memory-config)。
+[记忆配置参考](/zh-CN/reference/memory-config)。

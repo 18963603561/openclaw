@@ -197,7 +197,7 @@ openclaw memory rem-harness --json
 阶段策略、阈值和存储行为属于内部实现
 细节（不是面向用户的配置）。
 
-完整键列表请参见[Memory 配置参考](/reference/memory-config#dreaming-experimental)。
+完整键列表请参见[Memory ????](/zh-CN/reference/memory-config#dreaming-experimental)。
 
 ## Dreams UI
 
@@ -211,7 +211,7 @@ openclaw memory rem-harness --json
 
 ## 相关内容
 
-- [Memory](/concepts/memory)
-- [Memory Search](/concepts/memory-search)
-- [memory CLI](/cli/memory)
-- [Memory 配置参考](/reference/memory-config)
+- [??](/zh-CN/concepts/memory)
+- [记忆搜索](/zh-CN/concepts/memory-search)
+- [memory CLI](/zh-CN/cli/memory)
+- [Memory ????](/zh-CN/reference/memory-config)

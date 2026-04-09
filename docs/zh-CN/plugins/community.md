@@ -15,7 +15,7 @@ x-i18n:
 
 # 社区插件
 
-社区插件是第三方软件包，可为 OpenClaw 扩展新的渠道、工具、提供商或其他能力。它们由社区构建和维护，发布在 [ClawHub](/tools/clawhub) 或 npm 上，并且可以通过一条命令安装。
+社区插件是第三方软件包，可为 OpenClaw 扩展新的渠道、工具、提供商或其他能力。它们由社区构建和维护，发布在 [ClawHub](/zh-CN/tools/clawhub) 或 npm 上，并且可以通过一条命令安装。
 
 ClawHub 是社区插件的规范发现入口。不要仅仅为了让插件更容易被发现而提交只改文档的 PR 来把你的插件加到这里；请改为将其发布到 ClawHub。
 
@@ -100,7 +100,7 @@ openclaw plugins install @wecom/wecom-openclaw-plugin
 <Steps>
   <Step title="发布到 ClawHub 或 npm">
     你的插件必须能够通过 `openclaw plugins install \<package-name\>` 安装。
-    请发布到 [ClawHub](/tools/clawhub)（首选）或 npm。
+    请发布到 [ClawHub](/zh-CN/tools/clawhub)（首选）或 npm。
     完整指南请参阅 [构建插件](/zh-CN/plugins/building-plugins)。
 
   </Step>
@@ -134,6 +134,6 @@ openclaw plugins install @wecom/wecom-openclaw-plugin
 
 ## 相关内容
 
-- [安装和配置插件](/tools/plugin) —— 如何安装任意插件
+- [安装和配置插件](/zh-CN/tools/plugin) —— 如何安装任意插件
 - [构建插件](/zh-CN/plugins/building-plugins) —— 创建你自己的插件
-- [插件 Manifest](/zh-CN/plugins/manifest) —— manifest schema
+- [插件清单](/zh-CN/plugins/manifest) —— manifest schema

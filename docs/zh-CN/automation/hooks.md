@@ -198,7 +198,7 @@ openclaw hooks enable <hook-name>
 
 插件可以通过插件 SDK 注册 hooks，以实现更深层的集成：拦截工具调用、修改提示词、控制消息流等。插件 SDK 暴露了 28 个 hooks，覆盖模型解析、智能体生命周期、消息流、工具执行、子智能体协调以及 Gateway 网关 生命周期。
 
-完整的插件 hook 参考，包括 `before_tool_call`、`before_agent_reply`、`before_install` 以及其他所有插件 hooks，请参见 [Plugin Architecture](/plugins/architecture#provider-runtime-hooks)。
+完整的插件 hook 参考，包括 `before_tool_call`、`before_agent_reply`、`before_install` 以及其他所有插件 hooks，请参见 [插件内部机制](/zh-CN/plugins/architecture#provider-runtime-hooks)。
 
 ## 配置
 
@@ -304,7 +304,7 @@ openclaw hooks info my-hook
 
 ## 相关内容
 
-- [CLI 参考：hooks](/cli/hooks)
+- [CLI 参考：hooks](/zh-CN/cli/hooks)
 - [Webhooks](/zh-CN/automation/cron-jobs#webhooks)
-- [Plugin Architecture](/plugins/architecture#provider-runtime-hooks) — 完整插件 hook 参考
-- [配置](/gateway/configuration-reference#hooks)
+- [插件内部机制](/zh-CN/plugins/architecture#provider-runtime-hooks) — 完整插件 hook 参考
+- [配置](/zh-CN/gateway/configuration-reference#hooks)

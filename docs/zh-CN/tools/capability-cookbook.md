@@ -19,7 +19,7 @@ x-i18n:
 
 <Info>
   这是面向 OpenClaw 核心开发者的**贡献者指南**。如果你正在
-  构建外部插件，请改看 [Building Plugins](/zh-CN/plugins/building-plugins)。
+  构建外部插件，请改看 [构建插件](/zh-CN/plugins/building-plugins)。
 </Info>
 
 当 OpenClaw 需要一个新的领域能力时使用本文，例如图像生成、视频

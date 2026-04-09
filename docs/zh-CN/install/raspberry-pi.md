@@ -162,5 +162,5 @@ sudo systemctl disable bluetooth
 ## 后续步骤
 
 - [渠道](/zh-CN/channels) —— 连接 Telegram、WhatsApp、Discord 等
-- [Gateway 网关配置](/zh-CN/gateway/configuration) —— 所有配置选项
+- [??](/zh-CN/gateway/configuration) —— 所有配置选项
 - [更新](/zh-CN/install/updating) —— 保持 OpenClaw 为最新版本

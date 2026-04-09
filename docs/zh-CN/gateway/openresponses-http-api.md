@@ -272,7 +272,7 @@ URL 获取默认值：
 - URL allowlist 会在获取前以及每次重定向跳转时强制执行。
 - 将某个主机名加入 allowlist 并不会绕过私有 / 内部 IP 屏蔽。
 - 对于暴露在互联网上的 Gateway 网关，请在应用层保护之外额外施加网络出口控制。
-  参见 [Security](/gateway/security)。
+  参见 [??](/zh-CN/gateway/security)。
 
 ## 流式传输（SSE）
 

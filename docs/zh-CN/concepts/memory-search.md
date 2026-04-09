@@ -109,11 +109,11 @@ flowchart LR
 
 ## 多模态记忆
 
-借助 Gemini Embedding 2，你可以将图像和音频文件与 Markdown 一起建立索引。搜索查询仍然是文本，但可以匹配视觉和音频内容。有关设置，请参见 [记忆配置参考](/reference/memory-config)。
+借助 Gemini Embedding 2，你可以将图像和音频文件与 Markdown 一起建立索引。搜索查询仍然是文本，但可以匹配视觉和音频内容。有关设置，请参见 [记忆配置参考](/zh-CN/reference/memory-config)。
 
 ## 会话记忆搜索
 
-你还可以选择为会话转录建立索引，这样 `memory_search` 就能回忆更早之前的对话。这是通过 `memorySearch.experimental.sessionMemory` 选择启用的实验特性。详情请参见 [配置参考](/reference/memory-config)。
+你还可以选择为会话转录建立索引，这样 `memory_search` 就能回忆更早之前的对话。这是通过 `memorySearch.experimental.sessionMemory` 选择启用的实验特性。详情请参见 [配置参考](/zh-CN/reference/memory-config)。
 
 ## 故障排除
 
@@ -126,4 +126,4 @@ flowchart LR
 ## 延伸阅读
 
 - [记忆](/zh-CN/concepts/memory) —— 文件布局、后端、工具
-- [记忆配置参考](/reference/memory-config) —— 所有配置项
+- [记忆配置参考](/zh-CN/reference/memory-config) —— 所有配置项

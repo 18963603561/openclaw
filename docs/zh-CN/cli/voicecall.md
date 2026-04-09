@@ -19,7 +19,7 @@ x-i18n:
 
 主要文档：
 
-- Voice Call 插件： [Voice Call](/plugins/voice-call)
+- Voice Call 插件： [Voice Call 插件](/zh-CN/plugins/voice-call)
 
 ## 常用命令
 

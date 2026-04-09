@@ -188,7 +188,7 @@ OpenClaw 会根据插件的注册行为对已加载插件进行分类：
 
 ## 相关内容
 
-- [SDK 概览](/zh-CN/plugins/sdk-overview) —— 注册 API 和子路径参考
+- [插件 SDK 概览](/zh-CN/plugins/sdk-overview) —— 注册 API 和子路径参考
 - [运行时辅助函数](/zh-CN/plugins/sdk-runtime) —— `api.runtime` 和 `createPluginRuntimeStore`
 - [设置和配置](/zh-CN/plugins/sdk-setup) —— 清单、设置入口、延迟加载
 - [渠道插件](/zh-CN/plugins/sdk-channel-plugins) —— 构建 `ChannelPlugin` 对象

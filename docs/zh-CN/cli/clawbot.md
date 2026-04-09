@@ -19,7 +19,7 @@ x-i18n:
 
 当前支持的别名：
 
-- `openclaw clawbot qr`（与 [`openclaw qr`](/cli/qr) 行为相同）
+- `openclaw clawbot qr`（与 [`openclaw qr`](/zh-CN/cli/qr) 行为相同）
 
 ## 迁移
 

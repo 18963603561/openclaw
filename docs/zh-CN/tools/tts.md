@@ -67,7 +67,7 @@ Microsoft 语音**不**需要 API 密钥。
 ## 配置
 
 TTS 配置位于 `openclaw.json` 的 `messages.tts` 下。
-完整 schema 见 [Gateway 配置](/zh-CN/gateway/configuration)。
+完整 schema 见 [??](/zh-CN/gateway/configuration)。
 
 ### 最小配置（启用 + 提供商）
 
@@ -400,7 +400,7 @@ Reply -> TTS enabled?
 ## Slash command 用法
 
 只有一个命令：`/tts`。
-启用细节参见 [Slash Commands](/zh-CN/tools/slash-commands)。
+启用细节参见 [????](/zh-CN/tools/slash-commands)。
 
 Discord 说明：`/tts` 是 Discord 的内置命令，因此 OpenClaw 在该平台上注册的是
 `/voice` 作为原生命令。文本 `/tts ...` 仍然可用。

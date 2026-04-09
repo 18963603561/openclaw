@@ -50,7 +50,7 @@ x-i18n:
 
 协议详情：
 
-- [Gateway 网关协议](/gateway/protocol)
+- [Gateway ????](/zh-CN/gateway/protocol)
 
 ### WebChat
 
@@ -114,8 +114,8 @@ sequenceDiagram
 - **非本地**连接仍然需要显式批准。
 - Gateway 网关认证（`gateway.auth.*`）仍适用于**所有**连接，无论本地还是远程。
 
-详情参见： [Gateway 网关协议](/gateway/protocol)、[配对](/zh-CN/channels/pairing)、
-[安全](/gateway/security)。
+详情参见： [Gateway ????](/zh-CN/gateway/protocol)、[配对](/zh-CN/channels/pairing)、
+[安全](/zh-CN/gateway/security)。
 
 ## 协议类型和代码生成
 
@@ -150,6 +150,6 @@ sequenceDiagram
 ## 相关内容
 
 - [智能体循环](/zh-CN/concepts/agent-loop) — 详细的智能体执行周期
-- [Gateway 网关协议](/gateway/protocol) — WebSocket 协议契约
-- [队列](/concepts/queue) — 命令队列和并发
-- [安全](/gateway/security) — 信任模型和加固
+- [Gateway ????](/zh-CN/gateway/protocol) — WebSocket 协议契约
+- [队列](/zh-CN/concepts/queue) — 命令队列和并发
+- [安全](/zh-CN/gateway/security) — 信任模型和加固

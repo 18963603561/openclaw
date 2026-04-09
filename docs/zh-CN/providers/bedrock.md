@@ -240,7 +240,7 @@ Gateway 网关使用的 IAM 主体除了标准调用权限外，还必须拥有 
 
 ## 用于记忆搜索的 Embeddings
 
-Bedrock 也可以作为 [memory search](/zh-CN/concepts/memory-search) 的 embedding 提供商。这与推理提供商是分开配置的 —— 将 `agents.defaults.memorySearch.provider` 设为 `"bedrock"`：
+Bedrock 也可以作为 [记忆搜索](/zh-CN/concepts/memory-search) 的 embedding 提供商。这与推理提供商是分开配置的 —— 将 `agents.defaults.memorySearch.provider` 设为 `"bedrock"`：
 
 ```json5
 {
@@ -258,4 +258,4 @@ Bedrock 也可以作为 [memory search](/zh-CN/concepts/memory-search) 的 embed
 Bedrock embeddings 与推理使用相同的 AWS SDK 凭证链（实例角色、SSO、访问密钥、共享配置和 Web identity）。不需要 API 密钥。当 `provider` 为 `"auto"` 时，如果该凭证链能够成功解析，就会自动检测 Bedrock。
 
 受支持的 embedding 模型包括 Amazon Titan Embed（v1、v2）、Amazon Nova Embed、Cohere Embed（v3、v4）以及 TwelveLabs Marengo。完整模型列表和维度选项请参见
-[记忆配置参考 —— Bedrock](/zh-CN/reference/memory-config#bedrock-embedding-config)。
+[Memory ????](/zh-CN/reference/memory-config#bedrock-embedding-config)。

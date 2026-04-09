@@ -117,7 +117,7 @@ x-i18n:
 
 ## 相关内容
 
-- [Exec tool](/zh-CN/tools/exec) — Shell 命令执行
-- [Exec approvals](/zh-CN/tools/exec-approvals) — 审批与允许列表系统
+- [Exec ??](/zh-CN/tools/exec) — Shell 命令执行
+- [Exec ??](/zh-CN/tools/exec-approvals) — 审批与允许列表系统
 - [沙箱隔离](/zh-CN/gateway/sandboxing) — 沙箱配置
-- [Sandbox vs Tool Policy vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated)
+- [沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated)

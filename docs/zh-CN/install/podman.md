@@ -123,7 +123,7 @@ Podman 专属说明：
 参见：
 
 - [Tailscale](/zh-CN/gateway/tailscale)
-- [Control UI](/web/control-ui)
+- [?? UI](/zh-CN/web/control-ui)
 
 ## Systemd（Quadlet，可选）
 
@@ -213,5 +213,5 @@ Quadlet 说明：
 ## 相关内容
 
 - [Docker](/zh-CN/install/docker)
-- [Gateway 后台进程](/zh-CN/gateway/background-process)
-- [Gateway 故障排除](/zh-CN/gateway/troubleshooting)
+- [后台 Exec 与 Process 工具](/zh-CN/gateway/background-process)
+- [故障排除](/zh-CN/gateway/troubleshooting)

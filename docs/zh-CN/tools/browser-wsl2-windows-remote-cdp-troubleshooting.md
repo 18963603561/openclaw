@@ -82,7 +82,7 @@ x-i18n:
 
 `http://127.0.0.1:18789/`
 
-不要默认对 Control UI 使用局域网 IP。局域网或 tailnet 地址上的纯 HTTP 可能会触发不安全来源 / 设备认证行为，而这些问题与 CDP 本身无关。参见 [Control UI](/web/control-ui)。
+不要默认对 Control UI 使用局域网 IP。局域网或 tailnet 地址上的纯 HTTP 可能会触发不安全来源 / 设备认证行为，而这些问题与 CDP 本身无关。参见 [?? UI](/zh-CN/web/control-ui)。
 
 ## 分层验证
 
@@ -170,7 +170,7 @@ curl http://WINDOWS_HOST_OR_IP:9222/json/list
 
 有帮助的页面：
 
-- [Control UI](/web/control-ui)
+- [?? UI](/zh-CN/web/control-ui)
 
 ### 第 5 层：验证端到端浏览器控制
 

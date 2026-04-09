@@ -157,7 +157,7 @@ openclaw config set --batch-file ./config-set.batch.json --dry-run
 
 策略说明：
 
-- 在不支持运行时可变更的接口上，SecretRef 赋值会被拒绝（例如 `hooks.token`、`commands.ownerDisplaySecret`、Discord 线程绑定 webhook token，以及 WhatsApp creds JSON）。参见 [SecretRef Credential Surface](/reference/secretref-credential-surface)。
+- 在不支持运行时可变更的接口上，SecretRef 赋值会被拒绝（例如 `hooks.token`、`commands.ownerDisplaySecret`、Discord 线程绑定 webhook token，以及 WhatsApp creds JSON）。参见 [SecretRef ?????](/zh-CN/reference/secretref-credential-surface)。
 
 批量解析始终以批量负载（`--batch-json`/`--batch-file`）作为事实来源。
 `--strict-json` / `--json` 不会改变批量解析行为。

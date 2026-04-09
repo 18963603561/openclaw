@@ -36,7 +36,7 @@ x-i18n:
 
 ### 如何为本威胁模型做贡献
 
-这是一个由 OpenClaw 社区维护的动态文档。有关贡献指南，请参见 [CONTRIBUTING-THREAT-MODEL.md](/zh-CN/security/CONTRIBUTING-THREAT-MODEL)：
+这是一个由 OpenClaw 社区维护的动态文档。有关贡献指南，请参见 [为威胁模型做贡献](/zh-CN/security/CONTRIBUTING-THREAT-MODEL)：
 
 - 报告新威胁
 - 更新现有威胁

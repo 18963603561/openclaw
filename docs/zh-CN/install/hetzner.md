@@ -30,7 +30,7 @@ Hetzner 的价格可能会变化；请选择最小的 Debian/Ubuntu VPS，如果
 - 保持严格隔离：专用 VPS/运行时 + 专用账号；不要在该主机上使用个人 Apple/Google/浏览器/密码管理器 profiles。
 - 如果用户彼此具有对抗性，请按 gateway/主机/OS 用户拆分。
 
-参见 [安全](/zh-CN/gateway/security) 和 [VPS 托管](/vps)。
+参见 [安全](/zh-CN/gateway/security) 和 [Linux ???](/zh-CN/vps)。
 
 ## 我们要做什么（通俗版）？
 
@@ -262,5 +262,5 @@ Hetzner 的价格可能会变化；请选择最小的 Debian/Ubuntu VPS，如果
 ## 后续步骤
 
 - 设置消息渠道：[渠道](/zh-CN/channels)
-- 配置 Gateway 网关：[Gateway 网关配置](/zh-CN/gateway/configuration)
+- 配置 Gateway 网关：[??](/zh-CN/gateway/configuration)
 - 保持 OpenClaw 为最新版本：[更新](/zh-CN/install/updating)

@@ -143,12 +143,12 @@ MiniMax 图像生成可通过两种内置的 MiniMax 认证路径使用：
 
 ## 相关内容
 
-- [Tools Overview](/zh-CN/tools) — 所有可用的智能体工具
+- [工具和插件](/zh-CN/tools) — 所有可用的智能体工具
 - [fal](/zh-CN/providers/fal) — fal 图像和视频提供商设置
 - [ComfyUI](/zh-CN/providers/comfy) — 本地 ComfyUI 和 Comfy Cloud 工作流设置
 - [Google (Gemini)](/zh-CN/providers/google) — Gemini 图像提供商设置
 - [MiniMax](/zh-CN/providers/minimax) — MiniMax 图像提供商设置
 - [OpenAI](/zh-CN/providers/openai) — OpenAI Images 提供商设置
 - [Vydra](/zh-CN/providers/vydra) — Vydra 图像、视频和语音设置
-- [Configuration Reference](/gateway/configuration-reference#agent-defaults) — `imageGenerationModel` 配置
-- [Models](/zh-CN/concepts/models) — 模型配置和故障切换
+- [????](/zh-CN/gateway/configuration-reference#agent-defaults) — `imageGenerationModel` 配置
+- [?? CLI](/zh-CN/concepts/models) — 模型配置和故障切换

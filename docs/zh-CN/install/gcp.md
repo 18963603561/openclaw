@@ -342,7 +342,7 @@ Ubuntu 也可以；请相应调整软件包。
     ```
 
     还需要查看共享的持久化与更新参考？
-    请参见 [Docker VM 运行时](/zh-CN/install/docker-vm-runtime#what-persists-where) 和 [Docker VM 运行时更新](/zh-CN/install/docker-vm-runtime#updates)。
+    请参见 [Docker VM 运行时](/zh-CN/install/docker-vm-runtime#what-persists-where) 和 [Docker VM 运行时](/zh-CN/install/docker-vm-runtime#updates)。
 
   </Step>
 </Steps>
@@ -415,4 +415,4 @@ gcloud compute instances start openclaw-gateway --zone=us-central1-a
 
 - 设置消息渠道：[渠道](/zh-CN/channels)
 - 将本地设备配对为节点：[节点](/zh-CN/nodes)
-- 配置 Gateway 网关：[Gateway 网关配置](/zh-CN/gateway/configuration)
+- 配置 Gateway 网关：[??](/zh-CN/gateway/configuration)

@@ -36,7 +36,7 @@ openclaw plugins install @openclaw/matrix
 openclaw plugins install ./path/to/local/matrix-plugin
 ```
 
-有关插件行为和安装规则，参见 [插件](/tools/plugin)。
+有关插件行为和安装规则，参见 [插件](/zh-CN/tools/plugin)。
 
 ## 设置
 
@@ -488,7 +488,7 @@ openclaw matrix verify status --include-recovery-key --json
 openclaw matrix verify bootstrap
 ```
 
-多账户支持：使用 `channels.matrix.accounts` 配置各账户凭证和可选 `name`。共享模式参见 [配置参考](/gateway/configuration-reference#multi-account-all-channels)。
+多账户支持：使用 `channels.matrix.accounts` 配置各账户凭证和可选 `name`。共享模式参见 [配置参考](/zh-CN/gateway/configuration-reference#multi-account-all-channels)。
 
 详细 bootstrap 诊断：
 
@@ -623,7 +623,7 @@ openclaw matrix verify status
 - 如果同一账户、homeserver 和用户的 Matrix access token 在之后发生变化，OpenClaw 现在会优先复用最完整的现有 token-hash 存储根，而不是从一个空的 Matrix 状态目录开始。
 - 在下一次 gateway 启动时，已备份的房间密钥会自动恢复到新的加密存储中。
 - 如果旧插件存在从未备份的本地房间密钥，OpenClaw 会给出清晰警告。这些密钥无法从之前的 rust crypto store 中自动导出，因此一些旧的加密历史在手动恢复之前可能仍不可用。
-- 完整的升级流程、限制、恢复命令和常见迁移消息，请参见 [Matrix 迁移](/install/migrating-matrix)。
+- 完整的升级流程、限制、恢复命令和常见迁移消息，请参见 [Matrix 迁移](/zh-CN/install/migrating-matrix)。
 
 加密的运行时状态会按账户、用户和 token-hash 组织在
 `~/.openclaw/matrix/accounts/<account>/<homeserver>__<user>/<token-hash>/` 下。
@@ -902,7 +902,7 @@ Matrix 审批提示复用了共享的核心审批规划器。Matrix 特有的原
 
 - `channels.matrix.accounts.<account>.execApprovals`
 
-相关文档：[Exec 审批](/tools/exec-approvals)
+相关文档：[Exec ??](/zh-CN/tools/exec-approvals)
 
 ## 多账户示例
 
@@ -1019,7 +1019,7 @@ OpenClaw 会将同一代理设置用于运行时 Matrix 流量和账户状态探
 - `network.dangerouslyAllowPrivateNetwork`：允许该 Matrix 账户连接到私有/内部 homeserver。当 homeserver 解析到 `localhost`、LAN/Tailscale IP 或诸如 `matrix-synapse` 这样的内部主机时，请启用此项。
 - `proxy`：用于 Matrix 流量的可选 HTTP(S) 代理 URL。命名账户可以使用自己的 `proxy` 覆盖顶层默认值。
 - `userId`：完整 Matrix 用户 ID，例如 `@bot:example.org`。
-- `accessToken`：基于 token 的身份验证 access token。`channels.matrix.accessToken` 和 `channels.matrix.accounts.<id>.accessToken` 同时支持明文值和 SecretRef 值，并可跨环境变量/文件/exec 提供商使用。参见 [Secrets Management](/gateway/secrets)。
+- `accessToken`：基于 token 的身份验证 access token。`channels.matrix.accessToken` 和 `channels.matrix.accounts.<id>.accessToken` 同时支持明文值和 SecretRef 值，并可跨环境变量/文件/exec 提供商使用。参见 [Secrets 管理](/zh-CN/gateway/secrets)。
 - `password`：基于密码登录的密码。支持明文值和 SecretRef 值。
 - `deviceId`：显式 Matrix 设备 ID。
 - `deviceName`：密码登录时的设备显示名称。
@@ -1076,4 +1076,4 @@ OpenClaw 会将同一代理设置用于运行时 Matrix 流量和账户状态探
 - [配对](/zh-CN/channels/pairing) — 私信身份验证和配对流程
 - [群组](/zh-CN/channels/groups) — 群聊行为和提及门控
 - [渠道路由](/zh-CN/channels/channel-routing) — 消息的会话路由
-- [安全性](/gateway/security) — 访问模型与加固
+- [安全性](/zh-CN/gateway/security) — 访问模型与加固

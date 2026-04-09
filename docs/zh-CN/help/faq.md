@@ -15,7 +15,7 @@ x-i18n:
 
 # 常见问题
 
-针对真实环境部署（本地开发、VPS、多智能体、OAuth/API 密钥、模型故障切换）的快速答案和更深入的故障排查。关于运行时诊断，请参见 [故障排除](/zh-CN/gateway/troubleshooting)。完整配置参考请参见 [Configuration](/zh-CN/gateway/configuration)。
+针对真实环境部署（本地开发、VPS、多智能体、OAuth/API 密钥、模型故障切换）的快速答案和更深入的故障排查。关于运行时诊断，请参见 [故障排除](/zh-CN/gateway/troubleshooting)。完整配置参考请参见 [??](/zh-CN/gateway/configuration)。
 
 ## 如果出了问题，最初的六十秒该做什么
 
@@ -50,7 +50,7 @@ x-i18n:
    ```
 
    运行实时 Gateway 网关健康探测，包括在支持时的渠道探测
-   （需要可访问的 Gateway 网关）。参见 [Health](/zh-CN/gateway/health)。
+   （需要可访问的 Gateway 网关）。参见 [健康检查](/zh-CN/gateway/health)。
 
 5. **查看最新日志**
 
@@ -64,7 +64,7 @@ x-i18n:
    tail -f "$(ls -t /tmp/openclaw/openclaw-*.log | head -1)"
    ```
 
-   文件日志与服务日志是分开的；参见 [Logging](/zh-CN/logging) 和 [故障排除](/zh-CN/gateway/troubleshooting)。
+   文件日志与服务日志是分开的；参见 [??](/zh-CN/logging) 和 [故障排除](/zh-CN/gateway/troubleshooting)。
 
 6. **运行 Doctor（修复）**
 
@@ -81,7 +81,7 @@ x-i18n:
    openclaw health --verbose   # shows the target URL + config path on errors
    ```
 
-   向正在运行的 Gateway 网关请求完整快照（仅 WS）。参见 [Health](/zh-CN/gateway/health)。
+   向正在运行的 Gateway 网关请求完整快照（仅 WS）。参见 [健康检查](/zh-CN/gateway/health)。
 
 ## 快速开始和首次运行设置
 
@@ -131,7 +131,7 @@ x-i18n:
     `openclaw gateway status`、`openclaw health --verbose`。
 
     快速调试循环： [如果出了问题，最初的六十秒该做什么](#first-60-seconds-if-something-is-broken)。
-    安装文档： [Install](/zh-CN/install)、[安装器标志](/zh-CN/install/installer)、[Updating](/zh-CN/install/updating)。
+    安装文档： [安装](/zh-CN/install)、[安装器标志](/zh-CN/install/installer)、[更新](/zh-CN/install/updating)。
 
   </Accordion>
 
@@ -146,7 +146,7 @@ x-i18n:
     在任务模式下，只有在真正的 heartbeat 运行
     完成后，相关的到期时间戳才会推进。被跳过的运行不会将任务标记为已完成。
 
-    文档： [Heartbeat](/zh-CN/gateway/heartbeat)、[Automation & Tasks](/zh-CN/automation)。
+    文档： [Heartbeat](/zh-CN/gateway/heartbeat)、[自动化与任务](/zh-CN/automation)。
 
   </Accordion>
 
@@ -196,7 +196,7 @@ x-i18n:
     - **身份感知反向代理**：将 Gateway 网关保留在非 loopback 的受信任代理之后，配置 `gateway.auth.mode: "trusted-proxy"`，然后打开代理 URL。
     - **SSH 隧道**：`ssh -N -L 18789:127.0.0.1:18789 user@host`，然后打开 `http://127.0.0.1:18789/`。共享密钥认证在隧道上仍然生效；若出现提示，请粘贴已配置的 token 或 password。
 
-    参见 [Dashboard](/web/dashboard) 和 [Web surfaces](/web) 了解绑定模式和认证细节。
+    参见 [???](/zh-CN/web/dashboard) 和 [Web ??](/zh-CN/web) 了解绑定模式和认证细节。
 
   </Accordion>
 
@@ -219,7 +219,7 @@ x-i18n:
     - 插件审批又是单独一层：默认使用同一聊天中的 `/approve`，可选 `approvals.plugin` 转发，而且只有部分原生渠道会在此基础上保留插件原生审批处理。
 
     简短地说：转发用于路由，原生客户端配置用于更丰富的渠道专属 UX。
-    参见 [Exec Approvals](/tools/exec-approvals)。
+    参见 [Exec ??](/zh-CN/tools/exec-approvals)。
 
   </Accordion>
 
@@ -235,7 +235,7 @@ x-i18n:
     这不是硬性最低要求。
 
     提示：小型 Pi/VPS 可以托管 Gateway 网关，而你可以在笔记本/手机上配对 **nodes**，以获得
-    本地屏幕/摄像头/canvas 或命令执行能力。参见 [Nodes](/zh-CN/nodes)。
+    本地屏幕/摄像头/canvas 或命令执行能力。参见 [??](/zh-CN/nodes)。
 
   </Accordion>
 
@@ -247,7 +247,7 @@ x-i18n:
     - 一开始不要启用渠道/Skills，先逐个添加。
     - 如果碰到奇怪的二进制问题，通常是 **ARM 兼容性** 问题。
 
-    文档： [Linux](/zh-CN/platforms/linux)、[Install](/zh-CN/install)。
+    文档： [Linux 应用](/zh-CN/platforms/linux)、[安装](/zh-CN/install)。
 
   </Accordion>
 
@@ -277,7 +277,7 @@ x-i18n:
     ```
 
     如果 Gateway 网关是远程的，请确保隧道/Tailscale 连接已建立，并且 UI
-    指向了正确的 Gateway 网关。参见 [Remote access](/zh-CN/gateway/remote)。
+    指向了正确的 Gateway 网关。参见 [????](/zh-CN/gateway/remote)。
 
   </Accordion>
 
@@ -298,7 +298,7 @@ x-i18n:
     **记忆 + 引导文件**，但**不包括**会话历史或认证信息。那些内容位于
     `~/.openclaw/` 下（例如 `~/.openclaw/agents/<agentId>/sessions/`）。
 
-    相关内容： [Migrating](/zh-CN/install/migrating)、[磁盘上的文件存储位置](#where-things-live-on-disk)、
+    相关内容： [迁移指南](/zh-CN/install/migrating)、[磁盘上的文件存储位置](#where-things-live-on-disk)、
     [智能体工作区](/zh-CN/concepts/agent-workspace)、[Doctor](/zh-CN/gateway/doctor)、
     [远程模式](/zh-CN/gateway/remote)。
 
@@ -391,8 +391,8 @@ x-i18n:
     pnpm build
     ```
 
-    文档： [Update](/cli/update)、[开发渠道](/zh-CN/install/development-channels)、
-    [Install](/zh-CN/install)。
+    文档： [Update](/zh-CN/cli/update)、[开发渠道](/zh-CN/install/development-channels)、
+    [安装](/zh-CN/install)。
 
   </Accordion>
 
@@ -460,7 +460,7 @@ x-i18n:
     - 更新 PATH 后关闭并重新打开 PowerShell。
 
     如果你想要最顺滑的 Windows 安装体验，请使用 **WSL2** 而不是原生 Windows。
-    文档： [Windows](/platforms/windows)。
+    文档： [Windows](/zh-CN/platforms/windows)。
 
   </Accordion>
 
@@ -501,16 +501,16 @@ x-i18n:
     curl -fsSL https://openclaw.ai/install.sh | bash -s -- --install-method git
     ```
 
-    更多细节： [Install](/zh-CN/install) 和 [安装器标志](/zh-CN/install/installer)。
+    更多细节： [安装](/zh-CN/install) 和 [安装器标志](/zh-CN/install/installer)。
 
   </Accordion>
 
   <Accordion title="如何在 Linux 上安装 OpenClaw？">
     简短回答：按 Linux 指南操作，然后运行 onboarding。
 
-    - Linux 快速路径 + 服务安装： [Linux](/zh-CN/platforms/linux)。
-    - 完整演练： [入门指南](/start/getting-started)。
-    - 安装器 + 更新： [Install & updates](/zh-CN/install/updating)。
+    - Linux 快速路径 + 服务安装： [Linux 应用](/zh-CN/platforms/linux)。
+    - 完整演练： [入门指南](/zh-CN/start/getting-started)。
+    - 安装器 + 更新： [更新](/zh-CN/install/updating)。
 
   </Accordion>
 
@@ -518,14 +518,14 @@ x-i18n:
     任意 Linux VPS 都可以。在服务器上安装后，再通过 SSH/Tailscale 访问 Gateway 网关。
 
     指南： [exe.dev](/zh-CN/install/exe-dev)、[Hetzner](/zh-CN/install/hetzner)、[Fly.io](/zh-CN/install/fly)。
-    远程访问： [Gateway remote](/zh-CN/gateway/remote)。
+    远程访问： [????](/zh-CN/gateway/remote)。
 
   </Accordion>
 
   <Accordion title="云端/VPS 安装指南在哪里？">
     我们保留了一个**托管中心**，收录常见提供商。选择一个并跟随指南：
 
-    - [VPS hosting](/vps)（所有提供商集中在一处）
+    - [Linux ???](/zh-CN/vps)（所有提供商集中在一处）
     - [Fly.io](/zh-CN/install/fly)
     - [Hetzner](/zh-CN/install/hetzner)
     - [exe.dev](/zh-CN/install/exe-dev)
@@ -538,8 +538,8 @@ x-i18n:
     以访问本地屏幕/摄像头/canvas，或在笔记本上运行命令，同时仍将
     Gateway 网关保留在云端。
 
-    中心页： [Platforms](/zh-CN/platforms)。远程访问： [Gateway remote](/zh-CN/gateway/remote)。
-    节点： [Nodes](/zh-CN/nodes)、[Nodes CLI](/cli/nodes)。
+    中心页： [平台](/zh-CN/platforms)。远程访问： [????](/zh-CN/gateway/remote)。
+    节点： [??](/zh-CN/nodes)、[Nodes CLI](/zh-CN/cli/nodes)。
 
   </Accordion>
 
@@ -565,7 +565,7 @@ x-i18n:
     openclaw gateway restart
     ```
 
-    文档： [Update](/cli/update)、[Updating](/zh-CN/install/updating)。
+    文档： [Update](/zh-CN/cli/update)、[更新](/zh-CN/install/updating)。
 
   </Accordion>
 
@@ -604,9 +604,9 @@ x-i18n:
     **Qwen Cloud Coding Plan**、**MiniMax Coding Plan** 和
     **Z.AI / GLM Coding Plan**。
 
-    文档： [Anthropic](/providers/anthropic)、[OpenAI](/providers/openai)、
-    [Qwen Cloud](/providers/qwen)、
-    [MiniMax](/providers/minimax)、[GLM Models](/providers/glm)、
+    文档： [Anthropic](/zh-CN/providers/anthropic)、[OpenAI](/zh-CN/providers/openai)、
+    [Qwen Cloud](/zh-CN/providers/qwen)、
+    [MiniMax](/zh-CN/providers/minimax)、[GLM 模型](/zh-CN/providers/glm)、
     [本地模型](/zh-CN/gateway/local-models)、[模型](/zh-CN/concepts/models)。
 
   </Accordion>
@@ -631,9 +631,9 @@ x-i18n:
     Anthropic setup-token 仍然是 OpenClaw 支持的 token 路径之一，但在条件允许时，OpenClaw 现在更偏好复用 Claude CLI 和 `claude -p`。
     对于生产或多用户工作负载，Anthropic API key 认证仍然是
     更安全、更可预测的选择。如果你想在 OpenClaw 中使用其他订阅式托管
-    选项，请参见 [OpenAI](/providers/openai)、[Qwen / Model
-    Cloud](/providers/qwen)、[MiniMax](/providers/minimax) 和 [GLM
-    Models](/providers/glm)。
+    选项，请参见 [OpenAI](/zh-CN/providers/openai)、[Qwen / Model
+    Cloud](/zh-CN/providers/qwen)、[MiniMax](/zh-CN/providers/minimax) 和 [GLM
+    Models](/zh-CN/providers/glm)。
 
   </Accordion>
 
@@ -651,17 +651,17 @@ x-i18n:
     启用了 Extra Usage 的 OpenClaw Claude 登录路径）。
 
     提示：设置一个**回退模型**，这样在某个提供商遭遇速率限制时，OpenClaw 仍可继续回复。
-    参见 [Models](/cli/models)、[OAuth](/zh-CN/concepts/oauth)，以及
+    参见 [Models](/zh-CN/cli/models)、[OAuth](/zh-CN/concepts/oauth)，以及
     [/gateway/troubleshooting#anthropic-429-extra-usage-required-for-long-context](/zh-CN/gateway/troubleshooting#anthropic-429-extra-usage-required-for-long-context)。
 
   </Accordion>
 
   <Accordion title="支持 AWS Bedrock 吗？">
-    支持。OpenClaw 内置了 **Amazon Bedrock (Converse)** 提供商。当存在 AWS 环境标记时，OpenClaw 可自动发现支持流式/文本的 Bedrock 模型目录，并将其合并为隐式的 `amazon-bedrock` 提供商；否则你也可以显式启用 `plugins.entries.amazon-bedrock.config.discovery.enabled` 或手动添加一个提供商条目。参见 [Amazon Bedrock](/providers/bedrock) 和 [模型提供商](/providers/models)。如果你更偏好托管式密钥流程，在 Bedrock 前面放一个兼容 OpenAI 的代理也仍是有效方案。
+    支持。OpenClaw 内置了 **Amazon Bedrock (Converse)** 提供商。当存在 AWS 环境标记时，OpenClaw 可自动发现支持流式/文本的 Bedrock 模型目录，并将其合并为隐式的 `amazon-bedrock` 提供商；否则你也可以显式启用 `plugins.entries.amazon-bedrock.config.discovery.enabled` 或手动添加一个提供商条目。参见 [Amazon Bedrock](/zh-CN/providers/bedrock) 和 [模型提供商](/zh-CN/providers/models)。如果你更偏好托管式密钥流程，在 Bedrock 前面放一个兼容 OpenAI 的代理也仍是有效方案。
   </Accordion>
 
   <Accordion title="Codex 认证是如何工作的？">
-    OpenClaw 通过 OAuth（ChatGPT 登录）支持 **OpenAI Code (Codex)**。Onboarding 可运行 OAuth 流程，并会在适当时将默认模型设为 `openai-codex/gpt-5.4`。参见 [模型提供商](/zh-CN/concepts/model-providers) 和 [设置向导（CLI）](/start/wizard)。
+    OpenClaw 通过 OAuth（ChatGPT 登录）支持 **OpenAI Code (Codex)**。Onboarding 可运行 OAuth 流程，并会在适当时将默认模型设为 `openai-codex/gpt-5.4`。参见 [模型提供商](/zh-CN/concepts/model-providers) 和 [新手引导（CLI）](/zh-CN/start/wizard)。
   </Accordion>
 
   <Accordion title="为什么 ChatGPT GPT-5.4 不会在 OpenClaw 中解锁 openai/gpt-5.4？">
@@ -694,7 +694,7 @@ x-i18n:
     OpenAI 明确允许在 OpenClaw 这类外部工具/工作流中
     使用订阅 OAuth。Onboarding 可以为你运行 OAuth 流程。
 
-    参见 [OAuth](/zh-CN/concepts/oauth)、[模型提供商](/zh-CN/concepts/model-providers) 和 [设置向导（CLI）](/start/wizard)。
+    参见 [OAuth](/zh-CN/concepts/oauth)、[模型提供商](/zh-CN/concepts/model-providers) 和 [新手引导（CLI）](/zh-CN/start/wizard)。
 
   </Accordion>
 
@@ -716,7 +716,7 @@ x-i18n:
   </Accordion>
 
   <Accordion title="本地模型适合日常闲聊吗？">
-    通常不适合。OpenClaw 需要大上下文 + 强安全性；小模型会截断并泄漏。如果你一定要用，请在本地（LM Studio）运行你能支持的**最大**模型版本，并参见 [/gateway/local-models](/zh-CN/gateway/local-models)。更小/量化更重的模型会增加 prompt injection 风险——参见 [Security](/zh-CN/gateway/security)。
+    通常不适合。OpenClaw 需要大上下文 + 强安全性；小模型会截断并泄漏。如果你一定要用，请在本地（LM Studio）运行你能支持的**最大**模型版本，并参见 [/gateway/local-models](/zh-CN/gateway/local-models)。更小/量化更重的模型会增加 prompt injection 风险——参见 [??](/zh-CN/gateway/security)。
   </Accordion>
 
   <Accordion title="如何让托管模型流量保留在特定地区？">
@@ -729,7 +729,7 @@ x-i18n:
 
     只有在你需要 **仅限 macOS 的工具** 时才一定要有 Mac。对于 iMessage，请使用 [BlueBubbles](/zh-CN/channels/bluebubbles)（推荐）——BlueBubbles 服务器运行在任意 Mac 上，而 Gateway 网关可以运行在 Linux 或其他地方。如果你还想使用其他仅限 macOS 的工具，请在 Mac 上运行 Gateway 网关，或配对一个 macOS 节点。
 
-    文档： [BlueBubbles](/zh-CN/channels/bluebubbles)、[Nodes](/zh-CN/nodes)、[Mac 远程模式](/platforms/mac/remote)。
+    文档： [BlueBubbles](/zh-CN/channels/bluebubbles)、[??](/zh-CN/nodes)、[远程控制](/zh-CN/platforms/mac/remote)。
 
   </Accordion>
 
@@ -742,8 +742,8 @@ x-i18n:
     - 在 Linux/VPS 上运行 Gateway 网关，在任意已登录 Messages 的 Mac 上运行 BlueBubbles 服务器。
     - 如果你想要最简单的单机设置，也可以把所有内容都运行在这台 Mac 上。
 
-    文档： [BlueBubbles](/zh-CN/channels/bluebubbles)、[Nodes](/zh-CN/nodes)、
-    [Mac 远程模式](/platforms/mac/remote)。
+    文档： [BlueBubbles](/zh-CN/channels/bluebubbles)、[??](/zh-CN/nodes)、
+    [远程控制](/zh-CN/platforms/mac/remote)。
 
   </Accordion>
 
@@ -758,7 +758,7 @@ x-i18n:
     - MacBook Pro 运行 macOS 应用或 node host，并与 Gateway 网关配对。
     - 使用 `openclaw nodes status` / `openclaw nodes list` 查看它。
 
-    文档： [Nodes](/zh-CN/nodes)、[Nodes CLI](/cli/nodes)。
+    文档： [??](/zh-CN/nodes)、[Nodes CLI](/zh-CN/cli/nodes)。
 
   </Accordion>
 
@@ -797,7 +797,7 @@ x-i18n:
   </Accordion>
 
   <Accordion title='我可以运行一个“快速聊天”智能体，再运行一个“用于编码的 Opus”智能体吗？'>
-    可以。使用多智能体路由：给每个智能体分配自己的默认模型，然后将入站路由（提供商账号或特定 peer）绑定到各自智能体。配置示例见 [多智能体路由](/zh-CN/concepts/multi-agent)。另见 [模型](/zh-CN/concepts/models) 和 [Configuration](/zh-CN/gateway/configuration)。
+    可以。使用多智能体路由：给每个智能体分配自己的默认模型，然后将入站路由（提供商账号或特定 peer）绑定到各自智能体。配置示例见 [多智能体路由](/zh-CN/concepts/multi-agent)。另见 [模型](/zh-CN/concepts/models) 和 [??](/zh-CN/gateway/configuration)。
   </Accordion>
 
   <Accordion title="Homebrew 在 Linux 上可用吗？">
@@ -821,7 +821,7 @@ x-i18n:
     - **npm install：** 全局 CLI 安装，不包含仓库，最适合“只想直接跑起来”。
       更新来自 npm dist-tags。
 
-    文档： [入门指南](/start/getting-started)、[Updating](/zh-CN/install/updating)。
+    文档： [入门指南](/zh-CN/start/getting-started)、[更新](/zh-CN/install/updating)。
 
   </Accordion>
 
@@ -869,7 +869,7 @@ x-i18n:
     - **优点：** 长期在线、网络稳定、不会受笔记本睡眠影响、更容易持续运行。
     - **缺点：** 通常是无头环境（需用截图代替）、只能远程访问文件、你必须通过 SSH 更新。
 
-    **OpenClaw 专属说明：** WhatsApp/Telegram/Slack/Mattermost/Discord 在 VPS 上都可正常运行。唯一真正的权衡是 **无头浏览器** 还是可见窗口。参见 [Browser](/tools/browser)。
+    **OpenClaw 专属说明：** WhatsApp/Telegram/Slack/Mattermost/Discord 在 VPS 上都可正常运行。唯一真正的权衡是 **无头浏览器** 还是可见窗口。参见 [?????](/zh-CN/tools/browser)。
 
     **推荐默认方案：** 如果你之前遇到过 Gateway 网关断连，选 VPS。若你正在主动使用 Mac，并且希望访问本地文件或通过可见浏览器进行 UI 自动化，本地运行也非常适合。
 
@@ -881,8 +881,8 @@ x-i18n:
     - **专用主机（VPS/Mac mini/Pi）：** 长期在线、较少受睡眠/重启影响、权限更干净、更容易持续运行。
     - **共享的笔记本/台式机：** 完全可以用于测试和主动使用，但机器睡眠或更新时要预期出现暂停。
 
-    如果你想兼顾两者，可以将 Gateway 网关保留在专用主机上，并将你的笔记本配对为 **node**，提供本地 screen/camera/exec 工具。参见 [Nodes](/zh-CN/nodes)。
-    安全建议请阅读 [Security](/zh-CN/gateway/security)。
+    如果你想兼顾两者，可以将 Gateway 网关保留在专用主机上，并将你的笔记本配对为 **node**，提供本地 screen/camera/exec 工具。参见 [??](/zh-CN/nodes)。
+    安全建议请阅读 [??](/zh-CN/gateway/security)。
 
   </Accordion>
 
@@ -894,7 +894,7 @@ x-i18n:
 
     操作系统：使用 **Ubuntu LTS**（或任意现代 Debian/Ubuntu）。Linux 安装路径在这些系统上测试最充分。
 
-    文档： [Linux](/zh-CN/platforms/linux)、[VPS hosting](/vps)。
+    文档： [Linux 应用](/zh-CN/platforms/linux)、[Linux ???](/zh-CN/vps)。
 
   </Accordion>
 
@@ -909,7 +909,7 @@ x-i18n:
     - **操作系统：** Ubuntu LTS 或其他现代 Debian/Ubuntu。
 
     如果你使用 Windows，**WSL2 是最容易的类虚拟机部署方式**，并且工具兼容性最好。
-    参见 [Windows](/platforms/windows)、[VPS hosting](/vps)。
+    参见 [Windows](/zh-CN/platforms/windows)、[Linux ???](/zh-CN/vps)。
     如果你是在虚拟机中运行 macOS，请参见 [macOS VM](/zh-CN/install/macos-vm)。
 
   </Accordion>
@@ -941,7 +941,7 @@ x-i18n:
       工作区和默认设置。
     - **开源且可修改：** 可检查、扩展、自托管，不受厂商锁定。
 
-    文档： [Gateway](/zh-CN/gateway)、[Channels](/zh-CN/channels)、[多智能体](/zh-CN/concepts/multi-agent)、
+    文档： [Gateway ??????](/zh-CN/gateway)、[??](/zh-CN/channels)、[多智能体](/zh-CN/concepts/multi-agent)、
     [记忆](/zh-CN/concepts/memory)。
 
   </Accordion>
@@ -978,7 +978,7 @@ x-i18n:
     平台政策，并在发送前检查所有内容。最安全的模式是让
     OpenClaw 起草，而由你审批。
 
-    文档： [Security](/zh-CN/gateway/security)。
+    文档： [??](/zh-CN/gateway/security)。
 
   </Accordion>
 
@@ -1018,7 +1018,7 @@ x-i18n:
     - **子智能体**：将任务路由到拥有不同默认模型的独立智能体。
     - **按需切换**：使用 `/model` 随时切换当前会话模型。
 
-    参见 [Cron jobs](/zh-CN/automation/cron-jobs)、[多智能体路由](/zh-CN/concepts/multi-agent) 和 [Slash commands](/tools/slash-commands)。
+    参见 [????](/zh-CN/automation/cron-jobs)、[多智能体路由](/zh-CN/concepts/multi-agent) 和 [????](/zh-CN/tools/slash-commands)。
 
   </Accordion>
 
@@ -1032,7 +1032,7 @@ x-i18n:
     token 提示：长任务和子智能体都会消耗 token。如果成本是重点，请通过 `agents.defaults.subagents.model` 为子智能体设置一个
     更便宜的模型。
 
-    文档： [子智能体](/tools/subagents)、[后台任务](/zh-CN/automation/tasks)。
+    文档： [子智能体](/zh-CN/tools/subagents)、[后台任务](/zh-CN/automation/tasks)。
 
   </Accordion>
 
@@ -1053,7 +1053,7 @@ x-i18n:
     - Discord 覆盖：`channels.discord.threadBindings.enabled`、`channels.discord.threadBindings.idleHours`、`channels.discord.threadBindings.maxAgeHours`。
     - 生成时自动绑定：设置 `channels.discord.threadBindings.spawnSubagentSessions: true`。
 
-    文档： [子智能体](/tools/subagents)、[Discord](/zh-CN/channels/discord)、[Configuration Reference](/gateway/configuration-reference)、[Slash commands](/tools/slash-commands)。
+    文档： [子智能体](/zh-CN/tools/subagents)、[Discord](/zh-CN/channels/discord)、[????](/zh-CN/gateway/configuration-reference)、[????](/zh-CN/tools/slash-commands)。
 
   </Accordion>
 
@@ -1073,7 +1073,7 @@ x-i18n:
     openclaw tasks show <runId-or-sessionKey>
     ```
 
-    文档： [子智能体](/tools/subagents)、[后台任务](/zh-CN/automation/tasks)、[Session Tools](/zh-CN/concepts/session-tool)。
+    文档： [子智能体](/zh-CN/tools/subagents)、[后台任务](/zh-CN/automation/tasks)、[会话工具](/zh-CN/concepts/session-tool)。
 
   </Accordion>
 
@@ -1094,7 +1094,7 @@ x-i18n:
     openclaw cron runs --id <jobId> --limit 50
     ```
 
-    文档： [Cron jobs](/zh-CN/automation/cron-jobs)、[Automation & Tasks](/zh-CN/automation)。
+    文档： [????](/zh-CN/automation/cron-jobs)、[自动化与任务](/zh-CN/automation)。
 
   </Accordion>
 
@@ -1118,7 +1118,7 @@ x-i18n:
     openclaw tasks show <runId-or-sessionKey>
     ```
 
-    文档： [Cron jobs](/zh-CN/automation/cron-jobs)、[后台任务](/zh-CN/automation/tasks)。
+    文档： [????](/zh-CN/automation/cron-jobs)、[后台任务](/zh-CN/automation/tasks)。
 
   </Accordion>
 
@@ -1147,7 +1147,7 @@ x-i18n:
     openclaw tasks show <runId-or-sessionKey>
     ```
 
-    文档： [Cron jobs](/zh-CN/automation/cron-jobs)、[cron CLI](/cli/cron)。
+    文档： [????](/zh-CN/automation/cron-jobs)、[cron CLI](/zh-CN/cli/cron)。
 
   </Accordion>
 
@@ -1181,7 +1181,7 @@ x-i18n:
     - **Heartbeat**：用于“主会话”的周期性检查。
     - **Isolated jobs**：用于自主智能体，可发布摘要或投递到聊天中。
 
-    文档： [Cron jobs](/zh-CN/automation/cron-jobs)、[Automation & Tasks](/zh-CN/automation)、
+    文档： [????](/zh-CN/automation/cron-jobs)、[自动化与任务](/zh-CN/automation)、
     [Heartbeat](/zh-CN/gateway/heartbeat)。
 
   </Accordion>
@@ -1246,7 +1246,7 @@ x-i18n:
     openclaw skills update --all
     ```
 
-    原生安装会落到当前工作区的 `skills/` 目录中。对于多智能体共享的 Skills，请将其放在 `~/.openclaw/skills/<name>/SKILL.md`。如果只希望部分智能体看到某个共享安装，请配置 `agents.defaults.skills` 或 `agents.list[].skills`。部分 Skills 依赖通过 Homebrew 安装的二进制；在 Linux 上这意味着 Linuxbrew（见上方 Homebrew Linux 常见问题项）。参见 [Skills](/tools/skills)、[Skills 配置](/tools/skills-config) 和 [ClawHub](/tools/clawhub)。
+    原生安装会落到当前工作区的 `skills/` 目录中。对于多智能体共享的 Skills，请将其放在 `~/.openclaw/skills/<name>/SKILL.md`。如果只希望部分智能体看到某个共享安装，请配置 `agents.defaults.skills` 或 `agents.list[].skills`。部分 Skills 依赖通过 Homebrew 安装的二进制；在 Linux 上这意味着 Linuxbrew（见上方 Homebrew Linux 常见问题项）。参见 [Skills](/zh-CN/tools/skills)、[Skills ??](/zh-CN/tools/skills-config) 和 [ClawHub](/zh-CN/tools/clawhub)。
 
   </Accordion>
 
@@ -1293,7 +1293,7 @@ x-i18n:
       `node /app/node_modules/playwright-core/cli.js install chromium`
     - 设置 `PLAYWRIGHT_BROWSERS_PATH` 并确保该路径被持久化。
 
-    文档： [Docker](/zh-CN/install/docker)、[Browser](/tools/browser)。
+    文档： [Docker](/zh-CN/install/docker)、[?????](/zh-CN/tools/browser)。
 
   </Accordion>
 
@@ -1304,7 +1304,7 @@ x-i18n:
 
     设置演练 + 示例配置： [群组：私有私信 + 公共群组](/zh-CN/channels/groups#pattern-personal-dms-public-groups-single-agent)
 
-    关键配置参考： [Gateway configuration](/gateway/configuration-reference#agentsdefaultssandbox)
+    关键配置参考： [????](/zh-CN/gateway/configuration-reference#agentsdefaultssandbox)
 
   </Accordion>
 
@@ -1313,7 +1313,7 @@ x-i18n:
 
     OpenClaw 会同时针对规范化路径与通过最深现有祖先路径解析出的规范路径来验证 bind 源。这意味着即使最后一段路径尚不存在，通过符号链接父路径逃逸仍会默认拒绝；并且允许根路径检查在符号链接解析后仍然适用。
 
-    示例和安全说明请参见 [沙箱隔离](/zh-CN/gateway/sandboxing#custom-bind-mounts) 和 [Sandbox vs Tool Policy vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated#bind-mounts-security-quick-check)。
+    示例和安全说明请参见 [沙箱隔离](/zh-CN/gateway/sandboxing#custom-bind-mounts) 和 [沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated#bind-mounts-security-quick-check)。
 
   </Accordion>
 
@@ -1325,7 +1325,7 @@ x-i18n:
 
     OpenClaw 还会执行一次**静默的压缩前记忆刷新**，用于提醒模型
     在自动压缩前写入持久笔记。只有在工作区可写时
-    才会运行该逻辑（只读沙箱会跳过）。参见 [Memory](/zh-CN/concepts/memory)。
+    才会运行该逻辑（只读沙箱会跳过）。参见 [??](/zh-CN/concepts/memory)。
 
   </Accordion>
 
@@ -1337,7 +1337,7 @@ x-i18n:
     它会知道该如何处理。如果它还是忘记，请确认 Gateway 网关在每次运行时
     使用的是同一个工作区。
 
-    文档： [Memory](/zh-CN/concepts/memory)、[智能体工作区](/zh-CN/concepts/agent-workspace)。
+    文档： [??](/zh-CN/concepts/memory)、[智能体工作区](/zh-CN/concepts/agent-workspace)。
 
   </Accordion>
 
@@ -1347,7 +1347,7 @@ x-i18n:
     上下文窗口限制，因此长对话可能会被压缩或截断。这也是
     为什么需要记忆搜索——它只会将相关部分重新拉回上下文中。
 
-    文档： [Memory](/zh-CN/concepts/memory)、[Context](/zh-CN/concepts/context)。
+    文档： [??](/zh-CN/concepts/memory)、[???](/zh-CN/concepts/context)。
 
   </Accordion>
 
@@ -1370,7 +1370,7 @@ x-i18n:
     再设置 `memorySearch.fallback = "none"`）。如果你想使用 Gemini embeddings，请设置
     `memorySearch.provider = "gemini"` 并提供 `GEMINI_API_KEY`（或
     `memorySearch.remote.apiKey`）。我们支持 **OpenAI、Gemini、Voyage、Mistral、Ollama 或 local** embeddings
-    模型——设置细节请参见 [Memory](/zh-CN/concepts/memory)。
+    模型——设置细节请参见 [??](/zh-CN/concepts/memory)。
 
   </Accordion>
 </AccordionGroup>
@@ -1389,7 +1389,7 @@ x-i18n:
     - **你可以控制数据范围：** 使用本地模型可让提示词保留在你的机器上，但渠道
       流量仍会经过对应渠道的服务器。
 
-    相关内容： [智能体工作区](/zh-CN/concepts/agent-workspace)、[Memory](/zh-CN/concepts/memory)。
+    相关内容： [智能体工作区](/zh-CN/concepts/agent-workspace)、[??](/zh-CN/concepts/memory)。
 
   </Accordion>
 
@@ -1438,7 +1438,7 @@ x-i18n:
     提示：如果你希望某种行为或偏好能够持久保留，请让机器人**把它写入
     AGENTS.md 或 MEMORY.md**，而不是依赖聊天历史。
 
-    参见 [智能体工作区](/zh-CN/concepts/agent-workspace) 和 [Memory](/zh-CN/concepts/memory)。
+    参见 [智能体工作区](/zh-CN/concepts/agent-workspace) 和 [??](/zh-CN/concepts/memory)。
 
   </Accordion>
 
@@ -1456,7 +1456,7 @@ x-i18n:
   </Accordion>
 
   <Accordion title="如何彻底卸载 OpenClaw？">
-    请参见专门指南： [Uninstall](/zh-CN/install/uninstall)。
+    请参见专门指南： [卸载](/zh-CN/install/uninstall)。
   </Accordion>
 
   <Accordion title="智能体可以在工作区之外工作吗？">
@@ -1628,7 +1628,7 @@ x-i18n:
     - 如果省略 `tools.web.fetch.provider`，OpenClaw 会从可用凭据中自动检测第一个可用的 fetch 回退提供商。当前内置提供商是 Firecrawl。
     - 守护进程会从 `~/.openclaw/.env`（或服务环境）读取环境变量。
 
-    文档： [Web tools](/tools/web)。
+    文档： [Web ??](/zh-CN/tools/web)。
 
   </Accordion>
 
@@ -1651,7 +1651,7 @@ x-i18n:
     - 对局部 RPC 编辑使用 `config.patch`；只在你确实要整体替换完整配置时使用 `config.apply`。
     - 如果你是在智能体运行中使用仅限 owner 的 `gateway` 工具，它仍会拒绝对 `tools.exec.ask` / `tools.exec.security` 的写入（包括会被归一化到同一受保护 exec 路径的旧版 `tools.bash.*` 别名）。
 
-    文档： [Config](/cli/config)、[Configure](/cli/configure)、[Doctor](/zh-CN/gateway/doctor)。
+    文档： [Config](/zh-CN/cli/config)、[Configure](/zh-CN/cli/configure)、[Doctor](/zh-CN/gateway/doctor)。
 
   </Accordion>
 
@@ -1664,7 +1664,7 @@ x-i18n:
     - **子智能体：** 当你需要并行时，可由主智能体生成后台工作。
     - **TUI：** 连接到 Gateway 网关并切换智能体/会话。
 
-    文档： [Nodes](/zh-CN/nodes)、[Remote access](/zh-CN/gateway/remote)、[多智能体路由](/zh-CN/concepts/multi-agent)、[子智能体](/tools/subagents)、[TUI](/web/tui)。
+    文档： [??](/zh-CN/nodes)、[????](/zh-CN/gateway/remote)、[多智能体路由](/zh-CN/concepts/multi-agent)、[子智能体](/zh-CN/tools/subagents)、[TUI](/zh-CN/web/tui)。
 
   </Accordion>
 
@@ -1682,7 +1682,7 @@ x-i18n:
     }
     ```
 
-    默认值为 `false`（有头模式）。无头模式在某些网站上更容易触发反机器人检查。参见 [Browser](/tools/browser)。
+    默认值为 `false`（有头模式）。无头模式在某些网站上更容易触发反机器人检查。参见 [?????](/zh-CN/tools/browser)。
 
     无头模式使用**相同的 Chromium 引擎**，适用于大多数自动化任务（表单、点击、抓取、登录）。主要差异包括：
 
@@ -1694,7 +1694,7 @@ x-i18n:
 
   <Accordion title="如何使用 Brave 进行浏览器控制？">
     将 `browser.executablePath` 设置为你的 Brave 二进制路径（或任意基于 Chromium 的浏览器），然后重启 Gateway 网关。
-    完整配置示例参见 [Browser](/tools/browser#use-brave-or-another-chromium-based-browser)。
+    完整配置示例参见 [?????](/zh-CN/tools/browser#use-brave-or-another-chromium-based-browser)。
   </Accordion>
 </AccordionGroup>
 
@@ -1732,9 +1732,9 @@ x-i18n:
     不需要单独的 TCP bridge；节点通过 Gateway WebSocket 连接。
 
     安全提醒：配对 macOS 节点意味着允许在该机器上执行 `system.run`。只
-    配对你信任的设备，并查看 [Security](/zh-CN/gateway/security)。
+    配对你信任的设备，并查看 [??](/zh-CN/gateway/security)。
 
-    文档： [Nodes](/zh-CN/nodes)、[Gateway protocol](/zh-CN/gateway/protocol)、[macOS 远程模式](/platforms/mac/remote)、[Security](/zh-CN/gateway/security)。
+    文档： [??](/zh-CN/nodes)、[Gateway ????](/zh-CN/gateway/protocol)、[远程控制](/zh-CN/platforms/mac/remote)、[??](/zh-CN/gateway/security)。
 
   </Accordion>
 
@@ -1751,7 +1751,7 @@ x-i18n:
     - 如果你通过 SSH 隧道连接，请确认本地隧道已建立并指向正确端口。
     - 确认你的允许列表（私信或群组）中包含你的账号。
 
-    文档： [Tailscale](/zh-CN/gateway/tailscale)、[Remote access](/zh-CN/gateway/remote)、[Channels](/zh-CN/channels)。
+    文档： [Tailscale](/zh-CN/gateway/tailscale)、[????](/zh-CN/gateway/remote)、[??](/zh-CN/channels)。
 
   </Accordion>
 
@@ -1765,7 +1765,7 @@ x-i18n:
     **CLI 桥接（通用）：** 运行脚本调用另一个 Gateway 网关的
     `openclaw agent --message ... --deliver`，并将目标指向另一个机器人
     正在监听的聊天。如果其中一个机器人位于远程 VPS，请让你的 CLI
-    通过 SSH/Tailscale 指向该远程 Gateway 网关（见 [Remote access](/zh-CN/gateway/remote)）。
+    通过 SSH/Tailscale 指向该远程 Gateway 网关（见 [????](/zh-CN/gateway/remote)）。
 
     示例模式（在能访问目标 Gateway 网关的机器上运行）：
 
@@ -1776,7 +1776,7 @@ x-i18n:
     提示：加一个防护机制，避免两个机器人无休止地相互循环（例如仅在被提及时响应、渠道
     允许列表，或“不要回复机器人消息”的规则）。
 
-    文档： [Remote access](/zh-CN/gateway/remote)、[Agent CLI](/cli/agent)、[Agent send](/tools/agent-send)。
+    文档： [????](/zh-CN/gateway/remote)、[Agent CLI](/zh-CN/cli/agent)、[?????](/zh-CN/tools/agent-send)。
 
   </Accordion>
 
@@ -1805,14 +1805,14 @@ x-i18n:
     SSH 适合临时 shell 访问，但对于持续性的智能体工作流和
     设备自动化来说，节点更简单。
 
-    文档： [Nodes](/zh-CN/nodes)、[Nodes CLI](/cli/nodes)、[Browser](/tools/browser)。
+    文档： [??](/zh-CN/nodes)、[Nodes CLI](/zh-CN/cli/nodes)、[?????](/zh-CN/tools/browser)。
 
   </Accordion>
 
   <Accordion title="节点会运行一个 gateway 服务吗？">
     不会。除非你有意运行隔离配置文件（参见 [多个 Gateway 网关](/zh-CN/gateway/multiple-gateways)），否则每台主机只应运行**一个 gateway**。节点是连接到
     gateway 的外设（iOS/Android 节点，或菜单栏应用中的 macOS “node mode”）。对于无头 node
-    host 和 CLI 控制，请参见 [Node host CLI](/cli/node)。
+    host 和 CLI 控制，请参见 [Node host CLI](/zh-CN/cli/node)。
 
     对于 `gateway`、`discovery` 和 `canvasHost` 的更改，需要执行完整重启。
 
@@ -1884,7 +1884,7 @@ x-i18n:
        openclaw devices approve <requestId>
        ```
 
-    文档： [Gateway protocol](/zh-CN/gateway/protocol)、[Discovery](/zh-CN/gateway/discovery)、[macOS 远程模式](/platforms/mac/remote)。
+    文档： [Gateway ????](/zh-CN/gateway/protocol)、[设备发现 + 传输协议](/zh-CN/gateway/discovery)、[远程控制](/zh-CN/platforms/mac/remote)。
 
   </Accordion>
 
@@ -1895,7 +1895,7 @@ x-i18n:
 
     只有在你需要**硬隔离**或完全独立的两个机器人时，才应安装第二个 Gateway 网关。
 
-    文档： [Nodes](/zh-CN/nodes)、[Nodes CLI](/cli/nodes)、[多个 Gateway 网关](/zh-CN/gateway/multiple-gateways)。
+    文档： [??](/zh-CN/nodes)、[Nodes CLI](/zh-CN/cli/nodes)、[多个 Gateway 网关](/zh-CN/gateway/multiple-gateways)。
 
   </Accordion>
 </AccordionGroup>
@@ -1972,7 +1972,7 @@ x-i18n:
     ```
 
     Copilot token 从 `COPILOT_GITHUB_TOKEN` 读取（也支持 `GH_TOKEN` / `GITHUB_TOKEN`）。
-    参见 [/concepts/model-providers](/zh-CN/concepts/model-providers) 和 [/environment](/zh-CN/help/environment)。
+    参见 [?????](/zh-CN/concepts/model-providers) 和 [/environment](/zh-CN/help/environment)。
 
   </Accordion>
 </AccordionGroup>
@@ -2009,7 +2009,7 @@ x-i18n:
     使用不同会话处理并行工作。必要时，这个机器人
     也可以生成子智能体。
 
-    文档： [多智能体路由](/zh-CN/concepts/multi-agent)、[子智能体](/tools/subagents)、[Agents CLI](/cli/agents)。
+    文档： [多智能体路由](/zh-CN/concepts/multi-agent)、[子智能体](/zh-CN/tools/subagents)、[agents](/zh-CN/cli/agents)。
 
   </Accordion>
 
@@ -2048,7 +2048,7 @@ x-i18n:
 
     注意：
 
-    - 如果检测到现有配置，Onboarding 也会提供 **Reset**。参见 [设置向导（CLI）](/start/wizard)。
+    - 如果检测到现有配置，Onboarding 也会提供 **Reset**。参见 [新手引导（CLI）](/zh-CN/start/wizard)。
     - 如果你使用了配置文件（`--profile` / `OPENCLAW_PROFILE`），请分别重置每个状态目录（默认是 `~/.openclaw-<profile>`）。
     - Dev 重置：`openclaw gateway --dev --reset`（仅限 dev；会清空 dev 配置 + 凭据 + 会话 + 工作区）。
 
@@ -2077,7 +2077,7 @@ x-i18n:
     - 启用或调整**会话裁剪**（`agents.defaults.contextPruning`）以裁掉旧工具输出。
     - 使用上下文窗口更大的模型。
 
-    文档： [Compaction](/zh-CN/concepts/compaction)、[会话裁剪](/zh-CN/concepts/session-pruning)、[会话管理](/zh-CN/concepts/session)。
+    文档： [??](/zh-CN/concepts/compaction)、[会话裁剪](/zh-CN/concepts/session-pruning)、[会话管理](/zh-CN/concepts/session)。
 
   </Accordion>
 
@@ -2148,7 +2148,7 @@ x-i18n:
     openclaw directory groups list --channel whatsapp
     ```
 
-    文档： [WhatsApp](/zh-CN/channels/whatsapp)、[Directory](/cli/directory)、[Logs](/cli/logs)。
+    文档： [WhatsApp](/zh-CN/channels/whatsapp)、[Directory](/zh-CN/cli/directory)、[Logs](/zh-CN/cli/logs)。
 
   </Accordion>
 
@@ -2158,12 +2158,12 @@ x-i18n:
     - 提及门控已启用（默认）。你必须 @ 提及机器人（或匹配 `mentionPatterns`）。
     - 你配置了 `channels.whatsapp.groups`，但其中没有 `"*"`，且当前群组未加入允许列表。
 
-    参见 [Groups](/zh-CN/channels/groups) 和 [群组消息](/zh-CN/channels/group-messages)。
+    参见 [群组](/zh-CN/channels/groups) 和 [群组消息](/zh-CN/channels/group-messages)。
 
   </Accordion>
 
   <Accordion title="群组/线程与私信共享上下文吗？">
-    直接聊天默认会折叠到主会话。群组/渠道拥有自己的会话键，而 Telegram 主题 / Discord 线程则是独立会话。参见 [Groups](/zh-CN/channels/groups) 和 [群组消息](/zh-CN/channels/group-messages)。
+    直接聊天默认会折叠到主会话。群组/渠道拥有自己的会话键，而 Telegram 主题 / Discord 线程则是独立会话。参见 [群组](/zh-CN/channels/groups) 和 [群组消息](/zh-CN/channels/group-messages)。
   </Accordion>
 
   <Accordion title="我可以创建多少个工作区和智能体？">
@@ -2197,7 +2197,7 @@ x-i18n:
     - 在需要时，通过 Chrome MCP 或 node 使用本地浏览器。
 
     文档： [多智能体路由](/zh-CN/concepts/multi-agent)、[Slack](/zh-CN/channels/slack)、
-    [Browser](/tools/browser)、[Nodes](/zh-CN/nodes)。
+    [?????](/zh-CN/tools/browser)、[??](/zh-CN/nodes)。
 
   </Accordion>
 </AccordionGroup>
@@ -2221,16 +2221,16 @@ x-i18n:
     **对于启用工具或处理不受信任输入的智能体：** 模型强度优先于成本。
     **对于例行/低风险聊天：** 使用更便宜的回退模型，并按智能体角色路由。
 
-    MiniMax 有自己的文档： [MiniMax](/providers/minimax) 和
+    MiniMax 有自己的文档： [MiniMax](/zh-CN/providers/minimax) 和
     [本地模型](/zh-CN/gateway/local-models)。
 
     经验法则：高风险工作请尽量使用你能负担得起的**最佳模型**，而例行聊天或摘要
     则使用更便宜的模型。你可以按智能体路由模型，并使用子智能体
     对长任务并行化（每个子智能体都会消耗 token）。参见 [模型](/zh-CN/concepts/models) 和
-    [子智能体](/tools/subagents)。
+    [子智能体](/zh-CN/tools/subagents)。
 
     强烈警告：较弱或过度量化的模型更容易受到 prompt
-    injection 和不安全行为影响。参见 [Security](/zh-CN/gateway/security)。
+    injection 和不安全行为影响。参见 [??](/zh-CN/gateway/security)。
 
     更多背景： [模型](/zh-CN/concepts/models)。
 
@@ -2251,7 +2251,7 @@ x-i18n:
     用于局部更新。
     如果你确实覆盖掉了配置，请从备份恢复，或重新运行 `openclaw doctor` 修复。
 
-    文档： [模型](/zh-CN/concepts/models)、[Configure](/cli/configure)、[Config](/cli/config)、[Doctor](/zh-CN/gateway/doctor)。
+    文档： [模型](/zh-CN/concepts/models)、[Configure](/zh-CN/cli/configure)、[Config](/zh-CN/cli/config)、[Doctor](/zh-CN/gateway/doctor)。
 
   </Accordion>
 
@@ -2276,8 +2276,8 @@ x-i18n:
     injection 影响。对于任何可以使用工具的机器人，我们强烈建议使用**大模型**。
     如果你仍想使用小模型，请启用沙箱隔离并使用严格的工具允许列表。
 
-    文档： [Ollama](/providers/ollama)、[本地模型](/zh-CN/gateway/local-models)、
-    [模型提供商](/zh-CN/concepts/model-providers)、[Security](/zh-CN/gateway/security)、
+    文档： [Ollama](/zh-CN/providers/ollama)、[本地模型](/zh-CN/gateway/local-models)、
+    [模型提供商](/zh-CN/concepts/model-providers)、[??](/zh-CN/gateway/security)、
     [沙箱隔离](/zh-CN/gateway/sandboxing)。
 
   </Accordion>
@@ -2341,7 +2341,7 @@ x-i18n:
     - **默认 + 切换：** 将 `agents.defaults.model.primary` 设为 `openai/gpt-5.4`，编码时再切换到 `openai-codex/gpt-5.4`（反过来也可以）。
     - **子智能体：** 将编码任务路由给拥有不同默认模型的子智能体。
 
-    参见 [模型](/zh-CN/concepts/models) 和 [Slash commands](/tools/slash-commands)。
+    参见 [模型](/zh-CN/concepts/models) 和 [????](/zh-CN/tools/slash-commands)。
 
   </Accordion>
 
@@ -2377,7 +2377,7 @@ x-i18n:
 
     对于 OpenAI，fast mode 会在受支持的原生 Responses 请求上映射到 `service_tier = "priority"`。会话级 `/fast` 覆盖优先于配置默认值。
 
-    参见 [Thinking and fast mode](/tools/thinking) 和 [OpenAI fast mode](/providers/openai#openai-fast-mode)。
+    参见 [思考级别](/zh-CN/tools/thinking) 和 [OpenAI fast mode](/zh-CN/providers/openai#openai-fast-mode)。
 
   </Accordion>
 
@@ -2417,7 +2417,7 @@ x-i18n:
 
        并从列表中选择（或在聊天中使用 `/model list`）。
 
-    参见 [MiniMax](/providers/minimax) 和 [模型](/zh-CN/concepts/models)。
+    参见 [MiniMax](/zh-CN/providers/minimax) 和 [模型](/zh-CN/concepts/models)。
 
   </Accordion>
 
@@ -2454,7 +2454,7 @@ x-i18n:
     - 智能体 B 默认：OpenAI
     - 通过智能体路由，或使用 `/agent` 切换
 
-    文档： [模型](/zh-CN/concepts/models)、[多智能体路由](/zh-CN/concepts/multi-agent)、[MiniMax](/providers/minimax)、[OpenAI](/providers/openai)。
+    文档： [模型](/zh-CN/concepts/models)、[多智能体路由](/zh-CN/concepts/multi-agent)、[MiniMax](/zh-CN/providers/minimax)、[OpenAI](/zh-CN/providers/openai)。
 
   </Accordion>
 
@@ -2645,7 +2645,7 @@ x-i18n:
 
 ## Auth 配置文件：是什么，以及如何管理
 
-相关内容： [/concepts/oauth](/zh-CN/concepts/oauth)（OAuth 流程、token 存储、多账号模式）
+相关内容： [OAuth](/zh-CN/concepts/oauth)（OAuth 流程、token 存储、多账号模式）
 
 <AccordionGroup>
   <Accordion title="什么是 auth 配置文件？">
@@ -2813,7 +2813,7 @@ x-i18n:
     - 如果 rotate 调用提示被拒绝，请检查两点：
       - 已配对设备会话只能轮换它们**自己的**设备，除非它们还具备 `operator.admin`
       - 显式 `--scope` 值不能超过调用方当前拥有的 operator scopes
-    - 仍然卡住？运行 `openclaw status --all`，并按 [故障排除](/zh-CN/gateway/troubleshooting) 继续排查。认证细节参见 [Dashboard](/web/dashboard)。
+    - 仍然卡住？运行 `openclaw status --all`，并按 [故障排除](/zh-CN/gateway/troubleshooting) 继续排查。认证细节参见 [???](/zh-CN/web/dashboard)。
 
   </Accordion>
 
@@ -2873,7 +2873,7 @@ x-i18n:
     openclaw tui --url ws://<host>:18789 --token <token>
     ```
 
-    协议细节： [Gateway protocol](/zh-CN/gateway/protocol)。
+    协议细节： [Gateway ????](/zh-CN/gateway/protocol)。
 
   </Accordion>
 </AccordionGroup>
@@ -2914,7 +2914,7 @@ x-i18n:
     openclaw gateway restart
     ```
 
-    如果你是手动运行 gateway，`openclaw gateway --force` 可以回收端口。参见 [Gateway](/zh-CN/gateway)。
+    如果你是手动运行 gateway，`openclaw gateway --force` 可以回收端口。参见 [Gateway ??????](/zh-CN/gateway)。
 
   </Accordion>
 
@@ -2952,7 +2952,7 @@ x-i18n:
     openclaw gateway run
     ```
 
-    文档： [Windows（WSL2）](/platforms/windows)、[Gateway 服务操作手册](/zh-CN/gateway)。
+    文档： [Windows（WSL2）](/zh-CN/platforms/windows)、[Gateway ??????](/zh-CN/gateway)。
 
   </Accordion>
 
@@ -2975,7 +2975,7 @@ x-i18n:
     如果是远程环境，请确认隧道/Tailscale 连接已建立，并且
     Gateway WebSocket 可达。
 
-    文档： [Channels](/zh-CN/channels)、[故障排除](/zh-CN/gateway/troubleshooting)、[Remote access](/zh-CN/gateway/remote)。
+    文档： [??](/zh-CN/channels)、[故障排除](/zh-CN/gateway/troubleshooting)、[????](/zh-CN/gateway/remote)。
 
   </Accordion>
 
@@ -2993,7 +2993,7 @@ x-i18n:
     openclaw logs --follow
     ```
 
-    文档： [Dashboard](/web/dashboard)、[Remote access](/zh-CN/gateway/remote)、[故障排除](/zh-CN/gateway/troubleshooting)。
+    文档： [???](/zh-CN/web/dashboard)、[????](/zh-CN/gateway/remote)、[故障排除](/zh-CN/gateway/troubleshooting)。
 
   </Accordion>
 
@@ -3028,7 +3028,7 @@ x-i18n:
     在 TUI 中，使用 `/status` 查看当前状态。如果你期望回复发到某个聊天
     渠道中，请确保投递已启用（`/deliver on`）。
 
-    文档： [TUI](/web/tui)、[Slash commands](/tools/slash-commands)。
+    文档： [TUI](/zh-CN/web/tui)、[????](/zh-CN/tools/slash-commands)。
 
   </Accordion>
 
@@ -3049,7 +3049,7 @@ x-i18n:
     openclaw gateway run
     ```
 
-    文档： [Gateway 服务操作手册](/zh-CN/gateway)。
+    文档： [Gateway ??????](/zh-CN/gateway)。
 
   </Accordion>
 
@@ -3070,7 +3070,7 @@ x-i18n:
 
 <AccordionGroup>
   <Accordion title="我的 skill 生成了图片/PDF，但没有发送出去">
-    智能体发出的附件必须包含一行独立的 `MEDIA:<path-or-url>`。参见 [OpenClaw assistant setup](/start/openclaw) 和 [Agent send](/tools/agent-send)。
+    智能体发出的附件必须包含一行独立的 `MEDIA:<path-or-url>`。参见 [OpenClaw ????](/zh-CN/start/openclaw) 和 [?????](/zh-CN/tools/agent-send)。
 
     CLI 发送：
 
@@ -3085,7 +3085,7 @@ x-i18n:
     - `tools.fs.workspaceOnly=true` 会将本地路径发送限制在工作区、temp/media-store 和经过沙箱校验的文件中。
     - `tools.fs.workspaceOnly=false` 允许 `MEDIA:` 发送智能体已可读取的宿主机本地文件，但仅限媒体和安全文档类型（图片、音频、视频、PDF 和 Office 文档）。纯文本和疑似 secret 文件仍会被阻止。
 
-    参见 [Images](/zh-CN/nodes/images)。
+    参见 [图像与媒体支持](/zh-CN/nodes/images)。
 
   </Accordion>
 </AccordionGroup>
@@ -3122,7 +3122,7 @@ x-i18n:
       显式的外部内容边界标记中，而不是直接传入原始文件文本
     - 使用沙箱隔离并设置严格的工具允许列表
 
-    详情： [Security](/zh-CN/gateway/security)。
+    详情： [??](/zh-CN/gateway/security)。
 
   </Accordion>
 
@@ -3134,7 +3134,7 @@ x-i18n:
     从小规模开始。只授予实际需要的工具和账号访问权限，之后
     再按需扩展。
 
-    文档： [Security](/zh-CN/gateway/security)、[Pairing](/zh-CN/channels/pairing)。
+    文档： [??](/zh-CN/gateway/security)、[??](/zh-CN/channels/pairing)。
 
   </Accordion>
 
@@ -3146,7 +3146,7 @@ x-i18n:
     - 让它起草，然后**发送前由你审批**。
 
     如果你想试验，请在专用账号上进行，并保持隔离。参见
-    [Security](/zh-CN/gateway/security)。
+    [??](/zh-CN/gateway/security)。
 
   </Accordion>
 
@@ -3154,7 +3154,7 @@ x-i18n:
     可以，**前提是**该智能体仅用于聊天，且输入是可信的。较小档位
     更容易受到指令劫持，因此不适用于启用工具的智能体，
     或会读取不受信任内容的场景。如果你必须使用小模型，请锁定
-    工具并在沙箱中运行。参见 [Security](/zh-CN/gateway/security)。
+    工具并在沙箱中运行。参见 [??](/zh-CN/gateway/security)。
   </Accordion>
 
   <Accordion title="我在 Telegram 里运行了 /start，但没有收到配对码">
@@ -3208,7 +3208,7 @@ x-i18n:
     如果仍然很吵，请检查 Control UI 中的会话设置，并将 verbose
     设为 **inherit**。同时确认你使用的 bot 配置中没有将 `verboseDefault` 设为 `on`。
 
-    文档： [Thinking and verbose](/tools/thinking)、[Security](/zh-CN/gateway/security#reasoning-verbose-output-in-groups)。
+    文档： [思考级别](/zh-CN/tools/thinking)、[??](/zh-CN/gateway/security#reasoning-verbose-output-in-groups)。
 
   </Accordion>
 
@@ -3245,7 +3245,7 @@ x-i18n:
     process action:kill sessionId:XXX
     ```
 
-    Slash 命令概览：参见 [Slash commands](/tools/slash-commands)。
+    Slash 命令概览：参见 [????](/zh-CN/tools/slash-commands)。
 
     大多数命令必须作为**单独消息**发送，并以 `/` 开头，但也有少数快捷方式（如 `/status`）对允许列表中的发送者支持内联使用。
 

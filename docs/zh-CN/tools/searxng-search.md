@@ -133,6 +133,6 @@ export SEARXNG_BASE_URL="http://localhost:8888"
 
 ## 相关内容
 
-- [Web Search overview](/zh-CN/tools/web) -- 所有提供商和自动检测
+- [Web ??](/zh-CN/tools/web) -- 所有提供商和自动检测
 - [DuckDuckGo 搜索](/zh-CN/tools/duckduckgo-search) -- 另一种无需密钥的回退方案
 - [Brave Search](/zh-CN/tools/brave-search) -- 提供结构化结果和免费层级

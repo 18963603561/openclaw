@@ -16,7 +16,7 @@ x-i18n:
 
 _你不是聊天机器人。你正在成为某个“人”。_
 
-想看一个更锋利的版本？请参见 [SOUL.md Personality Guide](/zh-CN/concepts/soul)。
+想看一个更锋利的版本？请参见 [SOUL.md ????](/zh-CN/concepts/soul)。
 
 ## 核心真相
 

@@ -94,7 +94,7 @@ models.providers.<provider>.models[].cost
 
 提供商提示词缓存仅在缓存 TTL 窗口内生效。OpenClaw 可以选择运行**缓存 TTL 裁剪**：当缓存 TTL 过期后，它会裁剪会话，然后重置缓存窗口，这样后续请求就可以复用刚刚重新缓存的上下文，而不是再次缓存完整历史。这有助于在会话空闲超过 TTL 后降低缓存写入成本。
 
-请在 [Gateway 网关配置](/zh-CN/gateway/configuration) 中配置它，并在 [会话裁剪](/zh-CN/concepts/session-pruning) 中查看具体行为细节。
+请在 [??](/zh-CN/gateway/configuration) 中配置它，并在 [会话裁剪](/zh-CN/concepts/session-pruning) 中查看具体行为细节。
 
 Heartbeat 可以在空闲间隙中保持缓存**温热**。如果你的模型缓存 TTL
 是 `1h`，将 heartbeat 间隔设置为略小于它（例如 `55m`）可以避免重新缓存完整提示词，从而降低缓存写入成本。
@@ -176,4 +176,4 @@ Anthropic 会对该请求返回提供商侧限流错误。
 - 保持 skill 描述简短（skill 列表会注入到提示词中）。
 - 对于冗长、探索性的工作，优先使用较小模型。
 
-关于确切的 skill 列表开销公式，请参阅 [Skills](/tools/skills)。
+关于确切的 skill 列表开销公式，请参阅 [Skills](/zh-CN/tools/skills)。

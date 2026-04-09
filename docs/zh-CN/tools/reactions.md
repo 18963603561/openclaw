@@ -81,5 +81,5 @@ x-i18n:
 
 ## 相关内容
 
-- [Agent Send](/zh-CN/tools/agent-send) — 包含 `react` 的 `message` 工具
-- [Channels](/zh-CN/channels) — 渠道特定配置
+- [?????](/zh-CN/tools/agent-send) — 包含 `react` 的 `message` 工具
+- [??](/zh-CN/channels) — 渠道特定配置

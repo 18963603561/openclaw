@@ -135,7 +135,7 @@ openclaw dashboard
   <Card title="配置 Gateway 网关" href="/zh-CN/gateway/configuration" icon="settings">
     模型、工具、沙箱和高级设置。
   </Card>
-  <Card title="浏览工具" href="/tools" icon="wrench">
+  <Card title="浏览工具" href="/zh-CN/tools" icon="wrench">
     浏览器、exec、Web 搜索、Skills 和插件。
   </Card>
 </Columns>

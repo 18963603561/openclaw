@@ -38,4 +38,4 @@ x-i18n:
 
 ## 如果仍不确定
 
-- 你仍然可以使用 [Gateway health](/zh-CN/gateway/health) 中的 CLI 流程（`openclaw status`、`openclaw status --deep`、`openclaw health --json`），并查看 `/tmp/openclaw/openclaw-*.log` 中 `web-heartbeat` / `web-reconnect` 的日志尾部。
+- 你仍然可以使用 [健康检查](/zh-CN/gateway/health) 中的 CLI 流程（`openclaw status`、`openclaw status --deep`、`openclaw health --json`），并查看 `/tmp/openclaw/openclaw-*.log` 中 `web-heartbeat` / `web-reconnect` 的日志尾部。

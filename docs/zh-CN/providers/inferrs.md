@@ -170,5 +170,5 @@ openclaw infer model run \
 ## 另请参阅
 
 - [本地模型](/zh-CN/gateway/local-models)
-- [Gateway 网关故障排除](/zh-CN/gateway/troubleshooting#local-openai-compatible-backend-passes-direct-probes-but-agent-runs-fail)
+- [故障排除](/zh-CN/gateway/troubleshooting#local-openai-compatible-backend-passes-direct-probes-but-agent-runs-fail)
 - [模型提供商](/zh-CN/concepts/model-providers)

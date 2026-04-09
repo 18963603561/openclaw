@@ -125,5 +125,5 @@ openclaw logs --follow
 - [/nodes/index](/zh-CN/nodes/index)
 - [/nodes/camera](/zh-CN/nodes/camera)
 - [/nodes/location-command](/zh-CN/nodes/location-command)
-- [/tools/exec-approvals](/tools/exec-approvals)
+- [Exec ??](/zh-CN/tools/exec-approvals)
 - [/gateway/pairing](/zh-CN/gateway/pairing)

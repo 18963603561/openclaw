@@ -307,6 +307,6 @@ diagnostics:
 相关文档：
 
 - [Anthropic](/zh-CN/providers/anthropic)
-- [Token 用量与成本](/zh-CN/reference/token-use)
+- [Token 使用与成本](/zh-CN/reference/token-use)
 - [会话剪枝](/zh-CN/concepts/session-pruning)
-- [Gateway 网关配置参考](/gateway/configuration-reference)
+- [????](/zh-CN/gateway/configuration-reference)

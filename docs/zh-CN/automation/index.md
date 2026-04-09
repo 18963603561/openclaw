@@ -88,7 +88,7 @@ Cron 是 Gateway 网关内置的精确定时调度器。它会持久化作业，
 
 Standing orders 为智能体授予已定义程序的永久操作权限。它们存储在工作区文件中（通常为 `AGENTS.md`），并会注入到每个会话中。可与 cron 结合使用以实现基于时间的强制执行。
 
-参见 [Standing Orders](/zh-CN/automation/standing-orders)。
+参见 [????](/zh-CN/automation/standing-orders)。
 
 ### Hooks
 
@@ -117,6 +117,6 @@ Heartbeat 是周期性的主会话轮次（默认每 30 分钟一次）。它会
 - [后台任务](/zh-CN/automation/tasks) — 所有脱离当前会话工作的任务台账
 - [任务流](/zh-CN/automation/taskflow) — 持久化多步骤流程编排
 - [Hooks](/zh-CN/automation/hooks) — 事件驱动的生命周期脚本
-- [Standing Orders](/zh-CN/automation/standing-orders) — 持久化智能体指令
+- [????](/zh-CN/automation/standing-orders) — 持久化智能体指令
 - [Heartbeat](/zh-CN/gateway/heartbeat) — 周期性主会话轮次
 - [配置参考](/zh-CN/gateway/configuration-reference) — 所有配置键

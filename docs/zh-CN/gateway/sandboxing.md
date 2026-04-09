@@ -40,7 +40,7 @@ Gateway 网关保持在宿主机上；启用后，工具执行会在隔离的沙
 - Gateway 网关进程本身。
 - 任何被明确允许在沙箱外运行的工具（例如 `tools.elevated`）。
   - **Elevated exec 会绕过沙箱隔离，并使用已配置的逃逸路径（默认是 `gateway`，当 exec 目标是 `node` 时则为 `node`）。**
-  - 如果关闭了沙箱隔离，`tools.elevated` 不会改变执行位置（本来就在宿主机上）。参见 [Elevated Mode](/tools/elevated)。
+  - 如果关闭了沙箱隔离，`tools.elevated` 不会改变执行位置（本来就在宿主机上）。参见 [提权模式](/zh-CN/tools/elevated)。
 
 ## 模式
 
@@ -330,7 +330,7 @@ OpenClaw 会将符合条件的 Skills 镜像到沙箱工作区（`.../skills`）
 - 允许的源根路径也会以相同方式规范化，因此某个路径即使在符号链接解析之前看起来位于允许列表内，仍会因为 `outside allowed roots` 而被拒绝。
 - 敏感挂载（secrets、SSH 密钥、服务凭据）除非绝对必要，否则都应设为 `:ro`。
 - 如果你只需要对工作区进行读取访问，请结合 `workspaceAccess: "ro"` 使用；绑定模式仍然彼此独立。
-- 关于 binds 如何与工具策略及 elevated exec 交互，请参见 [Sandbox vs Tool Policy vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated)。
+- 关于 binds 如何与工具策略及 elevated exec 交互，请参见 [沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated)。
 
 ## 镜像 + 设置
 
@@ -439,19 +439,19 @@ Docker 安装以及容器化的 Gateway 网关位于这里：
 
 `tools.elevated` 是一个显式逃逸通道，会在沙箱外运行 `exec`（默认使用 `gateway`，当 exec 目标是 `node` 时则为 `node`）。
 `/exec` 指令仅对已授权发送者生效，并会按会话持久化；如果要彻底禁用
-`exec`，请使用工具策略拒绝（参见 [Sandbox vs Tool Policy vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated)）。
+`exec`，请使用工具策略拒绝（参见 [沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated)）。
 
 调试：
 
 - 使用 `openclaw sandbox explain` 检查生效中的沙箱模式、工具策略和修复配置键。
-- 关于“为什么这个被阻止了？”的理解模型，请参见 [Sandbox vs Tool Policy vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated)。
+- 关于“为什么这个被阻止了？”的理解模型，请参见 [沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated)。
   保持严格锁定。
 
 ## 多智能体覆盖
 
 每个智能体都可以覆盖沙箱和工具设置：
 `agents.list[].sandbox` 和 `agents.list[].tools`（以及用于沙箱工具策略的 `agents.list[].tools.sandbox.tools`）。
-优先级请参见 [Multi-Agent Sandbox & Tools](/tools/multi-agent-sandbox-tools)。
+优先级请参见 [多智能体沙箱与工具](/zh-CN/tools/multi-agent-sandbox-tools)。
 
 ## 最小启用示例
 
@@ -472,7 +472,7 @@ Docker 安装以及容器化的 Gateway 网关位于这里：
 ## 相关文档
 
 - [OpenShell](/zh-CN/gateway/openshell) -- 托管沙箱后端设置、工作区模式和配置参考
-- [Sandbox Configuration](/gateway/configuration-reference#agentsdefaultssandbox)
-- [Sandbox vs Tool Policy vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated) -- 调试“为什么这个被阻止了？”
-- [Multi-Agent Sandbox & Tools](/tools/multi-agent-sandbox-tools) -- 每个智能体的覆盖和优先级
-- [Security](/zh-CN/gateway/security)
+- [????](/zh-CN/gateway/configuration-reference#agentsdefaultssandbox)
+- [沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated) -- 调试“为什么这个被阻止了？”
+- [多智能体沙箱与工具](/zh-CN/tools/multi-agent-sandbox-tools) -- 每个智能体的覆盖和优先级
+- [??](/zh-CN/gateway/security)

@@ -114,7 +114,7 @@ openclaw tui --url ws://<host>:<port> --token <gateway-token>
 - `/settings`
 - `/exit`
 
-其他 Gateway slash commands（例如 `/context`）会被转发到 Gateway 网关，并作为系统输出显示。参见 [Slash Commands](/zh-CN/tools/slash-commands)。
+其他 Gateway slash commands（例如 `/context`）会被转发到 Gateway 网关，并作为系统输出显示。参见 [????](/zh-CN/tools/slash-commands)。
 
 ## 本地 shell 命令
 
@@ -179,5 +179,5 @@ openclaw tui --url ws://<host>:<port> --token <gateway-token>
 
 ## 相关内容
 
-- [Control UI](/web/control-ui) — 基于 Web 的控制界面
-- [CLI Reference](/cli) — 完整 CLI 命令参考
+- [?? UI](/zh-CN/web/control-ui) — 基于 Web 的控制界面
+- [CLI 参考](/zh-CN/cli) — 完整 CLI 命令参考

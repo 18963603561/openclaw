@@ -20,7 +20,7 @@ OpenShell 是 OpenClaw 的一个托管沙箱后端。OpenClaw 不再在本地运
 容器，而是将沙箱生命周期委托给 `openshell` CLI，
 由它来创建远程环境，并通过基于 SSH 的命令执行进行操作。
 
-OpenShell 插件复用了与通用 [SSH 后端](/gateway/sandboxing#ssh-backend) 相同的核心 SSH 传输和远程文件系统
+OpenShell 插件复用了与通用 [沙箱隔离](/zh-CN/gateway/sandboxing#ssh-backend) 相同的核心 SSH 传输和远程文件系统
 桥接能力。它增加了 OpenShell 特有的生命周期操作（`sandbox create/get/delete`、`sandbox ssh-config`）
 以及一个可选的 `mirror` 工作区模式。
 
@@ -150,7 +150,7 @@ openclaw sandbox explain
 
 沙箱级设置（`mode`、`scope`、`workspaceAccess`）与其他后端一样，配置在
 `agents.defaults.sandbox` 下。完整矩阵请参见
-[沙箱隔离](/gateway/sandboxing)。
+[沙箱隔离](/zh-CN/gateway/sandboxing)。
 
 ## 示例
 
@@ -304,7 +304,7 @@ openclaw sandbox recreate --all
 
 ## 另请参见
 
-- [沙箱隔离](/gateway/sandboxing) -- 模式、作用域与后端对比
+- [沙箱隔离](/zh-CN/gateway/sandboxing) -- 模式、作用域与后端对比
 - [沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated) -- 调试被阻止的工具
-- [多智能体沙箱与工具](/tools/multi-agent-sandbox-tools) -- 按智能体覆盖
-- [沙箱 CLI](/cli/sandbox) -- `openclaw sandbox` 命令
+- [多智能体沙箱与工具](/zh-CN/tools/multi-agent-sandbox-tools) -- 按智能体覆盖
+- [沙箱 CLI](/zh-CN/cli/sandbox) -- `openclaw sandbox` 命令

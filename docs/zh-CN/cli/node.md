@@ -131,7 +131,7 @@ openclaw devices approve <requestId>
 `system.run` 受本地 exec 审批控制：
 
 - `~/.openclaw/exec-approvals.json`
-- [Exec approvals](/tools/exec-approvals)
+- [Exec ??](/zh-CN/tools/exec-approvals)
 - `openclaw approvals --node <id|name|ip>`（从 Gateway 网关 侧编辑）
 
 对于已批准的异步节点 exec，OpenClaw 会在提示前准备一个规范化的 `systemRunPlan`。

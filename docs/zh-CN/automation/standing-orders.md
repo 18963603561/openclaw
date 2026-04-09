@@ -47,7 +47,7 @@ x-i18n:
 3. **审批关卡** —— 在采取行动前哪些事项需要人工签字确认
 4. **升级规则** —— 何时停止并请求帮助
 
-智能体会在每个会话中通过工作区引导文件加载这些说明（完整自动注入文件列表见 [智能体工作区](/zh-CN/concepts/agent-workspace)），并结合 [cron jobs](/zh-CN/automation/cron-jobs) 针对基于时间的执行进行落实。
+智能体会在每个会话中通过工作区引导文件加载这些说明（完整自动注入文件列表见 [智能体工作区](/zh-CN/concepts/agent-workspace)），并结合 [????](/zh-CN/automation/cron-jobs) 针对基于时间的执行进行落实。
 
 <Tip>
 请将长期指令放入 `AGENTS.md`，以确保它们在每个会话中都会被加载。工作区引导机制会自动注入 `AGENTS.md`、`SOUL.md`、`TOOLS.md`、`IDENTITY.md`、`USER.md`、`HEARTBEAT.md`、`BOOTSTRAP.md` 和 `MEMORY.md` —— 但不会注入子目录中的任意文件。
@@ -80,7 +80,7 @@ x-i18n:
 
 ## 长期指令 + Cron Jobs
 
-长期指令定义智能体被授权执行**什么**。[Cron Jobs](/zh-CN/automation/cron-jobs) 定义它**何时**执行。两者协同工作：
+长期指令定义智能体被授权执行**什么**。[????](/zh-CN/automation/cron-jobs) 定义它**何时**执行。两者协同工作：
 
 ```text
 Standing Order: "You own the daily inbox triage"
@@ -255,7 +255,7 @@ openclaw cron add \
 ## 相关内容
 
 - [自动化与任务](/zh-CN/automation) —— 所有自动化机制一览
-- [Cron Jobs](/zh-CN/automation/cron-jobs) —— 长期指令的计划执行机制
+- [????](/zh-CN/automation/cron-jobs) —— 长期指令的计划执行机制
 - [Hooks](/zh-CN/automation/hooks) —— 用于智能体生命周期事件的事件驱动脚本
 - [Webhooks](/zh-CN/automation/cron-jobs#webhooks) —— 入站 HTTP 事件触发器
 - [智能体工作区](/zh-CN/concepts/agent-workspace) —— 长期指令所在位置，包括完整的自动注入引导文件列表（AGENTS.md、SOUL.md 等）

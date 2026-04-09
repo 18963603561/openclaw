@@ -17,7 +17,7 @@ x-i18n:
 # 模型 CLI
 
 关于身份凭证配置轮换、冷却时间及其与回退机制如何交互，请参见 [/concepts/model-failover](/zh-CN/concepts/model-failover)。
-提供商快速概览 + 示例：[/concepts/model-providers](/zh-CN/concepts/model-providers)。
+提供商快速概览 + 示例：[?????](/zh-CN/concepts/model-providers)。
 
 ## 模型选择如何工作
 
@@ -35,7 +35,7 @@ OpenClaw 会按以下顺序选择模型：
 - `agents.defaults.imageGenerationModel` 由共享的图像生成能力使用。如果省略，`image_generate` 仍可推断使用由身份凭证支持的提供商默认值。它会先尝试当前默认提供商，然后按提供商 ID 顺序尝试其余已注册的图像生成提供商。如果你设置了特定的提供商/模型，也要同时配置该提供商的身份凭证/API 密钥。
 - `agents.defaults.musicGenerationModel` 由共享的音乐生成能力使用。如果省略，`music_generate` 仍可推断使用由身份凭证支持的提供商默认值。它会先尝试当前默认提供商，然后按提供商 ID 顺序尝试其余已注册的音乐生成提供商。如果你设置了特定的提供商/模型，也要同时配置该提供商的身份凭证/API 密钥。
 - `agents.defaults.videoGenerationModel` 由共享的视频生成能力使用。如果省略，`video_generate` 仍可推断使用由身份凭证支持的提供商默认值。它会先尝试当前默认提供商，然后按提供商 ID 顺序尝试其余已注册的视频生成提供商。如果你设置了特定的提供商/模型，也要同时配置该提供商的身份凭证/API 密钥。
-- 每个智能体的默认值可以通过 `agents.list[].model` 以及绑定覆盖 `agents.defaults.model`（参见 [/concepts/multi-agent](/zh-CN/concepts/multi-agent)）。
+- 每个智能体的默认值可以通过 `agents.list[].model` 以及绑定覆盖 `agents.defaults.model`（参见 [??????](/zh-CN/concepts/multi-agent)）。
 
 ## 快速模型策略
 
@@ -66,7 +66,7 @@ openclaw onboard
 模型引用会被标准化为小写。像 `z.ai/*` 这样的提供商别名会标准化为 `zai/*`。
 
 提供商配置示例（包括 OpenCode）位于
-[/providers/opencode](/providers/opencode)。
+[/providers/opencode](/zh-CN/providers/opencode)。
 
 ## “Model is not allowed”（以及为什么回复会停止）
 
@@ -126,7 +126,7 @@ Model "provider/model" is not allowed. Use /model to list available models.
   3. 已弃用的回退：使用已配置的默认提供商  
      如果该提供商不再暴露已配置的默认模型，OpenClaw 会改为回退到第一个已配置的提供商/模型，以避免暴露陈旧的、已移除提供商默认值。
 
-完整命令行为/配置： [斜杠命令](/tools/slash-commands)。
+完整命令行为/配置： [斜杠命令](/zh-CN/tools/slash-commands)。
 
 ## CLI 命令
 
@@ -207,7 +207,7 @@ openclaw models status
 输入
 
 - OpenRouter `/models` 列表（筛选 `:free`）
-- 需要来自身份凭证配置档案或 `OPENROUTER_API_KEY` 的 OpenRouter API 密钥（参见 [/environment](/help/environment)）
+- 需要来自身份凭证配置档案或 `OPENROUTER_API_KEY` 的 OpenRouter API 密钥（参见 [/environment](/zh-CN/help/environment)）
 - 可选筛选：`--max-age-days`、`--min-params`、`--provider`、`--max-candidates`
 - 探测控制：`--timeout`、`--concurrency`
 
@@ -233,7 +233,7 @@ openclaw models status
 
 - [模型提供商](/zh-CN/concepts/model-providers) — 提供商路由与身份凭证
 - [模型故障转移](/zh-CN/concepts/model-failover) — 回退链
-- [图像生成](/tools/image-generation) — 图像模型配置
-- [音乐生成](/tools/music-generation) — 音乐模型配置
-- [视频生成](/tools/video-generation) — 视频模型配置
-- [配置参考](/gateway/configuration-reference#agent-defaults) — 模型配置键名
+- [图像生成](/zh-CN/tools/image-generation) — 图像模型配置
+- [音乐生成](/zh-CN/tools/music-generation) — 音乐模型配置
+- [视频生成](/zh-CN/tools/video-generation) — 视频模型配置
+- [配置参考](/zh-CN/gateway/configuration-reference#agent-defaults) — 模型配置键名

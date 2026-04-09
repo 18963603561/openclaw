@@ -41,7 +41,7 @@ openclaw onboard --auth-choice openrouter-api-key
 - 模型引用格式为 `openrouter/<provider>/<model>`。
 - 新手引导默认使用 `openrouter/auto`。之后可通过
   `openclaw models set openrouter/<provider>/<model>` 切换到具体模型。
-- 更多模型/提供商选项，见 [/concepts/model-providers](/zh-CN/concepts/model-providers)。
+- 更多模型/提供商选项，见 [?????](/zh-CN/concepts/model-providers)。
 - OpenRouter 在底层使用你的 API key 作为 Bearer token。
 - 对于真实的 OpenRouter 请求（`https://openrouter.ai/api/v1`），OpenClaw 还会
   添加 OpenRouter 文档中说明的应用归因 headers：

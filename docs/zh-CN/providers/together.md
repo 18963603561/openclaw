@@ -100,4 +100,4 @@ OpenClaw 当前内置了以下 Together 目录：
 ```
 
 有关共享工具参数、提供商选择和故障转移行为，请参见
-[视频生成](/tools/video-generation)。
+[视频生成](/zh-CN/tools/video-generation)。

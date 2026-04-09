@@ -71,7 +71,7 @@ x-i18n:
     - 新手引导会运行模型检查，并在配置的模型未知或缺少认证时发出警告。
     - API key 存储模式默认使用明文 auth-profile 值。使用 `--secret-input-mode ref` 可改为存储基于环境变量的引用（例如 `keyRef: { source: "env", provider: "default", id: "OPENAI_API_KEY" }`）。
     - Auth profiles 位于 `~/.openclaw/agents/<agentId>/agent/auth-profiles.json`（API keys + OAuth）。`~/.openclaw/credentials/oauth.json` 仅为旧版导入来源。
-    - 更多细节： [/concepts/oauth](/zh-CN/concepts/oauth)
+    - 更多细节： [OAuth](/zh-CN/concepts/oauth)
     <Note>
     无头/服务器提示：可先在有浏览器的机器上完成 OAuth，然后复制
     该智能体的 `auth-profiles.json`（例如
@@ -246,6 +246,6 @@ WhatsApp 凭证位于 `~/.openclaw/credentials/whatsapp/<accountId>/` 下。
 
 - 新手引导概览： [新手引导（CLI）](/zh-CN/start/wizard)
 - macOS 应用新手引导： [新手引导](/zh-CN/start/onboarding)
-- 配置参考： [Gateway 网关配置](/zh-CN/gateway/configuration)
+- 配置参考： [??](/zh-CN/gateway/configuration)
 - Providers： [WhatsApp](/zh-CN/channels/whatsapp)、[Telegram](/zh-CN/channels/telegram)、[Discord](/zh-CN/channels/discord)、[Google Chat](/zh-CN/channels/googlechat)、[Signal](/zh-CN/channels/signal)、[BlueBubbles](/zh-CN/channels/bluebubbles)（iMessage）、[iMessage](/zh-CN/channels/imessage)（旧版）
-- Skills： [Skills](/tools/skills)、[Skills 配置](/tools/skills-config)
+- Skills： [Skills](/zh-CN/tools/skills)、[Skills ??](/zh-CN/tools/skills-config)

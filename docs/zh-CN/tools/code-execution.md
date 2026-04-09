@@ -91,6 +91,6 @@ Use web_search to gather the latest AI benchmark numbers, then use code_executio
 
 ## 另请参见
 
-- [Web tools](/zh-CN/tools/web)
-- [Exec](/zh-CN/tools/exec)
+- [Web ??](/zh-CN/tools/web)
+- [Exec ??](/zh-CN/tools/exec)
 - [xAI](/zh-CN/providers/xai)

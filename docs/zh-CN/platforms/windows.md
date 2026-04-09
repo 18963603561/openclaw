@@ -109,7 +109,7 @@ openclaw gateway status --json
 
 ## Gateway 网关
 
-- [Gateway 网关操作手册](/zh-CN/gateway)
+- [Gateway ??????](/zh-CN/gateway)
 - [配置](/zh-CN/gateway/configuration)
 
 ## Gateway 网关服务安装（CLI）

@@ -84,4 +84,4 @@ OPENCLAW_LIVE_TEST=1 pnpm test src/agents/pi-embedded-runner-extraparams.live.te
 ## 参考
 
 - [测试](/zh-CN/help/testing)
-- [入门指南](/start/getting-started)
+- [入门指南](/zh-CN/start/getting-started)

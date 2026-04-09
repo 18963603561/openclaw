@@ -90,7 +90,7 @@ openclaw doctor
 ### 控制 UI（Web）
 
 控制 UI 的 **Logs** 选项卡会使用 `logs.tail` 持续跟踪同一个文件。
-有关如何打开它，请参见 [/web/control-ui](/web/control-ui)。
+有关如何打开它，请参见 [?? UI](/zh-CN/web/control-ui)。
 
 ### 仅渠道日志
 
@@ -392,5 +392,5 @@ Diagnostics 可以通过 `diagnostics-otel` 插件（OTLP/HTTP）导出。这样
 
 ## 相关内容
 
-- [Gateway 网关日志内部机制](/zh-CN/gateway/logging) —— WS 日志样式、子系统前缀和控制台捕获
-- [Diagnostics](/gateway/configuration-reference#diagnostics) —— OpenTelemetry 导出和缓存 trace 配置
+- [Gateway 网关日志](/zh-CN/gateway/logging) —— WS 日志样式、子系统前缀和控制台捕获
+- [????](/zh-CN/gateway/configuration-reference#diagnostics) —— OpenTelemetry 导出和缓存 trace 配置

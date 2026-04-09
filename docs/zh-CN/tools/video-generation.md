@@ -301,10 +301,10 @@ openclaw config set agents.defaults.videoGenerationModel.primary "qwen/wan2.6-t2
 
 ## 相关内容
 
-- [Tools Overview](/zh-CN/tools)
-- [Background Tasks](/zh-CN/automation/tasks) -- 异步视频生成的任务跟踪
+- [工具和插件](/zh-CN/tools)
+- [后台任务](/zh-CN/automation/tasks) -- 异步视频生成的任务跟踪
 - [Alibaba Model Studio](/zh-CN/providers/alibaba)
-- [BytePlus（国际版）](/zh-CN/concepts/model-providers#byteplus-international)
+- [?????](/zh-CN/concepts/model-providers#byteplus-international)
 - [ComfyUI](/zh-CN/providers/comfy)
 - [fal](/zh-CN/providers/fal)
 - [Google (Gemini)](/zh-CN/providers/google)
@@ -315,5 +315,5 @@ openclaw config set agents.defaults.videoGenerationModel.primary "qwen/wan2.6-t2
 - [Together AI](/zh-CN/providers/together)
 - [Vydra](/zh-CN/providers/vydra)
 - [xAI](/zh-CN/providers/xai)
-- [Configuration Reference](/gateway/configuration-reference#agent-defaults)
-- [Models](/zh-CN/concepts/models)
+- [????](/zh-CN/gateway/configuration-reference#agent-defaults)
+- [?? CLI](/zh-CN/concepts/models)

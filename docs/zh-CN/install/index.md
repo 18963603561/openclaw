@@ -53,7 +53,7 @@ x-i18n:
 ## 系统要求
 
 - **Node 24**（推荐）或 Node 22.14+ —— 安装脚本会自动处理这一点
-- **macOS、Linux 或 Windows** —— 同时支持原生 Windows 和 WSL2；WSL2 更稳定。参见 [Windows](/platforms/windows)。
+- **macOS、Linux 或 Windows** —— 同时支持原生 Windows 和 WSL2；WSL2 更稳定。参见 [Windows](/zh-CN/platforms/windows)。
 - 只有当你从源码构建时才需要 `pnpm`
 
 ## 其他安装方式
@@ -127,7 +127,7 @@ pnpm link --global
 openclaw onboard --install-daemon
 ```
 
-或者跳过 link，直接在仓库内使用 `pnpm openclaw ...`。完整开发工作流请参见 [设置](/start/setup)。
+或者跳过 link，直接在仓库内使用 `pnpm openclaw ...`。完整开发工作流请参见 [设置](/zh-CN/start/setup)。
 
 ### 从 GitHub main 安装
 
@@ -174,7 +174,7 @@ openclaw gateway status # 验证 Gateway 网关正在运行
 将 OpenClaw 部署到云服务器或 VPS：
 
 <CardGroup cols={3}>
-  <Card title="VPS" href="/vps">任意 Linux VPS</Card>
+  <Card title="VPS" href="/zh-CN/vps">任意 Linux VPS</Card>
   <Card title="Docker VM" href="/zh-CN/install/docker-vm-runtime">共享 Docker 步骤</Card>
   <Card title="Kubernetes" href="/zh-CN/install/kubernetes">K8s</Card>
   <Card title="Fly.io" href="/zh-CN/install/fly">Fly.io</Card>

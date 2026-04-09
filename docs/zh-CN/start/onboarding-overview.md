@@ -53,7 +53,7 @@ openclaw onboard
 添加 `--install-daemon`，即可一步同时安装后台服务。
 
 完整参考： [新手引导（CLI）](/zh-CN/start/wizard)
-CLI 命令文档：[`openclaw onboard`](/cli/onboard)
+CLI 命令文档：[`openclaw onboard`](/zh-CN/cli/onboard)
 
 ## macOS 应用新手引导
 

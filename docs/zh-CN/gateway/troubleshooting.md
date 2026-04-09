@@ -61,8 +61,8 @@ openclaw config get agents.defaults.models
 
 相关内容：
 
-- [/providers/anthropic](/providers/anthropic)
-- [/reference/token-use](/reference/token-use)
+- [/providers/anthropic](/zh-CN/providers/anthropic)
+- [/reference/token-use](/zh-CN/reference/token-use)
 - [/help/faq#why-am-i-seeing-http-429-ratelimiterror-from-anthropic](/zh-CN/help/faq#why-am-i-seeing-http-429-ratelimiterror-from-anthropic)
 
 ## 本地 OpenAI 兼容后端直接探测通过，但智能体运行失败
@@ -104,8 +104,8 @@ openclaw logs --follow
 相关内容：
 
 - [/gateway/local-models](/zh-CN/gateway/local-models)
-- [/gateway/configuration#models](/zh-CN/gateway/configuration#models)
-- [/gateway/configuration-reference#openai-compatible-endpoints](/gateway/configuration-reference#openai-compatible-endpoints)
+- [??](/zh-CN/gateway/configuration#models)
+- [????](/zh-CN/gateway/configuration-reference#openai-compatible-endpoints)
 
 ## 无回复
 
@@ -134,8 +134,8 @@ openclaw logs --follow
 相关内容：
 
 - [/channels/troubleshooting](/zh-CN/channels/troubleshooting)
-- [/channels/pairing](/zh-CN/channels/pairing)
-- [/channels/groups](/zh-CN/channels/groups)
+- [??](/zh-CN/channels/pairing)
+- [??](/zh-CN/channels/groups)
 
 ## 仪表板控制 UI 连接问题
 
@@ -176,8 +176,8 @@ openclaw gateway status --json
 | 详情代码                     | 含义                                                     | 建议操作                                                                                                                                                                                                                                                                         |
 | ---------------------------- | -------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `AUTH_TOKEN_MISSING`         | 客户端未发送必需的共享 token。                           | 在客户端中粘贴/设置 token 后重试。对于仪表板路径：运行 `openclaw config get gateway.auth.token`，然后将其粘贴到控制 UI 设置中。                                                                                                                                                  |
-| `AUTH_TOKEN_MISMATCH`        | 共享 token 与 Gateway 网关认证 token 不匹配。            | 如果 `canRetryWithDeviceToken=true`，允许一次受信任重试。缓存 token 重试会复用已存储的已批准 scopes；显式 `deviceToken` / `scopes` 调用方会保留请求的 scopes。如果仍然失败，请运行 [token 漂移恢复检查清单](/cli/devices#token-drift-recovery-checklist)。 |
-| `AUTH_DEVICE_TOKEN_MISMATCH` | 按设备缓存的 token 已过期或已撤销。                      | 使用 [devices CLI](/cli/devices) 轮换/重新批准设备 token，然后重新连接。                                                                                                                                                                                                        |
+| `AUTH_TOKEN_MISMATCH`        | 共享 token 与 Gateway 网关认证 token 不匹配。            | 如果 `canRetryWithDeviceToken=true`，允许一次受信任重试。缓存 token 重试会复用已存储的已批准 scopes；显式 `deviceToken` / `scopes` 调用方会保留请求的 scopes。如果仍然失败，请运行 [token 漂移恢复检查清单](/zh-CN/cli/devices#token-drift-recovery-checklist)。 |
+| `AUTH_DEVICE_TOKEN_MISMATCH` | 按设备缓存的 token 已过期或已撤销。                      | 使用 [devices CLI](/zh-CN/cli/devices) 轮换/重新批准设备 token，然后重新连接。                                                                                                                                                                                                        |
 | `PAIRING_REQUIRED`           | 设备身份已知，但尚未获批用于此角色。                     | 批准待处理请求：`openclaw devices list` 然后执行 `openclaw devices approve <requestId>`。                                                                                                                                                                                        |
 
 设备认证 v2 迁移检查：
@@ -201,11 +201,11 @@ openclaw gateway status
 
 相关内容：
 
-- [/web/control-ui](/web/control-ui)
-- [/gateway/configuration](/zh-CN/gateway/configuration)（gateway 认证模式）
-- [/gateway/trusted-proxy-auth](/zh-CN/gateway/trusted-proxy-auth)
-- [/gateway/remote](/zh-CN/gateway/remote)
-- [/cli/devices](/cli/devices)
+- [?? UI](/zh-CN/web/control-ui)
+- [??](/zh-CN/gateway/configuration)（gateway 认证模式）
+- [??????](/zh-CN/gateway/trusted-proxy-auth)
+- [????](/zh-CN/gateway/remote)
+- [/cli/devices](/zh-CN/cli/devices)
 
 ## Gateway 网关服务未运行
 
@@ -232,12 +232,12 @@ openclaw gateway status --deep   # also scan system-level services
 - `Gateway start blocked: set gateway.mode=local` 或 `existing config is missing gateway.mode` → 本地 Gateway 网关模式未启用，或者配置文件被覆盖并丢失了 `gateway.mode`。修复方法：在配置中设置 `gateway.mode="local"`，或重新运行 `openclaw onboard --mode local` / `openclaw setup` 以重新写入预期的本地模式配置。如果你通过 Podman 运行 OpenClaw，默认配置路径是 `~/.openclaw/openclaw.json`。
 - `refusing to bind gateway ... without auth` → 非 loopback 绑定，但没有有效的 Gateway 网关认证路径（token/password，或已正确配置的 trusted-proxy）。
 - `another gateway instance is already listening` / `EADDRINUSE` → 端口冲突。
-- `Other gateway-like services detected (best effort)` → 存在陈旧或并行的 launchd/systemd/schtasks 单元。大多数环境应保持每台机器只有一个 Gateway 网关；如果你确实需要多个，请隔离端口 + 配置/状态/工作区。参见 [/gateway#multiple-gateways-same-host](/zh-CN/gateway#multiple-gateways-same-host)。
+- `Other gateway-like services detected (best effort)` → 存在陈旧或并行的 launchd/systemd/schtasks 单元。大多数环境应保持每台机器只有一个 Gateway 网关；如果你确实需要多个，请隔离端口 + 配置/状态/工作区。参见 [Gateway ??????](/zh-CN/gateway#multiple-gateways-same-host)。
 
 相关内容：
 
 - [/gateway/background-process](/zh-CN/gateway/background-process)
-- [/gateway/configuration](/zh-CN/gateway/configuration)
+- [??](/zh-CN/gateway/configuration)
 - [/gateway/doctor](/zh-CN/gateway/doctor)
 
 ## Gateway 网关 probe 警告
@@ -264,9 +264,9 @@ openclaw gateway probe --ssh user@gateway-host
 
 相关内容：
 
-- [/cli/gateway](/cli/gateway)
-- [/gateway#multiple-gateways-same-host](/zh-CN/gateway#multiple-gateways-same-host)
-- [/gateway/remote](/zh-CN/gateway/remote)
+- [/cli/gateway](/zh-CN/cli/gateway)
+- [Gateway ??????](/zh-CN/gateway#multiple-gateways-same-host)
+- [????](/zh-CN/gateway/remote)
 
 ## 渠道已连接但消息未流动
 
@@ -329,9 +329,9 @@ openclaw logs --follow
 
 相关内容：
 
-- [/automation/cron-jobs#troubleshooting](/zh-CN/automation/cron-jobs#troubleshooting)
-- [/automation/cron-jobs](/zh-CN/automation/cron-jobs)
-- [/gateway/heartbeat](/zh-CN/gateway/heartbeat)
+- [????](/zh-CN/automation/cron-jobs#troubleshooting)
+- [????](/zh-CN/automation/cron-jobs)
+- [Heartbeat](/zh-CN/gateway/heartbeat)
 
 ## 节点已配对但工具失败
 
@@ -362,7 +362,7 @@ openclaw status
 
 - [/nodes/troubleshooting](/zh-CN/nodes/troubleshooting)
 - [/nodes/index](/zh-CN/nodes/index)
-- [/tools/exec-approvals](/tools/exec-approvals)
+- [Exec ??](/zh-CN/tools/exec-approvals)
 
 ## 浏览器工具失败
 
@@ -405,8 +405,8 @@ openclaw doctor
 
 相关内容：
 
-- [/tools/browser-linux-troubleshooting](/tools/browser-linux-troubleshooting)
-- [/tools/browser](/tools/browser)
+- [/tools/browser-linux-troubleshooting](/zh-CN/tools/browser-linux-troubleshooting)
+- [?????](/zh-CN/tools/browser)
 
 ## 如果你升级后突然出现故障
 

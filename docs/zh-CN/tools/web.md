@@ -27,7 +27,7 @@ OpenClaw 还包含用于 X（原 Twitter）帖子搜索的 `x_search`，
 
 <Info>
   `web_search` 是一个轻量级 HTTP 工具，不是浏览器自动化。对于
-  重度依赖 JS 的网站或登录场景，请使用 [Web Browser](/zh-CN/tools/browser)。对于
+  重度依赖 JS 的网站或登录场景，请使用 [?????](/zh-CN/tools/browser)。对于
   抓取特定 URL，请使用 [Web Fetch](/zh-CN/tools/web-fetch)。
 </Info>
 
@@ -107,16 +107,16 @@ OpenClaw 还包含用于 X（原 Twitter）帖子搜索的 `x_search`，
 | 提供商 | 结果样式 | 过滤器 | API 密钥 |
 | ----------------------------------------- | -------------------------- | ------------------------------------------------ | -------------------------------------------------------------------------------- |
 | [Brave](/zh-CN/tools/brave-search) | 结构化摘要片段 | 国家、语言、时间、`llm-context` 模式 | `BRAVE_API_KEY` |
-| [DuckDuckGo](/zh-CN/tools/duckduckgo-search) | 结构化摘要片段 | -- | 无（无需密钥） |
+| [DuckDuckGo 搜索](/zh-CN/tools/duckduckgo-search) | 结构化摘要片段 | -- | 无（无需密钥） |
 | [Exa Search](/zh-CN/tools/exa-search) | 结构化 + 提取内容 | 神经/关键词模式、日期、内容提取 | `EXA_API_KEY` |
 | [Firecrawl](/zh-CN/tools/firecrawl) | 结构化摘要片段 | 通过 `firecrawl_search` 工具 | `FIRECRAWL_API_KEY` |
 | [Gemini](/zh-CN/tools/gemini-search) | AI 综合答案 + 引用 | -- | `GEMINI_API_KEY` |
-| [Grok](/zh-CN/tools/grok-search) | AI 综合答案 + 引用 | -- | `XAI_API_KEY` |
+| [Grok 搜索](/zh-CN/tools/grok-search) | AI 综合答案 + 引用 | -- | `XAI_API_KEY` |
 | [Kimi](/zh-CN/tools/kimi-search) | AI 综合答案 + 引用 | -- | `KIMI_API_KEY` / `MOONSHOT_API_KEY` |
 | [MiniMax Search](/zh-CN/tools/minimax-search) | 结构化摘要片段 | 区域（`global` / `cn`） | `MINIMAX_CODE_PLAN_KEY` / `MINIMAX_CODING_API_KEY` |
 | [Ollama Web 搜索](/zh-CN/tools/ollama-search) | 结构化摘要片段 | -- | 默认无；需要 `ollama signin`，并可复用 Ollama 提供商 bearer 认证 |
 | [Perplexity](/zh-CN/tools/perplexity-search) | 结构化摘要片段 | 国家、语言、时间、域名、内容限制 | `PERPLEXITY_API_KEY` / `OPENROUTER_API_KEY` |
-| [SearXNG](/zh-CN/tools/searxng-search) | 结构化摘要片段 | 分类、语言 | 无（自托管） |
+| [SearXNG 搜索](/zh-CN/tools/searxng-search) | 结构化摘要片段 | 分类、语言 | 无（自托管） |
 | [Tavily](/zh-CN/tools/tavily) | 结构化摘要片段 | 通过 `tavily_search` 工具 | `TAVILY_API_KEY` |
 
 ## 自动检测
@@ -413,6 +413,6 @@ await web_search({
 ## 相关内容
 
 - [Web Fetch](/zh-CN/tools/web-fetch) -- 抓取 URL 并提取可读内容
-- [Web Browser](/zh-CN/tools/browser) -- 面向重度 JS 网站的完整浏览器自动化
+- [?????](/zh-CN/tools/browser) -- 面向重度 JS 网站的完整浏览器自动化
 - [Grok 搜索](/zh-CN/tools/grok-search) -- 将 Grok 用作 `web_search` 提供商
 - [Ollama Web 搜索](/zh-CN/tools/ollama-search) -- 通过你的 Ollama 宿主进行无需密钥的 Web 搜索

@@ -12,4 +12,4 @@ x-i18n:
 
 # 投票
 
-此页面已迁移到 [Message 工具](/cli/message)。有关投票文档，请参阅 [Message 工具](/cli/message)。
+此页面已迁移到 [message](/zh-CN/cli/message)。有关投票文档，请参阅 [message](/zh-CN/cli/message)。

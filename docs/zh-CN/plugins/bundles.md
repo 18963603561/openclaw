@@ -274,6 +274,6 @@ Bundles 的信任边界比原生插件更窄：
 
 ## 相关内容
 
-- [安装和配置插件](/tools/plugin)
+- [安装和配置插件](/zh-CN/tools/plugin)
 - [构建插件](/zh-CN/plugins/building-plugins) —— 创建原生插件
-- [插件 Manifest](/zh-CN/plugins/manifest) —— 原生 manifest schema
+- [插件清单](/zh-CN/plugins/manifest) —— 原生 manifest schema

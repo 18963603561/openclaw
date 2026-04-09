@@ -71,13 +71,13 @@ x-i18n:
 - `tools.exec.host`（默认：`auto`；当沙箱运行时处于活动状态时解析为 `sandbox`，否则为 `gateway`）
 - `tools.exec.security`（默认：沙箱为 `deny`，gateway + node 在未设置时为 `full`）
 - `tools.exec.ask`（默认：`off`）
-- 对 gateway + node 而言，不需审批的宿主 exec 是默认行为。如果你想启用审批/allowlist 行为，请同时收紧 `tools.exec.*` 和宿主侧 `~/.openclaw/exec-approvals.json`；参见 [Exec approvals](/zh-CN/tools/exec-approvals#no-approval-yolo-mode)。
+- 对 gateway + node 而言，不需审批的宿主 exec 是默认行为。如果你想启用审批/allowlist 行为，请同时收紧 `tools.exec.*` 和宿主侧 `~/.openclaw/exec-approvals.json`；参见 [Exec ??](/zh-CN/tools/exec-approvals#no-approval-yolo-mode)。
 - YOLO 来自宿主策略默认值（`security=full`、`ask=off`），而不是来自 `host=auto`。如果你想强制走 gateway 或 node 路由，请设置 `tools.exec.host` 或使用 `/exec host=...`。
 - 在 `security=full` 且 `ask=off` 模式下，宿主 exec 会直接遵循已配置策略；不会再有额外的启发式命令混淆预过滤。
 - `tools.exec.node`（默认：未设置）
 - `tools.exec.strictInlineEval`（默认：false）：为 true 时，内联解释器求值形式，如 `python -c`、`node -e`、`ruby -e`、`perl -e`、`php -r`、`lua -e` 和 `osascript -e`，始终需要显式审批。`allow-always` 仍可持久信任无害的解释器/脚本调用，但内联求值形式每次仍会提示。
 - `tools.exec.pathPrepend`：在 exec 运行前追加到 `PATH` 前部的目录列表（仅 gateway + sandbox）。
-- `tools.exec.safeBins`：仅 stdin 的安全二进制，可在没有显式 allowlist 条目的情况下运行。行为细节参见 [Safe bins](/zh-CN/tools/exec-approvals#safe-bins-stdin-only)。
+- `tools.exec.safeBins`：仅 stdin 的安全二进制，可在没有显式 allowlist 条目的情况下运行。行为细节参见 [Exec ??](/zh-CN/tools/exec-approvals#safe-bins-stdin-only)。
 - `tools.exec.safeBinTrustedDirs`：用于 `safeBins` 路径检查的额外显式可信目录。`PATH` 条目永远不会被自动信任。内置默认值为 `/bin` 和 `/usr/bin`。
 - `tools.exec.safeBinProfiles`：为自定义安全二进制提供可选的自定义 argv 策略（`minPositional`、`maxPositional`、`allowedValueFlags`、`deniedFlags`）。
 
@@ -136,7 +136,7 @@ openclaw config set agents.list[0].tools.exec.node "node-id-or-name"
 ## Exec 审批（配套应用 / 节点宿主）
 
 处于沙箱隔离的智能体可以要求在 `exec` 于 gateway 或 node 宿主上运行前进行逐次审批。
-有关策略、allowlist 和 UI 流程，请参见 [Exec approvals](/zh-CN/tools/exec-approvals)。
+有关策略、allowlist 和 UI 流程，请参见 [Exec ??](/zh-CN/tools/exec-approvals)。
 
 当需要审批时，exec 工具会立即返回，
 其中包含 `status: "approval-pending"` 和一个审批 id。一旦被批准（或被拒绝 / 超时），
@@ -172,7 +172,7 @@ allowlist 模式下会被拒绝，除非每个顶层片段都满足 allowlist（
 当你显式将像 `jq` 这类宽行为二进制重新加入 `safeBins` 时，`openclaw security audit` 和 `openclaw doctor` 也会发出警告。
 如果你显式允许了解释器，请启用 `tools.exec.strictInlineEval`，这样内联代码求值形式仍需新的审批。
 
-完整策略细节和示例，请参见 [Exec approvals](/zh-CN/tools/exec-approvals#safe-bins-stdin-only) 和 [Safe bins versus allowlist](/zh-CN/tools/exec-approvals#safe-bins-versus-allowlist)。
+完整策略细节和示例，请参见 [Exec ??](/zh-CN/tools/exec-approvals#safe-bins-stdin-only) 和 [Exec ??](/zh-CN/tools/exec-approvals#safe-bins-versus-allowlist)。
 
 ## 示例
 
@@ -238,7 +238,7 @@ allowlist 模式下会被拒绝，除非每个顶层片段都满足 allowlist（
 
 ## 相关内容
 
-- [Exec Approvals](/zh-CN/tools/exec-approvals) — shell 命令的审批门禁
+- [Exec ??](/zh-CN/tools/exec-approvals) — shell 命令的审批门禁
 - [沙箱隔离](/zh-CN/gateway/sandboxing) — 在沙箱环境中运行命令
-- [Background Process](/zh-CN/gateway/background-process) — 长时间运行的 exec 和 process 工具
-- [Security](/zh-CN/gateway/security) — 工具策略和提升访问
+- [后台 Exec 与 Process 工具](/zh-CN/gateway/background-process) — 长时间运行的 exec 和 process 工具
+- [??](/zh-CN/gateway/security) — 工具策略和提升访问

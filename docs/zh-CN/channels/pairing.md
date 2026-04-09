@@ -22,13 +22,13 @@ x-i18n:
 1. **私信配对**（谁被允许与 bot 对话）
 2. **节点配对**（哪些设备/节点被允许加入 Gateway 网关网络）
 
-安全背景： [安全](/gateway/security)
+安全背景： [安全](/zh-CN/gateway/security)
 
 ## 1）私信配对（入站聊天访问）
 
 当某个渠道配置了私信策略 `pairing` 时，未知发送者会收到一个短代码，并且在你批准之前，他们的消息**不会被处理**。
 
-默认私信策略记录在： [安全](/gateway/security)
+默认私信策略记录在： [安全](/zh-CN/gateway/security)
 
 配对码：
 
@@ -117,8 +117,8 @@ openclaw devices reject <requestId>
 
 ## 相关文档
 
-- 安全模型 + prompt injection： [安全](/gateway/security)
-- 安全更新（运行 Doctor）： [更新](/install/updating)
+- 安全模型 + prompt injection： [安全](/zh-CN/gateway/security)
+- 安全更新（运行 Doctor）： [更新](/zh-CN/install/updating)
 - 渠道配置：
   - Telegram： [Telegram](/zh-CN/channels/telegram)
   - WhatsApp： [WhatsApp](/zh-CN/channels/whatsapp)

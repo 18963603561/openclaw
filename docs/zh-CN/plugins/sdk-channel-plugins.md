@@ -572,4 +572,4 @@ if (decision.shouldSkip) return;
 - [提供商插件](/zh-CN/plugins/sdk-provider-plugins) —— 如果你的插件也提供模型
 - [插件 SDK 概览](/zh-CN/plugins/sdk-overview) —— 完整子路径导入参考
 - [插件 SDK 测试](/zh-CN/plugins/sdk-testing) —— 测试工具与契约测试
-- [插件 Manifest](/zh-CN/plugins/manifest) —— 完整 manifest schema
+- [插件清单](/zh-CN/plugins/manifest) —— 完整 manifest schema

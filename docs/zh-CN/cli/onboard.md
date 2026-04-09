@@ -18,11 +18,11 @@ x-i18n:
 
 ## 相关指南
 
-- CLI 新手引导总览：[设置向导（CLI）](/start/wizard)
-- 新手引导概览：[新手引导概览](/start/onboarding-overview)
-- CLI 新手引导参考：[CLI 设置参考](/start/wizard-cli-reference)
-- CLI 自动化：[CLI 自动化](/start/wizard-cli-automation)
-- macOS 新手引导：[新手引导（macOS App）](/start/onboarding)
+- CLI 新手引导总览：[新手引导（CLI）](/zh-CN/start/wizard)
+- 新手引导概览：[新手引导概览](/zh-CN/start/onboarding-overview)
+- CLI 新手引导参考：[CLI 设置参考](/zh-CN/start/wizard-cli-reference)
+- CLI 自动化：[CLI 自动化](/zh-CN/start/wizard-cli-automation)
+- macOS 新手引导：[新手引导（macOS 应用）](/zh-CN/start/onboarding)
 
 ## 示例
 
@@ -161,7 +161,7 @@ openclaw onboard --non-interactive \
     和一个 `x_search` 模型选择。
   - **Kimi** 可以询问 Moonshot API 区域（`api.moonshot.ai` 与
     `api.moonshot.cn`）以及默认的 Kimi Web 搜索模型。
-- 本地新手引导私信范围行为：[CLI 设置参考](/start/wizard-cli-reference#outputs-and-internals)。
+- 本地新手引导私信范围行为：[CLI 设置参考](/zh-CN/start/wizard-cli-reference#outputs-and-internals)。
 - 最快开始首次聊天的方式：`openclaw dashboard`（Control UI，无需渠道设置）。
 - 自定义提供商：连接任意与 OpenAI 或 Anthropic 兼容的端点，
   包括未列出的托管提供商。可使用 Unknown 进行自动检测。

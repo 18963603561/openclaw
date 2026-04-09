@@ -51,7 +51,7 @@ x-i18n:
 
 计划目标可用于以下位置中受支持的凭证路径：
 
-- [SecretRef 凭证表面](/reference/secretref-credential-surface)
+- [SecretRef ?????](/zh-CN/reference/secretref-credential-surface)
 
 ## 目标类型行为
 
@@ -118,6 +118,6 @@ openclaw secrets apply --from /tmp/openclaw-secrets-plan.json --allow-exec
 ## 相关文档
 
 - [Secrets 管理](/zh-CN/gateway/secrets)
-- [CLI `secrets`](/cli/secrets)
-- [SecretRef 凭证表面](/reference/secretref-credential-surface)
+- [CLI `secrets`](/zh-CN/cli/secrets)
+- [SecretRef ?????](/zh-CN/reference/secretref-credential-surface)
 - [配置参考](/zh-CN/gateway/configuration-reference)

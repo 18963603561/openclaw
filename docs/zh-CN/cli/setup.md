@@ -19,8 +19,8 @@ x-i18n:
 
 相关内容：
 
-- 入门指南：[入门指南](/start/getting-started)
-- CLI 新手引导：[设置向导（CLI）](/start/wizard)
+- 入门指南：[入门指南](/zh-CN/start/getting-started)
+- CLI 新手引导：[新手引导（CLI）](/zh-CN/start/wizard)
 
 ## 示例
 

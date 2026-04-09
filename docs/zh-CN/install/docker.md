@@ -184,7 +184,7 @@ Docker Compose 会将 `OPENCLAW_CONFIG_DIR` bind-mount 到 `/home/node/.openclaw
 - 用于 env 支持的运行时 secrets（例如 `OPENCLAW_GATEWAY_TOKEN`）的 `.env`
 
 有关 VM 部署的完整持久化细节，请参见
-[Docker VM 运行时 - 哪些内容会持久化，分别在哪里](/zh-CN/install/docker-vm-runtime#what-persists-where)。
+[Docker VM 运行时](/zh-CN/install/docker-vm-runtime#what-persists-where)。
 
 **磁盘增长热点：** 请关注 `media/`、会话 JSONL 文件、`cron/runs/*.jsonl`，
 以及 `/tmp/openclaw/` 下的滚动文件日志。
@@ -326,7 +326,7 @@ echo 'source ~/.clawdock/clawdock-helpers.sh' >> ~/.zshrc && source ~/.zshrc
 
 - [沙箱隔离](/zh-CN/gateway/sandboxing) -- 完整沙箱参考
 - [OpenShell](/zh-CN/gateway/openshell) -- 访问沙箱容器的交互式 shell
-- [多智能体沙箱与工具](/tools/multi-agent-sandbox-tools) -- 每智能体覆盖项
+- [多智能体沙箱与工具](/zh-CN/tools/multi-agent-sandbox-tools) -- 每智能体覆盖项
 
 ### 快速启用
 
@@ -383,7 +383,7 @@ scripts/sandbox-setup.sh
     docker compose run --rm openclaw-cli devices approve <requestId>
     ```
 
-    更多细节： [仪表板](/web/dashboard)、[设备](/cli/devices)。
+    更多细节： [仪表板](/zh-CN/web/dashboard)、[设备](/zh-CN/cli/devices)。
 
   </Accordion>
 

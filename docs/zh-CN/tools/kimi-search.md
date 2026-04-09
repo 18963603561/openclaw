@@ -96,7 +96,7 @@ Kimi 搜索支持 `query`。
 
 ## 相关内容
 
-- [Web Search overview](/zh-CN/tools/web) -- 所有提供商和自动检测
+- [Web ??](/zh-CN/tools/web) -- 所有提供商和自动检测
 - [Moonshot AI](/zh-CN/providers/moonshot) -- Moonshot AI 模型 + Kimi Coding 提供商文档
 - [Gemini Search](/zh-CN/tools/gemini-search) -- 通过 Google grounding 提供 AI 合成答案
-- [Grok Search](/zh-CN/tools/grok-search) -- 通过 xAI grounding 提供 AI 合成答案
+- [Grok 搜索](/zh-CN/tools/grok-search) -- 通过 xAI grounding 提供 AI 合成答案

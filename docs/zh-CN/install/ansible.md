@@ -125,7 +125,7 @@ nmap -p- YOUR_SERVER_IP
 
 应当只有端口 22（SSH）处于开放状态。其他所有服务（Gateway 网关、Docker）都已被锁定。
 
-安装 Docker 是为了提供智能体沙箱（隔离的工具执行环境），而不是用于运行 Gateway 网关本身。有关沙箱配置，请参阅 [多智能体沙箱与工具](/tools/multi-agent-sandbox-tools)。
+安装 Docker 是为了提供智能体沙箱（隔离的工具执行环境），而不是用于运行 Gateway 网关本身。有关沙箱配置，请参阅 [多智能体沙箱与工具](/zh-CN/tools/multi-agent-sandbox-tools)。
 
 ## 手动安装
 
@@ -234,4 +234,4 @@ cd openclaw-ansible
 - [openclaw-ansible](https://github.com/openclaw/openclaw-ansible) —— 完整部署指南
 - [Docker](/zh-CN/install/docker) —— 容器化 Gateway 网关部署
 - [沙箱隔离](/zh-CN/gateway/sandboxing) —— 智能体沙箱配置
-- [多智能体沙箱与工具](/tools/multi-agent-sandbox-tools) —— 按智能体隔离
+- [多智能体沙箱与工具](/zh-CN/tools/multi-agent-sandbox-tools) —— 按智能体隔离

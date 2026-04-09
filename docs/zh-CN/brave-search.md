@@ -107,4 +107,4 @@ await web_search({
 - `ui_lang` 必须包含区域子标签，例如 `en-US`。
 - 结果默认缓存 15 分钟（可通过 `cacheTtlMinutes` 配置）。
 
-完整的 `web_search` 配置请参阅 [Web 工具](/tools/web)。
+完整的 `web_search` 配置请参阅 [Web ??](/zh-CN/tools/web)。

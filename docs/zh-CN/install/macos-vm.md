@@ -19,9 +19,9 @@ x-i18n:
 
 ## 推荐默认方案（适合大多数用户）
 
-- 使用**小型 Linux VPS** 作为始终在线的 Gateway 网关，成本较低。参见 [VPS 托管](/vps)。
+- 使用**小型 Linux VPS** 作为始终在线的 Gateway 网关，成本较低。参见 [Linux ???](/zh-CN/vps)。
 - 如果你想获得完全控制，以及用于浏览器自动化的**住宅 IP**，可使用**专用硬件**（Mac mini 或 Linux 机器）。许多网站会屏蔽数据中心 IP，因此本地浏览通常效果更好。
-- **混合方案：** 将 Gateway 网关保留在廉价 VPS 上，并在需要浏览器/UI 自动化时将你的 Mac 连接为一个**节点**。参见 [节点](/zh-CN/nodes) 和 [Gateway 网关远程](/zh-CN/gateway/remote)。
+- **混合方案：** 将 Gateway 网关保留在廉价 VPS 上，并在需要浏览器/UI 自动化时将你的 Mac 连接为一个**节点**。参见 [节点](/zh-CN/nodes) 和 [????](/zh-CN/gateway/remote)。
 
 当你明确需要 macOS 独有能力（iMessage/BlueBubbles），或希望与日常使用的 Mac 严格隔离时，请使用 macOS VM。
 
@@ -261,7 +261,7 @@ lume run openclaw --no-display
 - 在 System Settings → Energy Saver 中禁用睡眠
 - 必要时使用 `caffeinate`
 
-如果你需要真正始终在线的环境，请考虑使用专用 Mac mini 或小型 VPS。参见 [VPS 托管](/vps)。
+如果你需要真正始终在线的环境，请考虑使用专用 Mac mini 或小型 VPS。参见 [Linux ???](/zh-CN/vps)。
 
 ---
 
@@ -278,9 +278,9 @@ lume run openclaw --no-display
 
 ## 相关文档
 
-- [VPS 托管](/vps)
+- [Linux ???](/zh-CN/vps)
 - [节点](/zh-CN/nodes)
-- [Gateway 网关远程](/zh-CN/gateway/remote)
+- [????](/zh-CN/gateway/remote)
 - [BlueBubbles 渠道](/zh-CN/channels/bluebubbles)
 - [Lume 快速开始](https://cua.ai/docs/lume/guide/getting-started/quickstart)
 - [Lume CLI 参考](https://cua.ai/docs/lume/reference/cli-reference)

@@ -10,4 +10,4 @@ x-i18n:
     workflow: 15
 ---
 
-此页面已移至 [文本转语音](/tools/tts).
+此页面已移至 [文本转语音](/zh-CN/tools/tts).

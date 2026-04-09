@@ -262,6 +262,6 @@ OPENCLAW_VITEST_MAX_WORKERS=1 pnpm test
 ## 相关内容
 
 - [插件 SDK 概览](/zh-CN/plugins/sdk-overview) -- 导入约定
-- [渠道插件 SDK](/zh-CN/plugins/sdk-channel-plugins) -- 渠道插件接口
-- [提供商插件 SDK](/zh-CN/plugins/sdk-provider-plugins) -- 提供商插件 hooks
+- [构建渠道插件](/zh-CN/plugins/sdk-channel-plugins) -- 渠道插件接口
+- [构建提供商插件](/zh-CN/plugins/sdk-provider-plugins) -- 提供商插件 hooks
 - [构建插件](/zh-CN/plugins/building-plugins) -- 入门指南

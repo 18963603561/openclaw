@@ -147,7 +147,7 @@ API 路径上暴露 `openai/gpt-5.3-codex-spark`。`pi-ai` 仍然内置了该模
 }
 ```
 
-关于共享工具参数、提供商选择和故障切换行为，请参阅 [图像生成](/tools/image-generation)。
+关于共享工具参数、提供商选择和故障切换行为，请参阅 [图像生成](/zh-CN/tools/image-generation)。
 
 ## 视频生成
 
@@ -174,7 +174,7 @@ API 路径上暴露 `openai/gpt-5.3-codex-spark`。`pi-ai` 仍然内置了该模
 }
 ```
 
-关于共享工具参数、提供商选择和故障切换行为，请参阅 [视频生成](/tools/video-generation)。
+关于共享工具参数、提供商选择和故障切换行为，请参阅 [视频生成](/zh-CN/tools/video-generation)。
 
 ## 方案 B：OpenAI Code（Codex）订阅
 
@@ -522,5 +522,5 @@ OpenAI 兼容 shim 强加到第三方 `/v1` 后端。
 
 ## 说明
 
-- 模型引用始终使用 `provider/model`（参见 [/concepts/models](/zh-CN/concepts/models)）。
-- 认证细节和复用规则参见 [/concepts/oauth](/zh-CN/concepts/oauth)。
+- 模型引用始终使用 `provider/model`（参见 [?? CLI](/zh-CN/concepts/models)）。
+- 认证细节和复用规则参见 [OAuth](/zh-CN/concepts/oauth)。

@@ -17,7 +17,7 @@ x-i18n:
 
 Lobster 是一个工作流 shell，让 OpenClaw 能够将多步骤工具序列作为一次单一、确定性的操作来运行，并带有显式审批检查点。
 
-Lobster 比 detached 后台工作高一层，属于一种编排层。对于单个任务之上的流程编排，请参见 [Task Flow](/zh-CN/automation/taskflow)（`openclaw tasks flow`）。对于任务活动账本，请参见 [`openclaw tasks`](/zh-CN/automation/tasks)。
+Lobster 比 detached 后台工作高一层，属于一种编排层。对于单个任务之上的流程编排，请参见 [???](/zh-CN/automation/taskflow)（`openclaw tasks flow`）。对于任务活动账本，请参见 [`openclaw tasks`](/zh-CN/automation/tasks)。
 
 ## 核心亮点
 
@@ -128,7 +128,7 @@ openclaw.invoke --tool llm-task --action json --args-json '{
 }'
 ```
 
-详情和配置选项请参见 [LLM Task](/zh-CN/tools/llm-task)。
+详情和配置选项请参见 [LLM 任务](/zh-CN/tools/llm-task)。
 
 ## 工作流文件（`.lobster`）
 
@@ -340,7 +340,7 @@ OpenProse 与 Lobster 很适合搭配使用：先用 `/prose` 编排多智能体
 
 ## 了解更多
 
-- [Plugins](/zh-CN/tools/plugin)
+- [??](/zh-CN/tools/plugin)
 - [插件工具编写](/zh-CN/plugins/building-plugins#registering-agent-tools)
 
 ## 案例研究：社区工作流

@@ -306,8 +306,8 @@ openclaw backup create
 
 ## 另请参见
 
-- [Gateway 网关远程访问](/zh-CN/gateway/remote) — 其他远程访问模式
+- [????](/zh-CN/gateway/remote) — 其他远程访问模式
 - [Tailscale 集成](/zh-CN/gateway/tailscale) — 完整的 Tailscale 文档
-- [Gateway 网关配置](/zh-CN/gateway/configuration) — 所有配置选项
+- [??](/zh-CN/gateway/configuration) — 所有配置选项
 - [DigitalOcean 指南](/zh-CN/install/digitalocean) — 如果你想要付费但注册更简单的方案
 - [Hetzner 指南](/zh-CN/install/hetzner) — 基于 Docker 的替代方案

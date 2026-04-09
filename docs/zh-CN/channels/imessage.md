@@ -30,7 +30,7 @@ x-i18n:
   <Card title="Pairing" icon="link" href="/zh-CN/channels/pairing">
     iMessage 私信默认使用 pairing 模式。
   </Card>
-  <Card title="配置参考" icon="settings" href="/gateway/configuration-reference#imessage">
+  <Card title="配置参考" icon="settings" href="/zh-CN/gateway/configuration-reference#imessage">
     完整的 iMessage 字段参考。
   </Card>
 </CardGroup>
@@ -241,7 +241,7 @@ imsg send <handle> "test"
 }
 ```
 
-共享的 ACP 绑定行为请参见 [ACP Agents](/tools/acp-agents)。
+共享的 ACP 绑定行为请参见 [ACP ???](/zh-CN/tools/acp-agents)。
 
 ## 部署模式
 
@@ -420,15 +420,15 @@ imsg send <handle> "test"
 
 ## 配置参考入口
 
-- [配置参考 - iMessage](/gateway/configuration-reference#imessage)
-- [Gateway 网关 配置](/gateway/configuration)
-- [Pairing](/zh-CN/channels/pairing)
+- [????](/zh-CN/gateway/configuration-reference#imessage)
+- [??](/zh-CN/gateway/configuration)
+- [??](/zh-CN/channels/pairing)
 - [BlueBubbles](/zh-CN/channels/bluebubbles)
 
 ## 相关内容
 
 - [渠道概览](/zh-CN/channels) — 所有支持的渠道
-- [Pairing](/zh-CN/channels/pairing) — 私信认证和 pairing 流程
+- [??](/zh-CN/channels/pairing) — 私信认证和 pairing 流程
 - [群组](/zh-CN/channels/groups) — 群聊行为和提及门控
 - [渠道路由](/zh-CN/channels/channel-routing) — 消息的会话路由
-- [安全](/gateway/security) — 访问模型与加固
+- [安全](/zh-CN/gateway/security) — 访问模型与加固

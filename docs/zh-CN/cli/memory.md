@@ -21,8 +21,8 @@ x-i18n:
 
 相关内容：
 
-- Memory 概念：[Memory](/concepts/memory)
-- 插件：[插件](/tools/plugin)
+- Memory 概念：[??](/zh-CN/concepts/memory)
+- 插件：[插件](/zh-CN/tools/plugin)
 
 ## 示例
 
@@ -172,4 +172,4 @@ Dreaming 是后台 memory 巩固系统，包含三个协同
 - 如果实际生效的 memory 远程 API key 字段被配置为 SecretRefs，该命令会从当前激活的 Gateway 网关快照中解析这些值。如果 Gateway 网关不可用，命令会快速失败。
 - Gateway 网关版本偏差说明：该命令路径要求 Gateway 网关支持 `secrets.resolve`；较旧的 Gateway 网关会返回 unknown-method 错误。
 - 可通过 `dreaming.frequency` 调整计划扫掠频率。除此之外，deep 提升策略属于内部实现；如果你需要一次性的手动覆盖，请在 `memory promote` 上使用 CLI 标志。
-- 完整阶段说明和配置参考请参阅 [Dreaming](/zh-CN/concepts/dreaming)。
+- 完整阶段说明和配置参考请参阅 [Dreaming（实验性）](/zh-CN/concepts/dreaming)。

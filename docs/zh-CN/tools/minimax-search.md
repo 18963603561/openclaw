@@ -102,5 +102,5 @@ MiniMax Search 支持：
 
 ## 相关内容
 
-- [Web Search overview](/zh-CN/tools/web) -- 所有提供商和自动检测
+- [Web ??](/zh-CN/tools/web) -- 所有提供商和自动检测
 - [MiniMax](/zh-CN/providers/minimax) -- 模型、图像、语音与认证设置

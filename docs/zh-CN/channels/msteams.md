@@ -36,7 +36,7 @@ openclaw plugins install @openclaw/msteams
 openclaw plugins install ./path/to/local/msteams-plugin
 ```
 
-详情请参阅：[插件](/tools/plugin)
+详情请参阅：[插件](/zh-CN/tools/plugin)
 
 ## 快速设置（新手）
 
@@ -500,7 +500,7 @@ Teams 的 markdown 支持比 Slack 或 Discord 更有限：
 
 ## 路由与会话
 
-- 会话键遵循标准智能体格式（参见 [/concepts/session](/concepts/session)）：
+- 会话键遵循标准智能体格式（参见 [??](/zh-CN/concepts/session)）：
   - 私信共享主会话（`agent:<agentId>:<mainKey>`）。
   - 渠道 / 群组消息使用 conversation id：
     - `agent:<agentId>:msteams:channel:<conversationId>`
@@ -806,4 +806,4 @@ https://teams.microsoft.com/l/channel/19%3A15bc...%40thread.tacv2/ChannelName?gr
 - [配对](/zh-CN/channels/pairing) — 私信身份验证和配对流程
 - [群组](/zh-CN/channels/groups) — 群聊行为和提及限制
 - [渠道路由](/zh-CN/channels/channel-routing) — 消息的会话路由
-- [安全](/gateway/security) — 访问模型与安全加固
+- [安全](/zh-CN/gateway/security) — 访问模型与安全加固

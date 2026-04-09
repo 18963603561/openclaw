@@ -19,7 +19,7 @@ x-i18n:
 TypeBox 是一个以 TypeScript 为优先的 schema 库。我们使用它来定义 **Gateway 网关 WebSocket 协议**（握手、请求/响应、服务器事件）。这些 schema 驱动**运行时校验**、**JSON Schema 导出**以及 macOS 应用的 **Swift codegen**。单一事实来源；其他一切都由它生成。
 
 如果你想了解更高层的协议背景，请先阅读
-[Gateway architecture](/zh-CN/concepts/architecture)。
+[Gateway ????](/zh-CN/concepts/architecture)。
 
 ## 心智模型（30 秒）
 

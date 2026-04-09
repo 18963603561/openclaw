@@ -65,7 +65,7 @@ export VYDRA_API_KEY="vydra_live_..."
 
 当前内置支持仅限文生图。Vydra 托管的编辑路由要求使用远程图像 URL，而 OpenClaw 在内置插件中尚未添加 Vydra 专用上传桥接。
 
-有关共享工具行为，请参见 [图像生成](/tools/image-generation)。
+有关共享工具行为，请参见 [图像生成](/zh-CN/tools/image-generation)。
 
 ## 视频生成
 
@@ -114,7 +114,7 @@ pnpm test:live -- extensions/vydra/vydra.live.test.ts
 export OPENCLAW_LIVE_VYDRA_KLING_IMAGE_URL="https://example.com/reference.png"
 ```
 
-有关共享工具行为，请参见 [视频生成](/tools/video-generation)。
+有关共享工具行为，请参见 [视频生成](/zh-CN/tools/video-generation)。
 
 ## 语音合成
 
@@ -146,5 +146,5 @@ export OPENCLAW_LIVE_VYDRA_KLING_IMAGE_URL="https://example.com/reference.png"
 ## 相关内容
 
 - [提供商目录](/zh-CN/providers/index)
-- [图像生成](/tools/image-generation)
-- [视频生成](/tools/video-generation)
+- [图像生成](/zh-CN/tools/image-generation)
+- [视频生成](/zh-CN/tools/video-generation)

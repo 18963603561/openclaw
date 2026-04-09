@@ -34,7 +34,7 @@ Inbound message
 - `agents.defaults.*`：用于分块流式传输和分块默认值。
 - 渠道覆盖项（`channels.whatsapp.*`、`channels.telegram.*` 等）：用于上限和流式传输开关。
 
-完整模式参见 [配置](/gateway/configuration)。
+完整模式参见 [配置](/zh-CN/gateway/configuration)。
 
 ## 入站去重
 
@@ -130,7 +130,7 @@ OpenClaw 可以显示或隐藏模型推理：
 - 只要模型产生了推理内容，这些内容仍会计入 Token 使用量。
 - Telegram 支持将推理流式传输到草稿气泡中。
 
-详情参见：[思考 + 推理指令](/tools/thinking) 和 [Token 使用](/reference/token-use)。
+详情参见：[思考 + 推理指令](/zh-CN/tools/thinking) 和 [Token 使用与成本](/zh-CN/reference/token-use)。
 
 ## 前缀、线程和回复
 
@@ -139,7 +139,7 @@ OpenClaw 可以显示或隐藏模型推理：
 - `messages.responsePrefix`、`channels.<channel>.responsePrefix` 和 `channels.<channel>.accounts.<id>.responsePrefix`（出站前缀级联），以及 `channels.whatsapp.messagePrefix`（WhatsApp 入站前缀）
 - 通过 `replyToMode` 和按渠道默认值实现回复线程关联
 
-详情参见：[配置](/gateway/configuration-reference#messages) 和各渠道文档。
+详情参见：[配置](/zh-CN/gateway/configuration-reference#messages) 和各渠道文档。
 
 ## 相关内容
 

@@ -159,7 +159,7 @@ Gemini CLI JSON 使用说明：
 ```
 
 有关共享工具参数、提供商选择和故障转移行为，请参见
-[图像生成](/tools/image-generation)。
+[图像生成](/zh-CN/tools/image-generation)。
 
 ## 视频生成
 
@@ -186,7 +186,7 @@ Gemini CLI JSON 使用说明：
 ```
 
 有关共享工具参数、提供商选择和故障转移行为，请参见
-[视频生成](/tools/video-generation)。
+[视频生成](/zh-CN/tools/video-generation)。
 
 ## 音乐生成
 
@@ -215,7 +215,7 @@ Gemini CLI JSON 使用说明：
 ```
 
 有关共享工具参数、提供商选择和故障转移行为，请参见
-[音乐生成](/tools/music-generation)。
+[音乐生成](/zh-CN/tools/music-generation)。
 
 ## 环境说明
 

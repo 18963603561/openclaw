@@ -22,13 +22,13 @@ x-i18n:
 
 - 角色：配套节点应用（Android 不托管 Gateway 网关）。
 - 是否需要 Gateway 网关：需要（可在 macOS、Linux 或通过 WSL2 的 Windows 上运行）。
-- 安装： [入门指南](/start/getting-started) + [配对](/zh-CN/channels/pairing)。
+- 安装： [入门指南](/zh-CN/start/getting-started) + [配对](/zh-CN/channels/pairing)。
 - Gateway 网关： [操作手册](/zh-CN/gateway) + [配置](/zh-CN/gateway/configuration)。
-  - 协议： [Gateway 网关协议](/zh-CN/gateway/protocol)（节点 + 控制平面）。
+  - 协议： [Gateway ????](/zh-CN/gateway/protocol)（节点 + 控制平面）。
 
 ## 系统控制
 
-系统控制（launchd/systemd）位于 Gateway 网关主机上。参见 [Gateway 网关](/zh-CN/gateway)。
+系统控制（launchd/systemd）位于 Gateway 网关主机上。参见 [Gateway ??????](/zh-CN/gateway)。
 
 ## 连接操作手册
 
@@ -78,7 +78,7 @@ openclaw gateway --tailscale serve
 dns-sd -B _openclaw-gw._tcp local.
 ```
 
-更多调试说明： [Bonjour](/zh-CN/gateway/bonjour)。
+更多调试说明： [Bonjour ????](/zh-CN/gateway/bonjour)。
 
 如果你还配置了 wide-area discovery 域，请对比运行：
 
@@ -98,7 +98,7 @@ Android NSD/mDNS 发现不会跨网络。如果你的 Android 节点与 gateway 
 1. 在 gateway 主机上设置一个 DNS-SD 区域（例如 `openclaw.internal.`），并发布 `_openclaw-gw._tcp` 记录。
 2. 为你选择的域配置 Tailscale split DNS，并将其指向该 DNS 服务器。
 
-详细信息和 CoreDNS 配置示例： [Bonjour](/zh-CN/gateway/bonjour)。
+详细信息和 CoreDNS 配置示例： [Bonjour ????](/zh-CN/gateway/bonjour)。
 
 ### 3）从 Android 连接
 
@@ -183,7 +183,7 @@ Camera 命令（仅前台；受权限控制）：
 - `camera.snap`（jpg）
 - `camera.clip`（mp4）
 
-参数和 CLI 辅助器请参见 [Camera 节点](/zh-CN/nodes/camera)。
+参数和 CLI 辅助器请参见 [摄像头捕获](/zh-CN/nodes/camera)。
 
 ### 8）语音 + 扩展的 Android 命令表面
 

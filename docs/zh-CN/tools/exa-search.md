@@ -127,6 +127,6 @@ await web_search({
 
 ## 相关内容
 
-- [Web Search overview](/zh-CN/tools/web) -- 所有提供商和自动检测
+- [Web ??](/zh-CN/tools/web) -- 所有提供商和自动检测
 - [Brave Search](/zh-CN/tools/brave-search) -- 带国家/语言过滤器的结构化结果
 - [Perplexity Search](/zh-CN/tools/perplexity-search) -- 带域名过滤的结构化结果

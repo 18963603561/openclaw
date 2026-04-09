@@ -359,7 +359,7 @@ Secrets 会被解析到内存中的运行时快照里。
 
 规范的受支持和不受支持凭证列表见：
 
-- [SecretRef 凭证表面](/reference/secretref-credential-surface)
+- [SecretRef ?????](/zh-CN/reference/secretref-credential-surface)
 
 运行时铸造或轮换的凭证以及 OAuth 刷新材料被有意排除在只读 SecretRef 解析之外。
 
@@ -536,9 +536,9 @@ OpenClaw 有意不写入包含历史明文 secret 值的回滚备份。
 
 ## 相关文档
 
-- CLI 命令：[secrets](/cli/secrets)
+- CLI 命令：[secrets](/zh-CN/cli/secrets)
 - 计划契约详情：[Secrets Apply 计划契约](/zh-CN/gateway/secrets-plan-contract)
-- 凭证表面：[SecretRef 凭证表面](/reference/secretref-credential-surface)
-- 认证设置：[Authentication](/zh-CN/gateway/authentication)
-- 安全态势：[Security](/zh-CN/gateway/security)
+- 凭证表面：[SecretRef ?????](/zh-CN/reference/secretref-credential-surface)
+- 认证设置：[??](/zh-CN/gateway/authentication)
+- 安全态势：[??](/zh-CN/gateway/security)
 - 环境优先级：[环境变量](/zh-CN/help/environment)

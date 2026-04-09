@@ -120,7 +120,7 @@ YAML frontmatter 支持以下字段：
 
 ## 相关内容
 
-- [Skills reference](/zh-CN/tools/skills) — 加载、优先级和 gating 规则
-- [Skills 配置](/zh-CN/tools/skills-config) — `skills.*` 配置 schema
+- [Skills](/zh-CN/tools/skills) — 加载、优先级和 gating 规则
+- [Skills ??](/zh-CN/tools/skills-config) — `skills.*` 配置 schema
 - [ClawHub](/zh-CN/tools/clawhub) — 公共 Skill 注册表
-- [Building Plugins](/zh-CN/plugins/building-plugins) — 插件可以包含 Skills
+- [构建插件](/zh-CN/plugins/building-plugins) — 插件可以包含 Skills

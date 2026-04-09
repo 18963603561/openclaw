@@ -476,5 +476,5 @@ my-plugin/
 - [运行时辅助函数](/zh-CN/plugins/sdk-runtime) —— 完整 `api.runtime` 命名空间参考
 - [设置和配置](/zh-CN/plugins/sdk-setup) —— 打包、清单、配置 schema
 - [测试](/zh-CN/plugins/sdk-testing) —— 测试工具和 lint 规则
-- [SDK Migration](/zh-CN/plugins/sdk-migration) —— 从已弃用接口迁移
+- [插件 SDK 迁移](/zh-CN/plugins/sdk-migration) —— 从已弃用接口迁移
 - [插件内部机制](/zh-CN/plugins/architecture) —— 深入架构和能力模型

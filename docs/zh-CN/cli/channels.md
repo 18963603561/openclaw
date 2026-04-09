@@ -19,8 +19,8 @@ x-i18n:
 
 相关文档：
 
-- 渠道指南： [Channels](/zh-CN/channels/index)
-- Gateway 网关配置： [Configuration](/gateway/configuration)
+- 渠道指南： [??](/zh-CN/channels/index)
+- Gateway 网关配置： [??](/zh-CN/gateway/configuration)
 
 ## 常用命令
 
@@ -74,7 +74,7 @@ openclaw channels remove --channel telegram --delete
 
 如果你确认立即绑定，向导会询问哪个智能体应拥有每个已配置的渠道账户，并写入按账户划分的路由绑定。
 
-你也可以稍后通过 `openclaw agents bindings`、`openclaw agents bind` 和 `openclaw agents unbind` 来管理相同的路由规则（参见 [agents](/cli/agents)）。
+你也可以稍后通过 `openclaw agents bindings`、`openclaw agents bind` 和 `openclaw agents unbind` 来管理相同的路由规则（参见 [agents](/zh-CN/cli/agents)）。
 
 当你向某个仍在使用单账户顶层设置的渠道添加一个非默认账户时，OpenClaw 会先将按账户划分的顶层值提升到该渠道的账户映射中，然后再写入新账户。大多数渠道会将这些值写入 `channels.<channel>.accounts.default`，但内置渠道也可能保留现有的匹配提升账户。Matrix 是当前的一个例子：如果已经存在一个命名账户，或者 `defaultAccount` 指向一个现有命名账户，则提升过程会保留该账户，而不是创建新的 `accounts.default`。
 

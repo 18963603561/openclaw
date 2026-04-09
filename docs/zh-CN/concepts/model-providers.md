@@ -16,7 +16,7 @@ x-i18n:
 # 模型提供商
 
 本页介绍的是 **LLM／模型提供商**（不是 WhatsApp/Telegram 这类聊天渠道）。
-关于模型选择规则，请参见 [/concepts/models](/zh-CN/concepts/models)。
+关于模型选择规则，请参见 [?? CLI](/zh-CN/concepts/models)。
 
 ## 快速规则
 
@@ -45,7 +45,7 @@ x-i18n:
   `resolveDefaultThinkingLevel`、`applyConfigDefaults`、`isModernModelRef`、
   `prepareRuntimeAuth`、`resolveUsageAuth`、`fetchUsageSnapshot`，以及
   `onModelSelected`。
-- 注意：提供商运行时的 `capabilities` 是共享 runner 元数据（提供商家族、转录／工具特性、传输／缓存提示）。它不同于[公开能力模型](/plugins/architecture#public-capability-model)，后者描述的是插件注册了什么能力（文本推理、语音等）。
+- 注意：提供商运行时的 `capabilities` 是共享 runner 元数据（提供商家族、转录／工具特性、传输／缓存提示）。它不同于[公开能力模型](/zh-CN/plugins/architecture#public-capability-model)，后者描述的是插件注册了什么能力（文本推理、语音等）。
 
 ## 插件拥有的提供商行为
 
@@ -224,9 +224,9 @@ OpenClaw 内置了 pi‑ai 目录。这些提供商**不需要**
 
 ### 其他订阅式托管选项
 
-- [Qwen Cloud](/providers/qwen)：Qwen Cloud 提供商接口，以及 Alibaba DashScope 和 Coding Plan 端点映射
-- [MiniMax](/providers/minimax)：MiniMax Coding Plan OAuth 或 API 密钥访问
-- [GLM Models](/providers/glm)：Z.AI Coding Plan 或通用 API 端点
+- [Qwen Cloud](/zh-CN/providers/qwen)：Qwen Cloud 提供商接口，以及 Alibaba DashScope 和 Coding Plan 端点映射
+- [MiniMax](/zh-CN/providers/minimax)：MiniMax Coding Plan OAuth 或 API 密钥访问
+- [GLM 模型](/zh-CN/providers/glm)：Z.AI Coding Plan 或通用 API 端点
 
 ### OpenCode
 
@@ -299,7 +299,7 @@ OpenClaw 内置了 pi‑ai 目录。这些提供商**不需要**
 - `kilocode/kilo/auto` 背后的精确上游路由由 Kilo Gateway 决定，
   并非在 OpenClaw 中硬编码。
 
-设置详情请参见 [/providers/kilocode](/providers/kilocode)。
+设置详情请参见 [/providers/kilocode](/zh-CN/providers/kilocode)。
 
 ### 其他内置提供商插件
 
@@ -355,7 +355,7 @@ OpenClaw 内置了 pi‑ai 目录。这些提供商**不需要**
   - Cerebras 上的 GLM 模型使用 id `zai-glm-4.7` 和 `zai-glm-4.6`。
   - OpenAI 兼容 base URL：`https://api.cerebras.ai/v1`。
 - GitHub Copilot：`github-copilot`（`COPILOT_GITHUB_TOKEN` / `GH_TOKEN` / `GITHUB_TOKEN`）
-- Hugging Face Inference 示例模型：`huggingface/deepseek-ai/DeepSeek-R1`；CLI：`openclaw onboard --auth-choice huggingface-api-key`。参见 [Hugging Face（Inference）](/providers/huggingface)。
+- Hugging Face Inference 示例模型：`huggingface/deepseek-ai/DeepSeek-R1`；CLI：`openclaw onboard --auth-choice huggingface-api-key`。参见 [Hugging Face（Inference）](/zh-CN/providers/huggingface)。
 
 ## 通过 `models.providers` 配置的提供商（自定义／base URL）
 
@@ -536,7 +536,7 @@ MiniMax 通过 `models.providers` 配置，因为它使用自定义端点：
 - 认证：`MINIMAX_API_KEY` 用于 `minimax`；`MINIMAX_OAUTH_TOKEN` 或
   `MINIMAX_API_KEY` 用于 `minimax-portal`
 
-设置详情、模型选项和配置片段请参见 [/providers/minimax](/providers/minimax)。
+设置详情、模型选项和配置片段请参见 [/providers/minimax](/zh-CN/providers/minimax)。
 
 在 MiniMax 的 Anthropic 兼容流式路径上，OpenClaw 默认禁用 thinking，除非你显式设置它，并且 `/fast on` 会将
 `MiniMax-M2.7` 重写为 `MiniMax-M2.7-highspeed`。
@@ -571,7 +571,7 @@ ollama pull llama3.3
 ```
 
 当你通过 `OLLAMA_API_KEY` 选择启用时，系统会在本地 `http://127.0.0.1:11434` 检测 Ollama，并且内置提供商插件会将 Ollama 直接添加到
-`openclaw onboard` 和模型选择器中。有关新手引导、云端／本地模式和自定义配置，请参见 [/providers/ollama](/providers/ollama)。
+`openclaw onboard` 和模型选择器中。有关新手引导、云端／本地模式和自定义配置，请参见 [/providers/ollama](/zh-CN/providers/ollama)。
 
 ### vLLM
 
@@ -597,7 +597,7 @@ export VLLM_API_KEY="vllm-local"
 }
 ```
 
-详情请参见 [/providers/vllm](/providers/vllm)。
+详情请参见 [/providers/vllm](/zh-CN/providers/vllm)。
 
 ### SGLang
 
@@ -624,7 +624,7 @@ export SGLANG_API_KEY="sglang-local"
 }
 ```
 
-详情请参见 [/providers/sglang](/providers/sglang)。
+详情请参见 [/providers/sglang](/zh-CN/providers/sglang)。
 
 ### 本地代理（LM Studio、vLLM、LiteLLM 等）
 
@@ -684,11 +684,11 @@ openclaw models set opencode/claude-opus-4-6
 openclaw models list
 ```
 
-另请参见：[/gateway/configuration](/gateway/configuration)，获取完整配置示例。
+另请参见：[??](/zh-CN/gateway/configuration)，获取完整配置示例。
 
 ## 相关内容
 
 - [模型](/zh-CN/concepts/models) —— 模型配置和别名
 - [模型回退](/zh-CN/concepts/model-failover) —— 回退链和重试行为
-- [配置参考](/gateway/configuration-reference#agent-defaults) —— 模型配置键
-- [提供商](/providers) —— 各提供商的设置指南
+- [配置参考](/zh-CN/gateway/configuration-reference#agent-defaults) —— 模型配置键
+- [提供商](/zh-CN/providers) —— 各提供商的设置指南

@@ -192,7 +192,7 @@ LINE 支持 ACP（Agent Communication Protocol）会话绑定：
 - `/acp spawn <agent> --bind here` 会将当前 LINE 聊天绑定到一个 ACP 会话，而不会创建子线程。
 - 已配置的 ACP 绑定和活动中的会话绑定 ACP 会话在 LINE 上的工作方式与其他会话渠道一致。
 
-详情请参阅 [ACP agents](/tools/acp-agents)。
+详情请参阅 [ACP ???](/zh-CN/tools/acp-agents)。
 
 ## 出站媒体
 
@@ -219,4 +219,4 @@ LINE 插件支持通过智能体消息工具发送图片、视频和音频文件
 - [配对](/zh-CN/channels/pairing) — 私信身份验证和配对流程
 - [群组](/zh-CN/channels/groups) — 群聊行为和提及限制
 - [渠道路由](/zh-CN/channels/channel-routing) — 消息的会话路由
-- [安全](/gateway/security) — 访问模型与安全加固
+- [安全](/zh-CN/gateway/security) — 访问模型与安全加固

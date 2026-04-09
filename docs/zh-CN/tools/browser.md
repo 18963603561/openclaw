@@ -729,7 +729,7 @@ docker compose run --rm openclaw-cli \
   - `--format ai`（安装了 Playwright 时的默认值）：返回带数字 refs 的 AI 快照（`aria-ref="<n>"`）。
   - `--format aria`：返回无障碍树（不含 refs；仅供检查）。
   - `--efficient`（或 `--mode efficient`）：紧凑角色快照预设（interactive + compact + depth + 更低的 maxChars）。
-  - 配置默认值（仅工具/CLI）：设置 `browser.snapshotDefaults.mode: "efficient"`，可在调用方未传 mode 时使用高效快照（参见 [Gateway 配置](/gateway/configuration-reference#browser)）。
+  - 配置默认值（仅工具/CLI）：设置 `browser.snapshotDefaults.mode: "efficient"`，可在调用方未传 mode 时使用高效快照（参见 [????](/zh-CN/gateway/configuration-reference#browser)）。
   - 角色快照选项（`--interactive`、`--compact`、`--depth`、`--selector`）会强制使用基于角色的快照，并返回如 `ref=e12` 的 refs。
   - `--frame "<iframe selector>"` 会将角色快照限定到某个 iframe（与 `e12` 这类角色 ref 配对使用）。
   - `--interactive` 会输出扁平、易选取的交互元素列表（最适合驱动操作）。
@@ -833,7 +833,7 @@ JSON 中的角色快照包含 `refs` 和一个小型 `stats` 块（lines/chars/r
 - `browser act kind=evaluate` / `openclaw browser evaluate` 和 `wait --fn`
   会在页面上下文中执行任意 JavaScript。提示注入可能会影响这一点。
   如果你不需要它，请通过 `browser.evaluateEnabled=false` 禁用。
-- 关于登录和反机器人说明（X/Twitter 等），参见 [浏览器登录 + 发布 X/Twitter 内容](/zh-CN/tools/browser-login)。
+- 关于登录和反机器人说明（X/Twitter 等），参见 [浏览器登录](/zh-CN/tools/browser-login)。
 - 请保持 Gateway 网关/节点主机私有（仅 loopback 或仅 tailnet）。
 - 远程 CDP 端点能力很强；请通过隧道保护并加以防护。
 
@@ -881,6 +881,6 @@ JSON 中的角色快照包含 `refs` 和一个小型 `stats` 块（lines/chars/r
 
 ## 相关内容
 
-- [Tools Overview](/zh-CN/tools) — 所有可用的智能体工具
+- [工具和插件](/zh-CN/tools) — 所有可用的智能体工具
 - [沙箱隔离](/zh-CN/gateway/sandboxing) — 沙箱隔离环境中的浏览器控制
 - [安全](/zh-CN/gateway/security) — 浏览器控制的风险与加固

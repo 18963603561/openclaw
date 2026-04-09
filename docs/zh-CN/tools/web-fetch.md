@@ -21,7 +21,7 @@ x-i18n:
 （将 HTML 转为 Markdown 或文本）。它**不会**执行 JavaScript。
 
 对于重度依赖 JS 的网站或受登录保护的页面，请改用
-[Web Browser](/zh-CN/tools/browser)。
+[?????](/zh-CN/tools/browser)。
 
 ## 快速开始
 
@@ -144,7 +144,7 @@ await web_fetch({ url: "https://example.com/article" });
   响应会被截断并附带警告
 - 私有/内部主机名会被阻止
 - 重定向会被检查，并受 `maxRedirects` 限制
-- `web_fetch` 是尽力而为的 —— 某些网站需要使用 [Web Browser](/zh-CN/tools/browser)
+- `web_fetch` 是尽力而为的 —— 某些网站需要使用 [?????](/zh-CN/tools/browser)
 
 ## 工具配置文件
 
@@ -161,6 +161,6 @@ await web_fetch({ url: "https://example.com/article" });
 
 ## 相关内容
 
-- [Web Search](/zh-CN/tools/web) -- 使用多个提供商搜索网页
-- [Web Browser](/zh-CN/tools/browser) -- 面向重度 JS 网站的完整浏览器自动化
+- [Web ??](/zh-CN/tools/web) -- 使用多个提供商搜索网页
+- [?????](/zh-CN/tools/browser) -- 面向重度 JS 网站的完整浏览器自动化
 - [Firecrawl](/zh-CN/tools/firecrawl) -- Firecrawl 搜索和抓取工具

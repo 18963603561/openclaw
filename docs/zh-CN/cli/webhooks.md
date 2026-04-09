@@ -95,4 +95,4 @@ openclaw webhooks gmail setup --account you@example.com --hook-url https://gatew
 openclaw webhooks gmail run --account you@example.com
 ```
 
-有关端到端设置流程和操作细节，请参见 [Gmail Pub/Sub 文档](/zh-CN/automation/cron-jobs#gmail-pubsub-integration)。
+有关端到端设置流程和操作细节，请参见 [Gmail Pub/Sub](/zh-CN/automation/cron-jobs#gmail-pubsub-integration)。

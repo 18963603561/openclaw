@@ -36,7 +36,7 @@ OpenClaw 可以使用许多 LLM 提供商。选择一个提供商，完成认证
 - [Amazon Bedrock](/zh-CN/providers/bedrock)
 - [Anthropic（API + Claude CLI）](/zh-CN/providers/anthropic)
 - [Arcee AI（Trinity 模型）](/zh-CN/providers/arcee)
-- [BytePlus（国际版）](/zh-CN/concepts/model-providers#byteplus-international)
+- [?????](/zh-CN/concepts/model-providers#byteplus-international)
 - [Chutes](/zh-CN/providers/chutes)
 - [ComfyUI](/zh-CN/providers/comfy)
 - [Cloudflare AI Gateway](/zh-CN/providers/cloudflare-ai-gateway)
@@ -60,7 +60,7 @@ OpenClaw 可以使用许多 LLM 提供商。选择一个提供商，完成认证
 - [OpenCode](/zh-CN/providers/opencode)
 - [OpenCode Go](/zh-CN/providers/opencode-go)
 - [OpenRouter](/zh-CN/providers/openrouter)
-- [Perplexity（Web 搜索）](/zh-CN/providers/perplexity-provider)
+- [Perplexity（提供商）](/zh-CN/providers/perplexity-provider)
 - [Qianfan](/zh-CN/providers/qianfan)
 - [Qwen Cloud](/zh-CN/providers/qwen)
 - [Runway](/zh-CN/providers/runway)
@@ -80,9 +80,9 @@ OpenClaw 可以使用许多 LLM 提供商。选择一个提供商，完成认证
 ## 共享概览页面
 
 - [其他内置变体](/zh-CN/providers/models#additional-bundled-provider-variants) - Anthropic Vertex、Copilot Proxy 和 Gemini CLI OAuth
-- [图像生成](/tools/image-generation) - 共享 `image_generate` 工具、提供商选择和故障转移
-- [音乐生成](/tools/music-generation) - 共享 `music_generate` 工具、提供商选择和故障转移
-- [视频生成](/tools/video-generation) - 共享 `video_generate` 工具、提供商选择和故障转移
+- [图像生成](/zh-CN/tools/image-generation) - 共享 `image_generate` 工具、提供商选择和故障转移
+- [音乐生成](/zh-CN/tools/music-generation) - 共享 `music_generate` 工具、提供商选择和故障转移
+- [视频生成](/zh-CN/tools/video-generation) - 共享 `video_generate` 工具、提供商选择和故障转移
 
 ## 转写提供商
 

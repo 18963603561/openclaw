@@ -45,7 +45,7 @@ exceeded`。
 
 <Info>
 在执行压缩之前，OpenClaw 会自动提醒智能体将重要
-笔记保存到 [memory](/concepts/memory) 文件中。这样可以防止上下文丢失。
+笔记保存到 [??](/zh-CN/concepts/memory) 文件中。这样可以防止上下文丢失。
 </Info>
 
 使用 `openclaw.json` 中的 `agents.defaults.compaction` 设置来配置压缩行为（模式、目标 token 数等）。
@@ -111,7 +111,7 @@ exceeded`。
 - `/status` 显示 `🧹 Compactions: <count>`
 
 在压缩之前，OpenClaw 可以运行一次**静默 memory 刷新**轮次，以将
-持久化笔记写入磁盘。详情和配置请参见 [Memory](/concepts/memory)。
+持久化笔记写入磁盘。详情和配置请参见 [??](/zh-CN/concepts/memory)。
 
 ## 手动压缩
 
@@ -165,28 +165,28 @@ exceeded`。
 | **会保存吗？** | 会（保存在会话 transcript 中） | 不会（仅驻留内存，且按请求生效） |
 | **范围** | 整个对话 | 仅工具结果 |
 
-[会话裁剪](/concepts/session-pruning) 是一种更轻量的补充机制，
+[会话裁剪](/zh-CN/concepts/session-pruning) 是一种更轻量的补充机制，
 它会在不生成摘要的情况下裁剪工具输出。
 
 ## 故障排除
 
 **压缩过于频繁？** 模型的上下文窗口可能较小，或者工具
 输出可能过大。请尝试启用
-[会话裁剪](/concepts/session-pruning)。
+[会话裁剪](/zh-CN/concepts/session-pruning)。
 
 **压缩后感觉上下文变旧了？** 使用 `/compact Focus on <topic>` 来
-引导摘要，或者启用 [memory flush](/concepts/memory)，以便笔记
+引导摘要，或者启用 [??](/zh-CN/concepts/memory)，以便笔记
 得以保留。
 
 **需要一个全新起点？** `/new` 会启动一个全新的会话，而不会执行压缩。
 
 关于高级配置（预留 token、标识符保留、自定义
 上下文引擎、OpenAI 服务端压缩），请参见
-[会话管理深度解析](/reference/session-management-compaction)。
+[会话管理深度解析](/zh-CN/reference/session-management-compaction)。
 
 ## 相关内容
 
-- [会话](/concepts/session) — 会话管理与生命周期
-- [会话裁剪](/concepts/session-pruning) — 裁剪工具结果
+- [会话](/zh-CN/concepts/session) — 会话管理与生命周期
+- [会话裁剪](/zh-CN/concepts/session-pruning) — 裁剪工具结果
 - [上下文](/zh-CN/concepts/context) — 如何为智能体轮次构建上下文
 - [Hooks](/zh-CN/automation/hooks) — 压缩生命周期 hooks（before_compaction、after_compaction）

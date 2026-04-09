@@ -91,7 +91,7 @@ x-i18n:
 
 ## 相关内容
 
-- 提升模式文档位于 [Elevated mode](/zh-CN/tools/elevated)。
+- 提升模式文档位于 [提权模式](/zh-CN/tools/elevated)。
 
 ## 心跳
 

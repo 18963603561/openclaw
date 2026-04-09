@@ -17,7 +17,7 @@ x-i18n:
 # Bridge protocol（旧版节点，历史参考）
 
 <Warning>
-TCP bridge 已被**移除**。当前 OpenClaw 构建版本不再包含 bridge listener，且 `bridge.*` 配置键也已不在 schema 中。此页面仅保留作历史参考。所有节点/operator 客户端请改用 [Gateway Protocol](/gateway/protocol)。
+TCP bridge 已被**移除**。当前 OpenClaw 构建版本不再包含 bridge listener，且 `bridge.*` 配置键也已不在 schema 中。此页面仅保留作历史参考。所有节点/operator 客户端请改用 [Gateway ????](/zh-CN/gateway/protocol)。
 </Warning>
 
 ## 为什么它曾经存在
@@ -82,4 +82,4 @@ Gateway 网关 → 客户端：
 ## 版本管理
 
 bridge 曾是**隐式 v1**（没有 min/max 协商）。本节仅作历史参考；当前节点/operator 客户端使用的是 WebSocket
-[Gateway Protocol](/gateway/protocol)。
+[Gateway ????](/zh-CN/gateway/protocol)。

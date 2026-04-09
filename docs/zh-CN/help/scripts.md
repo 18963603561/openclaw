@@ -26,7 +26,7 @@ x-i18n:
 
 ## 认证监控脚本
 
-认证监控已在 [Authentication](/zh-CN/gateway/authentication) 中说明。`scripts/` 下的脚本是面向 systemd/Termux 手机工作流的可选补充。
+认证监控已在 [??](/zh-CN/gateway/authentication) 中说明。`scripts/` 下的脚本是面向 systemd/Termux 手机工作流的可选补充。
 
 ## GitHub 只读辅助器
 

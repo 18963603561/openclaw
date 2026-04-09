@@ -434,5 +434,5 @@ MiniMax 说明：
 
 ## 相关文档
 
-- [Configuration](/zh-CN/gateway/configuration)
-- [Image & Media Support](/zh-CN/nodes/images)
+- [??](/zh-CN/gateway/configuration)
+- [图像与媒体支持](/zh-CN/nodes/images)

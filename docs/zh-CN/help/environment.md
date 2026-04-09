@@ -99,7 +99,7 @@ OpenClaw 还会向派生的子进程中注入上下文标记：
 }
 ```
 
-完整说明请参见 [Configuration: Env var substitution](/gateway/configuration-reference#env-var-substitution)。
+完整说明请参见 [????](/zh-CN/gateway/configuration-reference#env-var-substitution)。
 
 ## Secret refs 与 `${ENV}` 字符串
 
@@ -108,7 +108,7 @@ OpenClaw 支持两种由环境变量驱动的模式：
 - 配置值中的 `${VAR}` 字符串替换。
 - 对支持 secrets 引用的字段，使用 SecretRef 对象（`{ source: "env", provider: "default", id: "VAR" }`）。
 
-两者都会在激活时从进程环境变量中解析。SecretRef 详情请参见 [Secrets Management](/zh-CN/gateway/secrets)。
+两者都会在激活时从进程环境变量中解析。SecretRef 详情请参见 [Secrets 管理](/zh-CN/gateway/secrets)。
 
 ## 与路径相关的环境变量
 
@@ -167,6 +167,6 @@ openclaw gateway run
 
 ## 相关内容
 
-- [Gateway configuration](/zh-CN/gateway/configuration)
-- [FAQ: env vars and .env loading](/zh-CN/help/faq#env-vars-and-env-loading)
-- [Models overview](/zh-CN/concepts/models)
+- [??](/zh-CN/gateway/configuration)
+- [常见问题](/zh-CN/help/faq#env-vars-and-env-loading)
+- [?? CLI](/zh-CN/concepts/models)

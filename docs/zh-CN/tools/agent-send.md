@@ -101,6 +101,6 @@ openclaw agent --agent ops --message "Alert" --deliver --reply-channel telegram 
 
 ## 相关内容
 
-- [智能体 CLI 参考](/cli/agent)
-- [子智能体](/tools/subagents) —— 后台子智能体生成
+- [智能体 CLI 参考](/zh-CN/cli/agent)
+- [子智能体](/zh-CN/tools/subagents) —— 后台子智能体生成
 - [会话](/zh-CN/concepts/session) —— 会话键的工作方式

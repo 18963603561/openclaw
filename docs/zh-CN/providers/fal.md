@@ -93,6 +93,6 @@ openclaw onboard --auth-choice fal-api-key
 
 ## 相关内容
 
-- [图像生成](/tools/image-generation)
-- [视频生成](/tools/video-generation)
-- [配置参考](/gateway/configuration-reference#agent-defaults)
+- [图像生成](/zh-CN/tools/image-generation)
+- [视频生成](/zh-CN/tools/video-generation)
+- [配置参考](/zh-CN/gateway/configuration-reference#agent-defaults)

@@ -148,4 +148,4 @@ export PATH="$HOME/.npm-global/bin:$PATH"
 
 - [安装概览](/zh-CN/install) —— 所有安装方式
 - [更新](/zh-CN/install/updating) —— 让 OpenClaw 保持最新
-- [入门指南](/start/getting-started) —— 安装后的第一步
+- [入门指南](/zh-CN/start/getting-started) —— 安装后的第一步

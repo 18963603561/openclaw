@@ -19,7 +19,7 @@ Perplexity 插件通过 Perplexity Search API 或经由 OpenRouter 的 Perplexit
 
 <Note>
 本页介绍的是 Perplexity **提供商**设置。关于 Perplexity
-**工具**（即智能体如何使用它），请参见 [Perplexity 工具](/tools/perplexity-search)。
+**工具**（即智能体如何使用它），请参见 [Perplexity 工具](/zh-CN/tools/perplexity-search)。
 </Note>
 
 - 类型：网页搜索提供商（不是模型提供商）

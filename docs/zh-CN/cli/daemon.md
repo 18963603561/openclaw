@@ -57,8 +57,8 @@ openclaw daemon uninstall
 - 当 token 认证要求提供 token，且 `gateway.auth.token` 由 SecretRef 管理时，`install` 会验证该 SecretRef 可解析，但不会将解析出的 token 持久化到服务环境元数据中。
 - 如果 token 认证要求提供 token，而已配置的 token SecretRef 无法解析，则安装会以关闭失败处理。
 - 如果同时配置了 `gateway.auth.token` 和 `gateway.auth.password`，且 `gateway.auth.mode` 未设置，则在显式设置 mode 之前会阻止安装。
-- 如果你确实有意在同一台主机上运行多个 Gateway 网关，请隔离端口、配置/状态和工作区；参见 [/gateway#multiple-gateways-same-host](/gateway#multiple-gateways-same-host)。
+- 如果你确实有意在同一台主机上运行多个 Gateway 网关，请隔离端口、配置/状态和工作区；参见 [Gateway ??????](/zh-CN/gateway#multiple-gateways-same-host)。
 
 ## 推荐
 
-当前文档和示例请使用 [`openclaw gateway`](/cli/gateway)。
+当前文档和示例请使用 [`openclaw gateway`](/zh-CN/cli/gateway)。

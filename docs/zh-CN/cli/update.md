@@ -18,7 +18,7 @@ x-i18n:
 安全地更新 OpenClaw，并在 stable/beta/dev 渠道之间切换。
 
 如果你是通过 **npm/pnpm/bun** 安装的（全局安装，没有 git 元数据），
-更新会走 [Updating](/install/updating) 中的包管理器流程。
+更新会走 [更新](/zh-CN/install/updating) 中的包管理器流程。
 
 ## 用法
 
@@ -116,6 +116,6 @@ Gateway 网关核心自动更新器（当在配置中启用时）会复用这一
 ## 另请参见
 
 - `openclaw doctor`（在 git 检出副本上会先提供运行更新）
-- [开发渠道](/install/development-channels)
-- [更新](/install/updating)
-- [CLI 参考](/cli)
+- [开发渠道](/zh-CN/install/development-channels)
+- [更新](/zh-CN/install/updating)
+- [CLI 参考](/zh-CN/cli)

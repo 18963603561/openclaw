@@ -28,9 +28,9 @@ x-i18n:
 
 如果你想先看更高层的概览，请从以下文档开始：
 
-- [/concepts/session](/zh-CN/concepts/session)
-- [/concepts/compaction](/zh-CN/concepts/compaction)
-- [/concepts/memory](/zh-CN/concepts/memory)
+- [??](/zh-CN/concepts/session)
+- [??](/zh-CN/concepts/compaction)
+- [??](/zh-CN/concepts/memory)
 - [/concepts/memory-search](/zh-CN/concepts/memory-search)
 - [/concepts/session-pruning](/zh-CN/concepts/session-pruning)
 - [/reference/transcript-hygiene](/zh-CN/reference/transcript-hygiene)
@@ -124,7 +124,7 @@ openclaw sessions cleanup --enforce
 - Cron：`cron:<job.id>`
 - Webhook：`hook:<uuid>`（除非被覆盖）
 
-规范规则记录在 [/concepts/session](/zh-CN/concepts/session) 中。
+规范规则记录在 [??](/zh-CN/concepts/session) 中。
 
 ---
 
@@ -356,7 +356,7 @@ Pi 也在扩展 API 中暴露了一个 `session_before_compact` hook，但 OpenC
 
 ## 故障排查清单
 
-- 会话键错误？请先查看 [/concepts/session](/zh-CN/concepts/session)，并在 `/status` 中确认 `sessionKey`。
+- 会话键错误？请先查看 [??](/zh-CN/concepts/session)，并在 `/status` 中确认 `sessionKey`。
 - 存储与转录不匹配？请确认 Gateway 网关主机，以及 `openclaw status` 输出中的存储路径。
 - 压缩过于频繁？请检查：
   - 模型上下文窗口（是否过小）

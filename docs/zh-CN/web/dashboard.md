@@ -23,9 +23,9 @@ Gateway 网关仪表板默认是在 `/` 提供服务的浏览器 Control UI
 
 关键参考：
 
-- [Control UI](/web/control-ui) 了解用法和 UI 功能。
+- [?? UI](/zh-CN/web/control-ui) 了解用法和 UI 功能。
 - [Tailscale](/zh-CN/gateway/tailscale) 了解 Serve/Funnel 自动化。
-- [Web surfaces](/web) 了解绑定模式和安全说明。
+- [Web ??](/zh-CN/web) 了解绑定模式和安全说明。
 
 认证会在 WebSocket 握手阶段通过已配置的 gateway
 认证路径强制执行：
@@ -35,7 +35,7 @@ Gateway 网关仪表板默认是在 `/` 提供服务的浏览器 Control UI
 - 当 `gateway.auth.allowTailscale: true` 时使用 Tailscale Serve 身份头
 - 当 `gateway.auth.mode: "trusted-proxy"` 时使用 trusted-proxy 身份头
 
-请参见 [Gateway 配置](/zh-CN/gateway/configuration) 中的 `gateway.auth`。
+请参见 [??](/zh-CN/gateway/configuration) 中的 `gateway.auth`。
 
 安全说明：Control UI 是一个**管理员界面**（聊天、配置、Exec 审批）。
 不要将其公开暴露。UI 会在当前浏览器标签页会话和所选 gateway URL 的 `sessionStorage`
@@ -74,7 +74,7 @@ Gateway 网关仪表板默认是在 `/` 提供服务的浏览器 Control UI
   或 SSH 隧道。除非你有意运行私有入口模式的
   `gateway.auth.mode: "none"` 或 trusted-proxy HTTP 认证，否则
   HTTP API 仍会使用共享密钥认证。参见
-  [Web surfaces](/web)。
+  [Web ??](/zh-CN/web)。
 
 <a id="if-you-see-unauthorized-1008"></a>
 
@@ -85,7 +85,7 @@ Gateway 网关仪表板默认是在 `/` 提供服务的浏览器 Control UI
 - 在该重试路径之外，connect 认证优先级为：显式共享 token/密码优先，其次是显式 `deviceToken`，然后是已存储设备 token，最后是引导 token。
 - 在异步 Tailscale Serve Control UI 路径上，同一
   `{scope, ip}` 的失败尝试会在失败认证限流器记录它们之前被串行化，因此第二个并发错误重试就可能已经显示 `retry later`。
-- 关于 token 漂移修复步骤，请遵循 [Token drift recovery checklist](/cli/devices#token-drift-recovery-checklist)。
+- 关于 token 漂移修复步骤，请遵循 [Token drift recovery checklist](/zh-CN/cli/devices#token-drift-recovery-checklist)。
 - 从 gateway 主机获取或提供共享密钥：
   - Token：`openclaw config get gateway.auth.token`
   - Password：解析已配置的 `gateway.auth.password` 或

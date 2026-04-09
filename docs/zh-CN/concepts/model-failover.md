@@ -62,7 +62,7 @@ OpenClaw 对 API 密钥和 OAuth token 都使用**认证配置**。
 - 配置 `auth.profiles` / `auth.order` **仅用于元数据和路由**（不包含密钥）。
 - 旧版仅导入用 OAuth 文件：`~/.openclaw/credentials/oauth.json`（首次使用时导入到 `auth-profiles.json`）。
 
-更多细节：[/concepts/oauth](/zh-CN/concepts/oauth)
+更多细节：[OAuth](/zh-CN/concepts/oauth)
 
 凭证类型：
 
@@ -299,7 +299,7 @@ compaction/会话更新以及实时会话协调，都会读取或写入同一个
 
 ## 相关配置
 
-参见 [Gateway configuration](/gateway/configuration)，了解：
+参见 [??](/zh-CN/gateway/configuration)，了解：
 
 - `auth.profiles` / `auth.order`
 - `auth.cooldowns.billingBackoffHours` / `auth.cooldowns.billingBackoffHoursByProvider`
@@ -309,4 +309,4 @@ compaction/会话更新以及实时会话协调，都会读取或写入同一个
 - `agents.defaults.model.primary` / `agents.defaults.model.fallbacks`
 - `agents.defaults.imageModel` 路由
 
-参见 [Models](/zh-CN/concepts/models)，了解更广义的模型选择与回退概览。
+参见 [?? CLI](/zh-CN/concepts/models)，了解更广义的模型选择与回退概览。

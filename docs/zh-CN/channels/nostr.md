@@ -254,4 +254,4 @@ docker run -p 7777:7777 ghcr.io/hoytech/strfry
 - [配对](/zh-CN/channels/pairing) — 私信认证和配对流程
 - [群组](/zh-CN/channels/groups) — 群聊行为和 mention 门控
 - [渠道路由](/zh-CN/channels/channel-routing) — 消息的会话路由
-- [安全](/gateway/security) — 访问模型和加固
+- [安全](/zh-CN/gateway/security) — 访问模型和加固

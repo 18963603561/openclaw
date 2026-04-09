@@ -78,6 +78,6 @@ pnpm qa:lab:watch
 
 ## 相关文档
 
-- [测试](/help/testing)
-- [QA Channel](/zh-CN/channels/qa-channel)
-- [仪表板](/web/dashboard)
+- [测试](/zh-CN/help/testing)
+- [QA 渠道](/zh-CN/channels/qa-channel)
+- [仪表板](/zh-CN/web/dashboard)

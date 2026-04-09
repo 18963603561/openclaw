@@ -67,7 +67,7 @@ x-i18n:
 - `--model` 和 `--thinking` 会覆盖该次运行的默认值。
 - 使用 `info`/`log` 可在完成后检查详细信息和输出。
 - `/subagents spawn` 是一次性模式（`mode: "run"`）。对于持久的线程绑定会话，请使用带 `thread: true` 和 `mode: "session"` 的 `sessions_spawn`。
-- 对于 ACP harness 会话（Codex、Claude Code、Gemini CLI），请使用 `runtime: "acp"` 的 `sessions_spawn`，并参见 [ACP Agents](/zh-CN/tools/acp-agents)。
+- 对于 ACP harness 会话（Codex、Claude Code、Gemini CLI），请使用 `runtime: "acp"` 的 `sessions_spawn`，并参见 [ACP ???](/zh-CN/tools/acp-agents)。
 
 主要目标：
 
@@ -134,7 +134,7 @@ x-i18n:
 - 全局默认值：`session.threadBindings.enabled`、`session.threadBindings.idleHours`、`session.threadBindings.maxAgeHours`
 - 渠道覆盖和生成自动绑定键是适配器专属的。参见上文的**支持线程的渠道**。
 
-当前适配器详情请参见 [Configuration Reference](/gateway/configuration-reference) 和 [Slash commands](/zh-CN/tools/slash-commands)。
+当前适配器详情请参见 [????](/zh-CN/gateway/configuration-reference) 和 [????](/zh-CN/tools/slash-commands)。
 
 允许列表：
 

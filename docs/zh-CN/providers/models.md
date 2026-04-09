@@ -33,7 +33,7 @@ OpenClaw 可以使用许多 LLM 提供商。选择一个，完成认证，然后
 - [Alibaba Model Studio](/zh-CN/providers/alibaba)
 - [Anthropic（API + Claude CLI）](/zh-CN/providers/anthropic)
 - [Amazon Bedrock](/zh-CN/providers/bedrock)
-- [BytePlus（国际版）](/zh-CN/concepts/model-providers#byteplus-international)
+- [?????](/zh-CN/concepts/model-providers#byteplus-international)
 - [Chutes](/zh-CN/providers/chutes)
 - [ComfyUI](/zh-CN/providers/comfy)
 - [Cloudflare AI Gateway](/zh-CN/providers/cloudflare-ai-gateway)

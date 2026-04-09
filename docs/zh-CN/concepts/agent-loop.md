@@ -53,7 +53,7 @@ x-i18n:
 - 运行会按会话键（会话 lane）串行化，并可选择再经过全局 lane。
 - 这样可以防止工具 / 会话竞争，并保持会话历史一致。
 - 消息渠道可以选择队列模式（collect / steer / followup），并接入这一 lane 系统。
-  参见 [Command Queue](/concepts/queue)。
+  参见 [命令队列](/zh-CN/concepts/queue)。
 
 ## 会话与工作区准备
 
@@ -66,7 +66,7 @@ x-i18n:
 
 - System prompt 由 OpenClaw 的基础提示词、Skills 提示词、bootstrap 上下文和按运行覆盖项共同构建。
 - 会强制执行模型特定的限制以及 compaction 预留 token。
-- 模型实际看到的内容，请参见 [System prompt](/concepts/system-prompt)。
+- 模型实际看到的内容，请参见 [系统提示词](/zh-CN/concepts/system-prompt)。
 
 ## hook 点（你可以在何处拦截）
 
@@ -109,14 +109,14 @@ OpenClaw 有两套 hook 系统：
 - `message_sending`：`{ cancel: true }` 为终止性结果，并会阻止更低优先级处理器继续执行。
 - `message_sending`：`{ cancel: false }` 是无操作，不会清除先前的取消状态。
 
-hook API 和注册细节请参见 [插件 hooks](/plugins/architecture#provider-runtime-hooks)。
+hook API 和注册细节请参见 [插件内部机制](/zh-CN/plugins/architecture#provider-runtime-hooks)。
 
 ## 流式传输与部分回复
 
 - Assistant 增量由 pi-agent-core 流式输出，并作为 `assistant` 事件发出。
 - 分块流式传输可以在 `text_end` 或 `message_end` 时发出部分回复。
 - reasoning 流式传输可以作为单独流发出，也可以作为分块回复发出。
-- 分块和块级回复行为请参见 [Streaming](/concepts/streaming)。
+- 分块和块级回复行为请参见 [流式传输和分块](/zh-CN/concepts/streaming)。
 
 ## 工具执行与消息工具
 
@@ -140,7 +140,7 @@ hook API 和注册细节请参见 [插件 hooks](/plugins/architecture#provider-
 
 - 自动 compaction 会发出 `compaction` 流事件，并可能触发一次重试。
 - 重试时，内存中的缓冲区和工具摘要会被重置，以避免重复输出。
-- compaction 管线请参见 [Compaction](/zh-CN/concepts/compaction)。
+- compaction 管线请参见 [??](/zh-CN/concepts/compaction)。
 
 ## 事件流（当前）
 
@@ -167,8 +167,8 @@ hook API 和注册细节请参见 [插件 hooks](/plugins/architecture#provider-
 
 ## 相关内容
 
-- [工具](/tools) — 可用的智能体工具
+- [工具](/zh-CN/tools) — 可用的智能体工具
 - [Hooks](/zh-CN/automation/hooks) — 由智能体生命周期事件触发的事件驱动脚本
-- [Compaction](/zh-CN/concepts/compaction) — 长对话如何被总结
-- [Exec Approvals](/tools/exec-approvals) — shell 命令的审批门禁
-- [Thinking](/tools/thinking) — thinking / reasoning 级别配置
+- [??](/zh-CN/concepts/compaction) — 长对话如何被总结
+- [Exec ??](/zh-CN/tools/exec-approvals) — shell 命令的审批门禁
+- [思考级别](/zh-CN/tools/thinking) — thinking / reasoning 级别配置

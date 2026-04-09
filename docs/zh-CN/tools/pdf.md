@@ -120,7 +120,7 @@ x-i18n:
 }
 ```
 
-完整字段详情请参见 [Configuration Reference](/gateway/configuration-reference)。
+完整字段详情请参见 [????](/zh-CN/gateway/configuration-reference)。
 
 ## 输出细节
 
@@ -179,4 +179,4 @@ x-i18n:
 ## 相关内容
 
 - [工具概览](/zh-CN/tools) —— 所有可用的智能体工具
-- [Configuration Reference](/gateway/configuration-reference#agent-defaults) —— `pdfMaxBytesMb` 和 `pdfMaxPages` 配置
+- [????](/zh-CN/gateway/configuration-reference#agent-defaults) —— `pdfMaxBytesMb` 和 `pdfMaxPages` 配置

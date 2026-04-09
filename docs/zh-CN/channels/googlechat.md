@@ -212,7 +212,7 @@ your-domain.com {
 - `typingIndicator` 支持 `none`、`message`（默认）和 `reaction`（reaction 需要用户 OAuth）。
 - 附件会通过 Chat API 下载并存储到媒体流水线中（大小受 `mediaMaxMb` 限制）。
 
-Secrets 引用详情参见：[Secrets Management](/gateway/secrets)。
+Secrets 引用详情参见：[Secrets 管理](/zh-CN/gateway/secrets)。
 
 ## 故障排除
 
@@ -264,14 +264,14 @@ openclaw channels status
 
 相关文档：
 
-- [Gateway 网关 配置](/gateway/configuration)
-- [安全](/gateway/security)
-- [表情回应](/tools/reactions)
+- [??](/zh-CN/gateway/configuration)
+- [安全](/zh-CN/gateway/security)
+- [表情回应](/zh-CN/tools/reactions)
 
 ## 相关内容
 
 - [渠道概览](/zh-CN/channels) — 所有支持的渠道
-- [Pairing](/zh-CN/channels/pairing) — 私信认证与 pairing 流程
+- [??](/zh-CN/channels/pairing) — 私信认证与 pairing 流程
 - [群组](/zh-CN/channels/groups) — 群聊行为和提及门控
 - [渠道路由](/zh-CN/channels/channel-routing) — 消息的会话路由
-- [安全](/gateway/security) — 访问模型与加固
+- [安全](/zh-CN/gateway/security) — 访问模型与加固

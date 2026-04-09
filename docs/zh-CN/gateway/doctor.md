@@ -419,4 +419,4 @@ Doctor 会持久化所有配置变更，并写入向导元数据以记录此次 
 
 当工作区缺少 memory system 时，Doctor 会提出建议；如果工作区尚未纳入 git，它还会输出备份提示。
 
-完整指南请参阅 [/concepts/agent-workspace](/zh-CN/concepts/agent-workspace)，了解工作区结构与 git 备份（推荐使用私有 GitHub 或 GitLab）。
+完整指南请参阅 [??????](/zh-CN/concepts/agent-workspace)，了解工作区结构与 git 备份（推荐使用私有 GitHub 或 GitLab）。

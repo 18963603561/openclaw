@@ -62,7 +62,7 @@ openclaw devices approve <requestId>
 因此在批准前请重新运行 `openclaw devices list`。
 
 一旦获得批准，该设备会被记住，除非你使用 `openclaw devices revoke --device <id> --role <role>` 撤销它，否则无需再次批准。关于 token 轮换和撤销，请参见
-[Devices CLI](/cli/devices)。
+[Devices CLI](/zh-CN/cli/devices)。
 
 **说明：**
 
@@ -221,7 +221,7 @@ openclaw gateway --bind tailnet --token "$(openssl rand -hex 32)"
 - 成功的 trusted-proxy 认证可以允许**operator** Control UI 会话在没有设备身份的情况下接入
 - 这**不**适用于 node-role Control UI 会话
 - 同主机 loopback 反向代理仍不能满足 trusted-proxy 认证；参见
-  [Trusted Proxy Auth](/zh-CN/gateway/trusted-proxy-auth)
+  [??????](/zh-CN/gateway/trusted-proxy-auth)
 
 关于 HTTPS 设置指导，请参见 [Tailscale](/zh-CN/gateway/tailscale)。
 
@@ -292,11 +292,11 @@ http://localhost:5173/?gatewayUrl=wss://<gateway-host>:18789#token=<gateway-toke
 }
 ```
 
-远程访问设置细节：参见 [Remote access](/zh-CN/gateway/remote)。
+远程访问设置细节：参见 [????](/zh-CN/gateway/remote)。
 
 ## 相关内容
 
-- [Dashboard](/web/dashboard) — gateway 仪表板
-- [WebChat](/web/webchat) — 基于浏览器的聊天界面
-- [TUI](/web/tui) — 终端用户界面
-- [Health Checks](/zh-CN/gateway/health) — gateway 健康监控
+- [???](/zh-CN/web/dashboard) — gateway 仪表板
+- [WebChat](/zh-CN/web/webchat) — 基于浏览器的聊天界面
+- [TUI](/zh-CN/web/tui) — 终端用户界面
+- [健康检查](/zh-CN/gateway/health) — gateway 健康监控

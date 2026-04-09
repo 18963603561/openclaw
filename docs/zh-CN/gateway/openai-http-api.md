@@ -81,7 +81,7 @@ OpenClaw 的 Gateway 网关可以提供一个小型的兼容 OpenAI 的 Chat Com
   - 当请求头缺失时回退到正常的操作员默认作用域集合
   - 仅当调用方显式收窄作用域且省略 `operator.admin` 时，才会失去所有者语义
 
-参见[安全](/gateway/security)和[远程访问](/zh-CN/gateway/remote)。
+参见[安全](/zh-CN/gateway/security)和[远程访问](/zh-CN/gateway/remote)。
 
 ## 智能体优先的模型约定
 

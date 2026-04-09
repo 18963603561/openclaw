@@ -18,9 +18,9 @@ x-i18n:
 
 相关内容：
 
-- 多智能体路由：[Multi-Agent Routing](/concepts/multi-agent)
-- 智能体工作区：[Agent workspace](/zh-CN/concepts/agent-workspace)
-- Skills 可见性配置：[Skills 配置](/tools/skills-config)
+- 多智能体路由：[??????](/zh-CN/concepts/multi-agent)
+- 智能体工作区：[??????](/zh-CN/concepts/agent-workspace)
+- Skills 可见性配置：[Skills ??](/zh-CN/tools/skills-config)
 
 ## 示例
 
@@ -43,8 +43,8 @@ openclaw agents delete work
 
 如果你还希望每个智能体具有不同的可见 Skills，请在 `openclaw.json` 中配置
 `agents.defaults.skills` 和 `agents.list[].skills`。参见
-[Skills 配置](/tools/skills-config) 和
-[配置参考](/gateway/configuration-reference#agentsdefaultsskills)。
+[Skills ??](/zh-CN/tools/skills-config) 和
+[配置参考](/zh-CN/gateway/configuration-reference#agentsdefaultsskills)。
 
 列出绑定：
 

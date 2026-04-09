@@ -388,4 +388,4 @@ OPENCLAW_SUPPRESS_EXTENSION_API_WARNING=1 openclaw gateway run
 - [渠道插件](/zh-CN/plugins/sdk-channel-plugins) —— 构建渠道插件
 - [提供商插件](/zh-CN/plugins/sdk-provider-plugins) —— 构建提供商插件
 - [插件内部机制](/zh-CN/plugins/architecture) —— 架构深入解析
-- [插件 Manifest](/zh-CN/plugins/manifest) —— manifest schema 参考
+- [插件清单](/zh-CN/plugins/manifest) —— manifest schema 参考

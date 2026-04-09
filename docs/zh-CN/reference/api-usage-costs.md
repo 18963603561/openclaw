@@ -93,7 +93,7 @@ Coding Plan**、**MiniMax Coding Plan**、**Z.AI / GLM Coding Plan**，以及 An
 当 `agents.defaults.imageGenerationModel` 未设置时，图像生成可以推断出一个带认证支持的默认提供商。视频生成当前需要显式设置 `agents.defaults.videoGenerationModel`，例如
 `qwen/wan2.6-t2v`。
 
-请参阅 [图像生成](/tools/image-generation)、[Qwen Cloud](/zh-CN/providers/qwen)，
+请参阅 [图像生成](/zh-CN/tools/image-generation)、[Qwen Cloud](/zh-CN/providers/qwen)，
 以及 [模型](/zh-CN/concepts/models)。
 
 ### 4）记忆 embeddings + 语义搜索
@@ -132,7 +132,7 @@ Coding Plan**、**MiniMax Coding Plan**、**Z.AI / GLM Coding Plan**，以及 An
 
 **Brave Search 免费额度：** 每个 Brave 套餐都包含每月 \$5 的循环免费额度。Search 套餐价格为每 1,000 次请求 \$5，因此该额度可覆盖每月 1,000 次请求且无需付费。请在 Brave 控制台中设置你的使用上限，以避免意外收费。
 
-请参阅 [Web 工具](/tools/web)。
+请参阅 [Web ??](/zh-CN/tools/web)。
 
 ### 5）Web 抓取工具（Firecrawl）
 
@@ -142,7 +142,7 @@ Coding Plan**、**MiniMax Coding Plan**、**Z.AI / GLM Coding Plan**，以及 An
 
 如果未配置 Firecrawl，该工具会回退到直接抓取 + readability（无付费 API）。
 
-请参阅 [Web 工具](/tools/web)。
+请参阅 [Web ??](/zh-CN/tools/web)。
 
 ### 6）提供商用量快照（状态 / 健康）
 
@@ -152,7 +152,7 @@ Coding Plan**、**MiniMax Coding Plan**、**Z.AI / GLM Coding Plan**，以及 An
 - `openclaw status --usage`
 - `openclaw models status --json`
 
-请参阅 [Models CLI](/cli/models)。
+请参阅 [Models CLI](/zh-CN/cli/models)。
 
 ### 7）压缩保护汇总
 
@@ -165,7 +165,7 @@ Coding Plan**、**MiniMax Coding Plan**、**Z.AI / GLM Coding Plan**，以及 An
 
 `openclaw models scan` 可以探测 OpenRouter 模型，并在启用探测时使用 `OPENROUTER_API_KEY`。
 
-请参阅 [Models CLI](/cli/models)。
+请参阅 [Models CLI](/zh-CN/cli/models)。
 
 ### 9）Talk（语音）
 
@@ -180,4 +180,4 @@ Talk 模式在配置完成后可以调用 **ElevenLabs**：
 Skills 可以在 `skills.entries.<name>.apiKey` 中存储 `apiKey`。如果某个 skill 使用该密钥调用外部
 API，则会按照该 skill 所对应提供商的规则产生费用。
 
-请参阅 [Skills](/tools/skills)。
+请参阅 [Skills](/zh-CN/tools/skills)。

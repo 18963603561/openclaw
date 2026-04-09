@@ -19,10 +19,10 @@ x-i18n:
 
 相关内容：
 
-- 插件系统：[Plugins](/tools/plugin)
-- Bundle 兼容性：[插件 bundles](/plugins/bundles)
-- 插件 manifest + schema：[插件 manifest](/plugins/manifest)
-- 安全加固：[安全](/gateway/security)
+- 插件系统：[??](/zh-CN/tools/plugin)
+- Bundle 兼容性：[插件 Bundles](/zh-CN/plugins/bundles)
+- 插件 manifest + schema：[插件清单](/zh-CN/plugins/manifest)
+- 安全加固：[安全](/zh-CN/gateway/security)
 
 ## 命令
 
@@ -262,7 +262,7 @@ HTTP 路由、策略标志、诊断信息、安装元数据、bundle 能力，
 - **hook-only** — 仅 hooks，没有能力或接口
 - **non-capability** — 有工具/命令/服务，但没有能力
 
-关于能力模型的更多信息，请参见 [插件形态](/plugins/architecture#plugin-shapes)。
+关于能力模型的更多信息，请参见 [插件形态](/zh-CN/plugins/architecture#plugin-shapes)。
 
 `--json` 标志会输出适合脚本和审计使用的机器可读报告。
 

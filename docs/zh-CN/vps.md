@@ -49,7 +49,7 @@ x-i18n:
 - 安全默认做法：将 Gateway 网关保持在 loopback 上，并通过 SSH 隧道或 Tailscale Serve 访问。
   如果你绑定到 `lan` 或 `tailnet`，请要求使用 `gateway.auth.token` 或 `gateway.auth.password`。
 
-相关页面：[Gateway 网关远程访问](/zh-CN/gateway/remote)、[平台中心](/zh-CN/platforms)。
+相关页面：[????](/zh-CN/gateway/remote)、[平台中心](/zh-CN/platforms)。
 
 ## 在 VPS 上运行共享公司智能体
 
@@ -67,7 +67,7 @@ x-i18n:
 （Mac/iOS/Android/无头设备）。节点可提供本地屏幕/摄像头/canvas 和 `system.run`
 能力，而 Gateway 网关仍保留在云端。
 
-文档：[节点](/zh-CN/nodes)、[Nodes CLI](/cli/nodes)。
+文档：[节点](/zh-CN/nodes)、[Nodes CLI](/zh-CN/cli/nodes)。
 
 ## 小型 VM 和 ARM 主机的启动调优
 

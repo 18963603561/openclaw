@@ -96,7 +96,7 @@ requireMention? yes -> 已提及？否 -> 仅存储为上下文
 - **私信**：完整工具（宿主机）
 - **群组**：沙箱 + 仅限消息类工具（Docker）
 
-> 如果你需要真正分离的工作区/人格（“个人”和“公共”绝不能混合），请使用第二个智能体 + 绑定。参见 [Multi-Agent Routing](/concepts/multi-agent)。
+> 如果你需要真正分离的工作区/人格（“个人”和“公共”绝不能混合），请使用第二个智能体 + 绑定。参见 [??????](/zh-CN/concepts/multi-agent)。
 
 示例（私信在宿主机上，群组在沙箱中运行 + 仅允许消息工具）：
 
@@ -147,9 +147,9 @@ requireMention? yes -> 已提及？否 -> 仅存储为上下文
 
 相关内容：
 
-- 配置键和默认值：[Gateway 网关配置](/gateway/configuration-reference#agentsdefaultssandbox)
-- 调试为什么某个工具被阻止：[Sandbox vs Tool Policy vs Elevated](/gateway/sandbox-vs-tool-policy-vs-elevated)
-- 绑定挂载细节：[沙箱隔离](/gateway/sandboxing#custom-bind-mounts)
+- 配置键和默认值：[????](/zh-CN/gateway/configuration-reference#agentsdefaultssandbox)
+- 调试为什么某个工具被阻止：[沙箱隔离 vs 工具策略 vs Elevated](/zh-CN/gateway/sandbox-vs-tool-policy-vs-elevated)
+- 绑定挂载细节：[沙箱隔离](/zh-CN/gateway/sandboxing#custom-bind-mounts)
 
 ## 显示标签
 

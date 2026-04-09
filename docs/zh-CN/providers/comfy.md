@@ -195,8 +195,8 @@ OPENCLAW_LIVE_TEST=1 COMFY_LIVE_TEST=1 pnpm test:live -- extensions/comfy/comfy.
 
 ## 相关内容
 
-- [图像生成](/tools/image-generation)
-- [视频生成](/tools/video-generation)
-- [音乐生成](/tools/music-generation)
+- [图像生成](/zh-CN/tools/image-generation)
+- [视频生成](/zh-CN/tools/video-generation)
+- [音乐生成](/zh-CN/tools/music-generation)
 - [提供商目录](/zh-CN/providers/index)
-- [配置参考](/gateway/configuration-reference#agent-defaults)
+- [配置参考](/zh-CN/gateway/configuration-reference#agent-defaults)

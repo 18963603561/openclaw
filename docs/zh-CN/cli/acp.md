@@ -25,7 +25,7 @@ x-i18n:
 
 如果你希望外部 MCP 客户端直接与 OpenClaw 渠道
 会话通信，而不是托管一个 ACP harness 会话，请使用
-[`openclaw mcp serve`](/cli/mcp)。
+[`openclaw mcp serve`](/zh-CN/cli/mcp)。
 
 ## 这不是什么
 
@@ -37,13 +37,13 @@ x-i18n:
 - IDE 或 ACP 客户端连接到 OpenClaw
 - OpenClaw 将该工作转发到一个 Gateway 网关 会话
 
-这与 [ACP Agents](/tools/acp-agents) 不同；在那里，OpenClaw 会通过 `acpx` 运行一个
+这与 [ACP ???](/zh-CN/tools/acp-agents) 不同；在那里，OpenClaw 会通过 `acpx` 运行一个
 外部 harness，例如 Codex 或 Claude Code。
 
 快速规则：
 
 - 编辑器/客户端希望通过 ACP 与 OpenClaw 通信：使用 `openclaw acp`
-- OpenClaw 应启动 Codex/Claude/Gemini 作为 ACP harness：使用 `/acp spawn` 和 [ACP Agents](/tools/acp-agents)
+- OpenClaw 应启动 Codex/Claude/Gemini 作为 ACP harness：使用 `/acp spawn` 和 [ACP ???](/zh-CN/tools/acp-agents)
 
 ## 兼容性矩阵
 
@@ -172,7 +172,7 @@ bridge 模式不支持按会话的 `mcpServers`。如果 ACP 客户端
 
 如果你希望 ACPX 支撑的会话能看到 OpenClaw 插件工具，请启用
 Gateway 网关 侧的 ACPX 插件 bridge，而不是尝试传入按会话的
-`mcpServers`。参见 [ACP Agents](/tools/acp-agents#plugin-tools-mcp-bridge)。
+`mcpServers`。参见 [ACP ???](/zh-CN/tools/acp-agents#plugin-tools-mcp-bridge)。
 
 ## 从 `acpx` 使用（Codex、Claude、其他 ACP 客户端）
 
@@ -283,7 +283,7 @@ env OPENCLAW_HIDE_BANNER=1 OPENCLAW_SUPPRESS_NOTES=1 node openclaw.mjs acp ...
 }
 ```
 
-会话键的更多信息请参见 [/concepts/session](/concepts/session)。
+会话键的更多信息请参见 [??](/zh-CN/concepts/session)。
 
 ## 选项
 
