@@ -120,4 +120,4 @@ openclaw secrets apply --from /tmp/openclaw-secrets-plan.json --allow-exec
 - [Secrets 管理](/zh-CN/gateway/secrets)
 - [CLI `secrets`](/cli/secrets)
 - [SecretRef 凭证表面](/reference/secretref-credential-surface)
-- [配置参考](/gateway/configuration-reference)
+- [配置参考](/zh-CN/gateway/configuration-reference)

@@ -53,7 +53,7 @@ x-i18n:
 - [`tui`](/cli/tui)
 - [`browser`](/cli/browser)
 - [`cron`](/cli/cron)
-- [`tasks`](/cli/index#tasks)
+- [`tasks`](/zh-CN/cli/index#tasks)
 - [`flows`](/cli/flows)
 - [`dns`](/cli/dns)
 - [`docs`](/cli/docs)
